@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SMT Academy">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#DDF3EC">
+<title>SMT Academy</title>
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAWiUlEQVR42u1da5RcVZX+9jn33nrdqupHHiRR0gKBhECCPOSNgIKuDCjPUQZEx6igDIsFgjCu5YAzDKyZARUQAQdwBBGUp0vH0UHRcQYkJLwNSUh4JYE8qx9163Gr7j1nz4+bbrqTru5q6O7cSs636kd3+qvKfXx37+/ss88pSl71JRgYDAdhLoGBEYeBEYeBEYfBJMACmYtgYCKHgRGHgRGHgfEcBiZyGBhxGBhxGBhxGBhDamAih4GBEYeBEYfBOHgOYzoMTOQwMOIwMOIwMOIw2KmG1FwEAxM5DIw4DIw4DIw4DIwhNTCRw6ClIocJHAYmchgYz2EwnuIwmHQQIMBGHAY7JnJWoApbRhwGQyDBZZYZUsc7PS0hDmM6Ju1as8f2Ibb3PXf1XKusQYj31TeGdDKVYR1sez/NLe8QQQ/b8bcdJq1MojIs7/7c8qxQPWy3UQCA493B2xriGGzvGdANwt1QGummPq0hTQDUT9Mgfq+07ZRRZrEH1e/0ZzxYm5YipWMcultDHCGoznLg1ySpYa9ojUlhgMapBve9SVqZxYAlkNBOA3mMTNtRGVlSt/kzryztY0Yr4xAzFKidggPscggSQMj0gnIDHhKQI9pelj9b+AHIAvewtTx0JZjfK+1g22unMATZ4Ld0cq1KjpU24DPuz25Thgv1UuheX+lKkHZIazaG9P1VBSos51vlX+Rf9thKQBXYObb3wwXY9qBbJcEVts5ObLkm/fomTnRS/b+DjtP6DszQkOvfJI3ANRb/kHnzZLu7wM50ql1T2eu6SleWgrBp2rvKyC3PkqqysMFVyIVW6RCr+Pugw4bW8V401BppRYFKbJVYBqAyi0bpvw4qsVVmkYBV5YbTRk3SqiwiWglWvfEzNCxtSDaBKrOw+31JFG9a4rK3xsRbZCH7X6PSMC40MYhGY6ENUQapMkS+gUky4ti9IMA9bA8oo8RyCgWP1KZs4SF5sDVG4BbF+oAl2ALLoQcpiS2wBVaNh7XbQgQ1F5fGiWZBa9iH2YWfZF/JkvJYzqTarbVZ11a6nsw/x9t9VOyDieWxHe8jZLDVx+82JTHQzbbPdhVM0OnYlAokuJvtfa3iA9nlKdIeyxlU/2Ft5lXlOdOF34oh2roi9Va83QbXWXRJvw4SgAYlSV+eXFeGSEP/LmhfErZlKYgCiRj6nEf/qIdWHZqhCbA11GeIfhoa0AS4AvkRq/iFxIYsqT6WHxS1H/ozv1HeJ01hlFCi8l0IapXkYn0z9Wb83WgI8lgSWANJ6K+n1kZR+aLk21dW9r7XnwnSYLvCgvrfEoBCtvsghoZvbpomg/7aNgEVFiHbPdt+G4YWcRY5BcVUZJmBvq46+9ryPiBVYakBBixwlsKpFCShW0McfbFvLIgaIAbuiQYK2o5+SJK+Pv3avrLSoy0FOtruq7AQYJ9ptvAvSb3h0BAPKIAai1FpBNSZZgvfZxLgCotj7V6B1xOkdQNaVEGvasGgBOnN2va0/HrqdUkcgFLQKehXVGZpmHuHnZeVmyAd//hBL910SJwNhwA8lp0iTECHGiDYAoLAAAEaICBPYZQpfBYVCAEwYINdUrz9kw5qmlbqjwoaSEMnSY9M437FMCCAPIUDHAb62Koo2qycZTr7YH3ak2FbkpRArGdmafq1X4xtNiHAY+vziQ2XJtbZxG4CzNhaQX1QFYkH1ZQG1y24ca2pSZocZDt042GRHK4KsuPH2sRT08hYjECVQvphMOufq12RDYptjrG64zpakWCfrX9Mv3ah8zZbshrigZf4idf5lc1cDbYFj5YBQwjs00FH7kmfnm/PyuJiWr9Qlj5X2r8GIeNa/6D0P10QT2V4bJ+XeOeW1KsVy1rXiyt/o598iy2JhHw3rbSIMLZllrpCPURXO67/hDiyS7hB/e5g5mXlfTMUxnPinlLXxk4cglEHdQn/P90X2mx+rRdn/1QVKsgnwQwNoLUKjQPXmiAIfohqgNtPE6fMFeQHX6nOeySY5iJU8ZuEE7G8iBxAXphcP00EXkhX/VZHygg1FIMZUc2g5V6aEWokJNI2vvW4XrWVhS3+LrE+RUrFcno2duIgoA7RKWrHil7hyP9apZ98kyNl7BpQjISFjR7uWqq1lPuK8octz2cp4xcPRfwOiOssFsrSB4Xvs/jD62xJaMauBKXhOvjzOt5cQU7qY2RfPJtJ4xg5AFooSxnJWyp4ZTMnZKvNZjZhUW2JjR7WFFhKWiA8xHJAa8VNsQMtEYJQC1EJIHbFxRNEqCuU6xAECQaBKHYjFhHbZ2vA3u+qIMT97HaFdStSSmYmIq01N5GBhBAAiIiZtdbN8CMygIngG3FMIHp7+6SUoQoz6bRlWSPrg4hKXonBmtmxnVQqoUe0u0JQterXg7ogIlDGzYz8+WPlxxkt3yaoQnXe+ec8+MA93/z7K9LpdBiG1NhGkSDf9485/uh777nr5ptu+NBes32/JhoHdyHI92sf2mv2zTfdcO89dx1z/NG+79P48WMfOeJ55E0clZSit7d43vnn3HHddX3AoiOPmj5rj8suviKXzyrFwz/TFX/e/Lk/+fHdSbKSwIKDF5x2ytlhGAohdny+iUgpnUql7rjz1kO65vjAcR899pRTz1ixfGUqndwx3oyVP+RkY9k12MKRgxlSiDPPPq0vCIp+8e2gevInPj5z1oxaLRg2eAghKtXqKZ9alGG5xe9dXyvu3zXnI4cfWi6Vhw0eQlC5VP7I4Yfu3zVnfa24xe/NsDzlU4sq1WrkWt4n36SVCR0NklLqmSXLOmzbduw97NSKV1Zu2bLVtoe3HczsOM7SZ5YJQW7SnZLIFcp9q1a+mkwN/1hrzclUctXKVwvlvimJnJt0haClzyxzHGfYzx8rvwWcvv2xQ+Om1hrkUVbv8XZvdyB/9pL2w4ZDPmnJl1/8S3pqR9esWU8/98LVV19b2FqwHbuROBIJ57U1r3uqNnefOW9v2HD1t6997tkXUqlUo5tnWdbWrd2vv/HmfnP31Up/547bH/75o+l0qlGOaJ5PhEDh0/uL/dp5ZZB6OJzuUOwWR1L6+njNylrgItuXO29ek3pzdcU+4ydhbxVWg70siCgMw6rvz5yxx9ZCNyudSqdGHT16RW/6HtP8Wq3Y5+Vy2ZH5Qohi0cvls8lEYtPGzdlcdtRxbDN8QSjXcfdZ8lMfUo9V2s/xD3TjN3Hf2kNZZrYsK5/Ndnf3JhwnKnWM+q629jbPKwtB+XxOKTUyWWudz+fCMPTq5bb2tnHnN2/AjTjeiz4Uc+QzmkztSinLktEPTfKFEEJMFD/ORbAYipbeg0RamU/xHM6atbIGu2IRbJdCLM/XRA4DIw4DIw6D3cBzjEngQgghtNZNNk8QkRSCAaVVU129BCkkAaq5fpEx82HqHGMenqLJO12tVivVqmM7bhPNE0QUBEFPuSxIZLPusPOx2/G11j19vZq1m8nYtj2+/HhHjpb2+ES+78/bf+5fffLkZc+/+D9//JPjOCPz6/V655TOC76yuNDT84vHfqmUihrJGvEjwvmfP7ezvf3Bhx8tbC2MMJE2Vr4Rx0RBSuEVS8d+9Oh7774zbTsW8K0bb7j5O99vVLQmoiAIOzs7H3rk/nkz95TAiScdf8Hii6SUI/wvQRB8//bvnXXCSQr4zLl/fdbp53R39zSa+H0PfGNIJyzzMH/5wsVJ29ns9/Xp4G8Xnz99j2n1+vD9HFKKUql09mfPmDdzzw1+34agvOiEkw4/4rByqSylGJZfLpUPP+KwRSectCEob/D75s3c8+zPnlEqlcaFbwzpxBaFNHOh0J0EiCglbM/zRmj7Y4YQorvQLQFpWQnLqXNYLHqN0gozSymLRa/OYcJ2agQJdBe6hRDDRoGx8oecrCmCjXvYcBzn1ptue3b1qo5Ebmuh8C/X3VAsepYlGzTjqGzWfezhXz70xON5KyNC3PKD215+aXmqQX+G1pxKp15+afktP7hNhMhbmYeeePyxh3+Zzbpaq/fPbwFLl/7XC2MWyrjI9uX2G9c4b66ujtLPETX0ptKpww45eNWaNW+ve9t13REGtJFhDILg8MMPK3reyy/9xXXd0bvVS6UDFxyQy2aXLFlq2/YIBrZ5/pB+jmrHOcGBLkw/x7hCa04mk2EQ/u73f0wmEyMrYyDySymfeuppKWQ2mx21NMLM2Wx2xfKVSqtMJoPRZlzHyjejlQnVhxZC5PNZrZtaoRTdKtd10fSKI611Kp2aOL4xpBNrPoZdizDy/YsV3xhSg1aLHHFb2x1twUCts83v+w17286aYrjO3kQOg5bzHKYTzEQOo4w4Y1dIK0QkpaCx7FEUtYDEh2/EMTEnIITWuq/PC4KgmftBRFERs1ppdn2zEKJaqZZKpei948434pggZZDv+5Ztffxjx0+dPrVUKo18v6Pyue/7Rx11xLz5cz3PG/XmEZHnefPmzz3qqCN831dKjfyWsfLjLQ5CHF/NKaNarXV1zX7skZ/d9x93//YXj35y0cnFotdofpwIWmsp5B133vrQ/ff96rGHL7/y0lKpPIKehBClUvnyKy/91WMPP3T/fXfceasUUjf+xs+x8ofYrPi9WnsLhnq9ftElXz1kzn7dteKUzs4rv3l5LpcNQ9Vgfw7peaXTzjz1rBNP6gvL2sLFX/vqgQvmVyvVRvtzVCvVAxfMv/hrX9UW+sLyWSeedNqZp3peSQj5/vkmrUzw0RN1dnb4ADNXdZDNZpPJhnt8RZGjo7NDASoMa0HdISuXyzaK/FEOyuWyDlm1oK7CUAEdnR2NIsFY+UYcEx48/v32u/ygPi2Zzwv7R3fds2njZqfB/hxKadd1H3zgkRXvrJ2RzM+wM7/+w+NLnl6acTNK6WH5GTez5Omlv/7D4zPszIxkfsU7ax984BHXdceF3wpFsJZFdDOeevLpU04/a6DBOJvLNlrbzsy2bRUKhbPOOOfsM0+PGoxte5Svm7Ft+5KLvv7EaaduaxgujNIwPFZ+vMXRyhVSZk4mkyteWfnss883szQhah7rLnTf+N2bo6UJI3fuRP0fWut7fnxftNRg5Ds9Vv4QN2oix7iDmVOpVCaTaXJREzPbtj2loyNa1DTqnWNmEtTe3tbkIqWx8k1amVg0v9Zt4P6FY9pWhce4DQu3/LYtu4IhNdgtPcfuBjMra9BynoPMcxSPUzZ7ghkYQzqpD53p59i9DCmN4TYopTyvkkwmHMcZdUwbaahUKkkhm9nuGP39Gc0vUhor3xjSiTl6089hxNFIGbtOP4cRx7hbDdPPsVt6jialPVw/h+eVh40F2/dzMPJ2ZlA/x7DfvLStP6MvKCsVKqvZfo5m+MZzTHjwMP0cExk5Whamn8OIYyTsIv0cRhxju+tj0Ufr9nPwGE92ssURz++yl2A0/XXlLdrPQQRJYED2L7A332XfTMzgV+H6ClPT2KeDaiFo15qJIyBUmJLB3h2kQl5DaQ2K4dAgdoekQQno55HdxI5r8ZGzqa4gdi1xCIFKgAXTaWYOVUVPoY0QR2MSx8iRhH4LqedEnuvq0/uLrnb4ISTtOmEDDEvi/INFAnodkkvQloTW8at1xLTOIYAfYVZVYVYW139CVAPUFSzR2vmFAClAhE0eLjlSHLcXsR/eTzO2wklAxzBySGfRYXFboslESdIryW2j8IiwZ49Oe/+p+L+3eHMJloAkiIFdklrqFWp4NWjGFcfSl4+QThD+mdqvov0SpHnAkcbpFc9OMGiQC3Ud9l5I3nH17lPmOnOm0F1L9dPr+B0PgWq9oj8RpqZxbBedf7A4bi8iP9wK+zKaW4dIQelYnhC5t1wU28wSghzoq7Hmc2q9YwtlyS0VrN7K5QCCwMB215SAga2Od/zrWGkCTIPEyg2Pswkawxa8dwfNysFhrWvqf0XHZTT3LaRSULGVenwrpBqwoGsQl2Hen2THeert/cJSztKHfoAkQYEscBrv7j9KQB2ihm1zaBY4hWF2J22eVoUI+2kJsDOcLWiGFv2pDFkLsbUm1iH9KzntTnygDpGOsTIQ81lZDXKgATzD+blUqkEcwX2qzgEoDbUZ9otot6A5qhxA7IlqF6p1kAXuhb0crhw6RGyepkDzUWpDEIIc8Eqk1iJlDb3xTdIYZEMvgJcm/Qall1Hu55gRkMhAhfFOjy0wt+JDHITit3n1ZiRCkCJyoTxYXxQLlqLNgtIgG1yDcymvvobXbEIig+Bpcs+lg22Egx/NJmkSHMB6gJ/7GBd6YOdRe5Smf5fmJFAPxkiLkmM7gj/qJRnoeSidwIWnqP03mBL/GZe4iyO6xgU4BTg1CAInoYuwzhMLlyHfjroCAWyBAwhnUACQYAthZuhXETRJE+BSfwk/8iUOWCDMIAzHSCMgAGUQRr+HoB7Yfot0SlgxV4YCAfQZbIjugQAC0GJx4DLk2xH0P6CkdzCDkdOMXoN9TDM0jB+N+v/l3VLHIAMb90puzGNGCdaNvOKLvL4ES4BtcC/sVcikhz7EBruRIe1XhrxRr1jM67fAscAMMCDASdIlSDnsXDfv8CkNxpaj07bjvE8axk4zkWNEZaxczOs3I7GdDrR5qCcnclhx6jXhfntfghXFjE1IRMWMyI3umPXRIOXziP/L5NMGOLp1vhDC6oUTp+OJahb8Hb1iMa/fiEQbgvVI3Uszv8VrAggHutZ49s0BuwjLkC7CZOP40iQtCe0irINchE7jR6gZGgEZhC5CC8JFKNEa8qBvfP/UWCU5H+IA9s7gTVvhuAhLsD4jD1qN9DHoqUEIcAjxImWDoRIhIATtydXZqAYQFrgX1l8oaw1TBGuWdgB7bQhDkA39FlJrKfXeaAzY4IXsWdAMkuDlcHvIthD35lLquXl+3AxHAOqGnUXowfobufBZyucQFmFFHTEEpKFouDfWIOoQEU2C0w0K3k3SKhBqW12cHOjE+6AxUIHk/lJ6Cjr+ygBg9cWv1MHAVNS3wImUERWn8wgG5/hh35WAjiZKaDxoGSjqz3ONjEKTNAKy/XUwjDiNFy9xFGMmjmgy7HnKfVvs8yJlI2VgWzVs9PeOI63JafTxpcVLHJ+0Do2bOASwBY4G8qbStXPF0U12DA8rAU1gZZSxc8Vhx/KwGMRGGTtdHGyugUEjcZhLEHPInTfoNeKIL6K02kd21KbKO0EcJrPHVRnRjNL5ev2penM0EqbJFodB/CD6i6r/Fq68QK8tQzKIJj12WCZwxDNmlCFvCFcu1uveQdKGzkAxJju3mMgRa2VsRCKHsAf2n6ndhp7k4b3xHHFSBoOBMskbgm3KyCIswvqCveAZ0W5vCx4mcuyeMYP6laHWbaRENC99nnPQUsp39PfZG3HsxtkkWLk4fFcZ5zoHLaMhffaT7IsN4uQzhlPGzpp9NOIwyjCGtOWyidjJyjCRIzbKULFThhFHbJSB2CnDiMMow4gjhsoga4gyyDo3cdAyGSNlRIbUONLJVkYF8oZgxRBlOB/eFjPitFmtiRyTLA6uQF4frPxSsG7TjsowXx2620KCPbJPVxu/EqzdRIk0VJGs8+KqDCOOyc4pGjSPS1FzRgj6krNgqch3xFIZMEWwyRdIDQKADe4he5VwMxTftTkmcuyE+IGBXWhiueW5EUcsEPNdaIw4DIw4DIwhbQHHQY1/NZHDwKQVAyMOA+M5DMbNc8B4DgOTVgyMOAyMOAwMBuH/AUcAu9iTKyohAAAAAElFTkSuQmCC">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0C2B2E; --muted:#51696C; --on-ink:#FFFFFF;
+  --surface:rgba(255,255,255,.78); --solid:#FFFFFF; --line:rgba(12,43,46,.14);
+  --green:#0E9F6E; --teal:#0891B2; --copper:#E0922F; --copper-ink:#3F2600; --coral:#F25C54;
+  --danger:#E5484D; --ok:#12A383;
+  --shadow:0 14px 30px -16px rgba(12,43,46,.5);
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root{--ink:#E6FFF8; --muted:#97B8B3; --on-ink:#062622;--surface:rgba(8,44,48,.74);--solid:#0F3B3F;--line:rgba(230,255,248,.15);--copper-ink:#2E1B00;--danger:#FF7378;--ok:#3EDDB0;--shadow:0 14px 30px -16px rgba(0,0,0,.8)}
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;color:var(--ink);font-family:'IBM Plex Sans',-apple-system,system-ui,sans-serif;font-size:16px;line-height:1.45}
+html{background:#DDF3EC}
+@media (prefers-color-scheme: dark){html{background:#061D1F}}
+body{min-height:100vh;padding-bottom:120px}
+h1,h2,h3{font-family:'Space Grotesk','IBM Plex Sans',system-ui,sans-serif;margin:0;letter-spacing:-.01em}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+button:disabled{opacity:.4;cursor:default}
+input,textarea,select{font:inherit;color:var(--ink)}
+:focus-visible{outline:3px solid var(--copper);outline-offset:2px}
+code{font-family:'IBM Plex Mono',ui-monospace,monospace}
+.wrap{max-width:540px;margin:0 auto;padding:12px 16px}
+.muted{color:var(--muted)}
+
+/* background */
+.bg{position:fixed;inset:0;z-index:-1;overflow:hidden}
+.bg svg{position:absolute;inset:0;width:100%;height:100%}
+.bg .night{display:none}
+@media (prefers-color-scheme: dark){.bg .day{display:none}.bg .night{display:block}}
+.pulse{fill:none;stroke-linecap:round;stroke-dasharray:14 520;animation:run 7s linear infinite}
+.pulse.p2{animation-duration:9s;animation-delay:-3s}.pulse.p3{animation-duration:11s;animation-delay:-6s}.pulse.p4{animation-duration:8s;animation-delay:-2s}
+@keyframes run{to{stroke-dashoffset:-534}}
+.glow{animation:glow 4s ease-in-out infinite alternate}
+@keyframes glow{from{opacity:.35}to{opacity:.9}}
+
+/* top / common */
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin:6px 2px 14px}
+.ttl h1{font-size:30px;line-height:1.08;font-weight:700}
+.ttl p{margin:5px 0 0;color:var(--muted);font-size:14px;font-weight:500}
+.gear{flex:0 0 44px;height:44px;border-radius:15px;background:var(--surface);border:1px solid var(--line);font-size:19px;box-shadow:0 2px 0 var(--line);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.shead{margin:20px 2px 8px}.shead h2{font-size:19px}.shead p{margin:2px 0 0;color:var(--muted);font-size:13.5px}
+.card{display:block;background:var(--surface);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid var(--line);border-radius:24px;padding:16px;margin-top:12px;box-shadow:var(--shadow)}
+.card h3{font-size:16.5px;margin-bottom:8px}
+.pill{font-size:12px;font-weight:700;padding:4px 10px;border-radius:99px;background:color-mix(in srgb,var(--ink) 9%,transparent);white-space:nowrap}
+.btn{background:var(--ink);color:var(--on-ink);border-radius:15px;padding:12px 16px;font-weight:700;box-shadow:0 3px 0 color-mix(in srgb,var(--ink) 55%,#000)}
+.btn.rose{background:linear-gradient(135deg,#10B981,#0891B2);color:#fff;box-shadow:0 3px 0 #0A6D6B}
+.btn.gold{background:var(--copper);color:var(--copper-ink);box-shadow:0 3px 0 #A86A18}
+.btn.ghost{background:var(--solid);border:1.5px solid var(--line);color:var(--ink);box-shadow:0 2px 0 var(--line)}
+.btn.danger{background:var(--solid);border:1.5px solid var(--danger);color:var(--danger)}
+.btn.sm{padding:8px 14px;font-size:14px;border-radius:12px}
+.btn.full{width:100%;margin-top:10px}
+.btn:active{transform:translateY(2px);box-shadow:none}
+.row2{display:flex;gap:10px;margin-top:12px}.row2 .btn{flex:1}
+.inp{width:100%;background:color-mix(in srgb,var(--ink) 5%,var(--solid));border:1.5px solid var(--line);border-radius:15px;padding:13px 15px;font-size:16px}
+.inp:focus{border-color:var(--green);outline:none;box-shadow:0 0 0 4px color-mix(in srgb,var(--green) 22%,transparent)}
+.help{color:var(--muted);margin:0 0 10px;font-size:13.5px}
+.disc{color:var(--muted);font-size:12.5px;text-align:center;margin:18px 8px 0}
+.empty{background:var(--surface);border:2px dashed var(--line);border-radius:24px;padding:24px;text-align:center;color:var(--muted)}.eb{font-size:40px}
+.chipsx{display:flex;flex-wrap:wrap;gap:6px}
+.chipsx button{background:var(--solid);border:1px solid var(--line);border-radius:99px;padding:6px 12px;font-size:13px;font-weight:600}
+.seg{display:flex;gap:4px;background:color-mix(in srgb,var(--ink) 8%,transparent);padding:3px;border-radius:14px;margin:6px 0 12px}
+.seg button{flex:1;padding:9px 4px;border-radius:11px;font-weight:700;font-size:13.5px;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--on-ink)}
+.cats{display:flex;gap:8px;overflow-x:auto;margin:0 -16px 12px;padding:2px 16px 6px;scrollbar-width:none}.cats::-webkit-scrollbar{display:none}
+.cat{flex:0 0 auto;padding:8px 14px;border-radius:99px;background:var(--surface);border:1px solid var(--line);font-weight:600;font-size:13.5px;white-space:nowrap}
+.cat[aria-pressed="true"]{background:linear-gradient(135deg,#10B981,#0891B2);color:#fff;border-color:transparent}
+.srch{margin-bottom:10px}
+
+/* hero */
+.hero{display:flex;gap:16px;align-items:center;background:linear-gradient(135deg,color-mix(in srgb,var(--green) 22%,var(--surface)),color-mix(in srgb,var(--copper) 18%,var(--surface)));border:1px solid var(--line);border-radius:28px;padding:16px;box-shadow:var(--shadow)}
+.hr{position:relative;flex:0 0 96px;height:96px}.rsv{width:100%;height:100%}
+.rc{position:absolute;inset:0;display:grid;place-content:center;text-align:center}.rc b{font-family:'Space Grotesk',sans-serif;font-size:23px;line-height:1}.rc small{color:var(--muted);font-size:11.5px}
+.hi h2{font-size:20px;margin-bottom:4px}.hi p{margin:0 0 10px;font-size:14px;color:var(--muted)}
+.opt{display:flex;align-items:center;gap:14px;width:100%;text-align:left;background:var(--surface);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid var(--line);border-radius:22px;padding:13px;margin-top:12px;box-shadow:var(--shadow)}
+.oe{flex:0 0 48px;height:48px;border-radius:16px;background:color-mix(in srgb,var(--green) 18%,transparent);display:grid;place-items:center;font-size:24px}
+.opt b{display:block;font-family:'Space Grotesk',sans-serif;font-size:16px}.opt small{color:var(--muted);font-size:13px}
+.lc{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:var(--surface);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:20px;padding:10px 12px;margin-bottom:8px;box-shadow:var(--shadow)}
+.lc.done{border-color:color-mix(in srgb,var(--ok) 60%,transparent)}
+.ln{flex:0 0 26px;height:26px;border-radius:50%;background:var(--ink);color:var(--on-ink);font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:700;display:grid;place-items:center}
+.le{flex:0 0 44px;height:44px;border-radius:15px;background:color-mix(in srgb,var(--green) 16%,transparent);display:grid;place-items:center;font-size:22px}
+.le.big{width:72px;height:72px;flex-basis:72px;font-size:36px;border-radius:24px;margin:0 auto 8px}
+.lt{flex:1;min-width:0}.lt b{display:block;font-size:15px;font-weight:600}.lt small{display:block;color:var(--muted);font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lk{flex:0 0 22px;text-align:center;font-weight:800;color:var(--muted);font-size:18px}.lc.done .lk{color:var(--ok)}
+.badges{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.bd{background:var(--surface);border:1px dashed var(--line);border-radius:18px;padding:10px 4px;text-align:center;opacity:.5;filter:grayscale(1)}
+.bd.on{opacity:1;filter:none;border-style:solid;border-color:color-mix(in srgb,var(--copper) 60%,transparent)}
+.bd span{font-size:26px;display:block}.bd small{font-size:11.5px;font-weight:600}
+
+/* lesson sheet */
+.lhead{text-align:center;margin-bottom:8px}.lhead h2{font-size:23px}
+.analogy{background:color-mix(in srgb,var(--copper) 24%,var(--solid));border:1px solid color-mix(in srgb,var(--copper) 55%,transparent);border-radius:18px;padding:12px 14px;font-size:14.5px;margin:10px 0}
+details.acc{background:color-mix(in srgb,var(--ink) 4%,var(--solid));border:1px solid var(--line);border-radius:18px;margin-top:10px;overflow:hidden}
+details.acc summary{display:flex;align-items:center;gap:10px;padding:13px 14px;font-weight:700;cursor:pointer;list-style:none;font-size:15px}
+details.acc summary::-webkit-details-marker{display:none}
+details.acc summary::after{content:'›';margin-left:auto;font-size:20px;transition:transform .2s;color:var(--muted)}
+details.acc[open] summary::after{transform:rotate(90deg)}
+details.acc summary span{font-size:18px}
+.ab{padding:0 14px 14px;font-size:14.5px}.ab p{margin:0 0 8px}
+.ul,.ol{margin:0;padding-left:20px}.ul li,.ol li{margin:6px 0}
+.ol{counter-reset:s;list-style:none;padding-left:0}.ol li{counter-increment:s;position:relative;padding-left:34px;margin:10px 0}
+.ol li::before{content:counter(s);position:absolute;left:0;top:0;width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,#10B981,#0891B2);color:#fff;font-weight:700;font-size:12px;display:grid;place-items:center}
+.prow{padding:9px 0;border-bottom:1px dashed var(--line)}.prow:last-child{border:0}
+.prow b{display:block}.prow code{display:block;color:var(--green);font-size:13px;font-weight:600;margin:2px 0}.prow small{color:var(--muted);font-size:12.5px}
+.isu{padding:10px 12px;margin-top:8px;background:var(--solid);border:1px solid var(--line);border-radius:14px;font-size:13.5px}.isu b{display:block;margin-bottom:3px}.isu i{font-style:normal;font-weight:700;color:var(--muted)}
+.dg{width:100%;height:auto;font:600 9px 'IBM Plex Sans',sans-serif;fill:currentColor;color:var(--ink)}
+.dgc{padding:10px}
+.whys{display:grid;gap:6px;margin:8px 0}.why{display:flex;gap:10px;align-items:flex-start;background:var(--solid);border:1px solid var(--line);border-radius:12px;padding:8px 10px}.why b{flex:0 0 auto;background:var(--copper);color:var(--copper-ink);border-radius:8px;padding:1px 8px;font-size:12px}.why span{font-size:13.5px}
+
+/* line */
+.belt{display:flex;align-items:center;gap:2px;overflow-x:auto;padding:4px 16px 10px;margin:0 -16px;scrollbar-width:none}.belt::-webkit-scrollbar{display:none}
+.st{flex:0 0 66px;display:flex;flex-direction:column;align-items:center;gap:3px;padding:8px 2px;border-radius:16px;background:var(--surface);border:1.5px solid var(--line)}
+.st span{font-size:22px}.st small{font-size:10.5px;font-weight:600;line-height:1.1;text-align:center;color:var(--muted)}
+.st.on{border-color:var(--copper);background:color-mix(in srgb,var(--copper) 26%,var(--solid));transform:translateY(-3px)}.st.on small{color:var(--ink)}
+.st.past{border-color:color-mix(in srgb,var(--green) 55%,transparent)}
+.ar{color:var(--muted);font-weight:800;font-style:normal}
+.journey h3{font-size:19px;margin:2px 0 6px}.journey p{margin:0 0 6px;font-size:15px}
+.jb{height:34px;margin-bottom:8px;position:relative}
+.jb::before{content:'';position:absolute;left:0;right:0;top:20px;height:6px;border-radius:3px;background:repeating-linear-gradient(90deg,var(--line) 0 10px,transparent 10px 16px)}
+.jboard{position:absolute;top:6px;left:var(--x);transform:translateX(calc(var(--x) * -1));width:42px;height:22px;transition:left .6s ease,transform .6s ease}
+.jboard i{display:block;width:100%;height:100%;border-radius:4px;background:#0E9F6E;border:2px solid #0A7A55;box-shadow:inset 6px 6px 0 -3px #E0922F,inset -8px -4px 0 -3px #1E293B}
+.gate{display:flex;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line);font-size:14px}.gate:last-child{border:0}.gate b{flex:0 0 86px;font-family:'Space Grotesk',sans-serif;color:var(--green)}.gate span{color:var(--muted)}
+
+/* defects */
+.dc,.rs{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:var(--surface);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:20px;padding:10px 12px;margin-bottom:8px;box-shadow:var(--shadow)}
+.de{flex:0 0 44px;height:44px;border-radius:15px;background:color-mix(in srgb,var(--coral) 14%,transparent);display:grid;place-items:center;font-size:22px}
+.dt{flex:1;min-width:0}.dt b{display:block;font-size:15px}.dt small{display:block;color:var(--muted);font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sv{font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:99px;white-space:nowrap}
+.s1{background:color-mix(in srgb,var(--ok) 25%,transparent)}.s2{background:color-mix(in srgb,var(--copper) 35%,transparent)}.s3{background:color-mix(in srgb,var(--danger) 28%,transparent)}
+.meta2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}.meta2 small{font-size:11.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:4px}
+.cz{display:flex;gap:8px;align-items:flex-start;padding:6px 0;font-size:14px}
+.tg{flex:0 0 auto;display:inline-block;background:var(--ink);color:var(--on-ink);border-radius:8px;padding:1px 8px;font-size:11.5px;font-weight:700;margin-bottom:6px}
+.cz .tg{margin:2px 0 0}
+.card.act{border-left:6px solid var(--green)}.card.cor{border-left-color:var(--ok)}.card.pre{border-left-color:var(--teal)}.card.con{border-left-color:var(--copper)}
+
+/* quiz */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.stats div{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:12px 4px;text-align:center}.stats b{display:block;font-family:'Space Grotesk',sans-serif;font-size:24px}.stats small{color:var(--muted);font-size:12px}
+.tgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.tcard{display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:12px}.tcard b{font-size:14px}.tcard small{color:var(--muted);font-size:12px}
+.meter{height:8px;width:100%;background:color-mix(in srgb,var(--ink) 10%,transparent);border-radius:99px;overflow:hidden;margin:4px 0}.meter i{display:block;height:100%;background:linear-gradient(90deg,#10B981,#F59E0B);border-radius:99px;transition:width .4s}
+.qtop{display:flex;align-items:center;gap:10px;margin:6px 0 4px}.qtop .meter{flex:1}
+.qcard h2{font-size:20px;line-height:1.3;margin:6px 0 12px}
+.opts{display:grid;gap:8px}
+.qo{display:flex;align-items:center;gap:10px;text-align:left;background:var(--solid);border:2px solid var(--line);border-radius:16px;padding:12px;font-size:15px;font-weight:500}
+.qo span{flex:0 0 28px;height:28px;border-radius:9px;background:color-mix(in srgb,var(--ink) 10%,transparent);display:grid;place-items:center;font-weight:700;font-size:13px}
+.qo.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 20%,var(--solid))}.qo.ok span{background:var(--ok);color:#fff}
+.qo.no{border-color:var(--danger);background:color-mix(in srgb,var(--danger) 16%,var(--solid))}.qo.no span{background:var(--danger);color:#fff}
+.qo.dim{opacity:.5}
+.fb{margin-top:12px;border-radius:16px;padding:12px 14px;font-size:14.5px}.fb p{margin:4px 0 0}
+.fb.good{background:color-mix(in srgb,var(--ok) 18%,var(--solid))}.fb.bad{background:color-mix(in srgb,var(--danger) 14%,var(--solid))}
+
+/* q&a */
+.askb .inp{font-size:16.5px;padding:15px 16px}
+.sug{margin:0 0 12px}
+.gl{padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-radius:16px;margin-bottom:6px}.gl b{display:block;font-family:'Space Grotesk',sans-serif;color:var(--green)}.gl span{font-size:14px}
+.lt2{font-family:'Space Grotesk',sans-serif;font-weight:700;color:var(--copper);margin:14px 4px 6px;font-size:18px}
+.warnbox{background:color-mix(in srgb,var(--copper) 24%,var(--solid));border:1.5px solid color-mix(in srgb,var(--copper) 70%,transparent);border-radius:16px;padding:11px 14px;margin:10px 0;font-weight:600;font-size:14px}
+
+/* tab bar */
+.tabbar{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;padding:0 12px calc(12px + env(safe-area-inset-bottom,0px));pointer-events:none;z-index:10}
+.tabs{pointer-events:auto;display:flex;justify-content:space-between;width:100%;max-width:520px;background:rgba(255,255,255,.93);backdrop-filter:blur(20px) saturate(1.5);-webkit-backdrop-filter:blur(20px) saturate(1.5);border:1px solid var(--line);border-radius:28px;padding:7px;box-shadow:0 16px 34px -14px rgba(12,43,46,.55)}
+@media (prefers-color-scheme: dark){.tabs{background:rgba(10,52,56,.94)}}
+.tabs button.t{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:8px 0 6px;border-radius:20px;font-size:10.5px;font-weight:700;color:var(--muted)}
+.tabs button.t svg{width:23px;height:23px;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.tabs button.t[aria-selected="true"]{color:var(--ink);background:color-mix(in srgb,var(--green) 22%,transparent)}
+
+/* sheets */
+.scrim{position:fixed;inset:0;background:rgba(2,24,26,.58);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);display:none;z-index:20}.scrim.on{display:block}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:21;display:flex;justify-content:center;transform:translateY(105%);transition:transform .3s cubic-bezier(.2,.9,.25,1)}.sheet.on{transform:none}
+.sheet-in{background:var(--solid);width:100%;max-width:560px;border-radius:30px 30px 0 0;padding:10px 18px calc(28px + env(safe-area-inset-bottom,0px));max-height:94vh;overflow-y:auto;overscroll-behavior:contain;border-top:6px solid var(--green)}
+.grab{width:44px;height:5px;border-radius:9px;background:var(--line);margin:0 auto 12px}
+.edh{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.sheet h2{font-size:23px}
+.toast{position:fixed;left:50%;top:calc(14px + env(safe-area-inset-top,0px));transform:translate(-50%,-160%);background:var(--ink);color:var(--on-ink);padding:12px 20px;border-radius:99px;font-weight:700;z-index:50;transition:transform .35s cubic-bezier(.2,.9,.25,1);max-width:90%;text-align:center}.toast.on{transform:translate(-50%,0)}
+#app.enter>*{animation:rise .45s cubic-bezier(.2,.9,.25,1) both}#app.enter>*:nth-child(2){animation-delay:.05s}#app.enter>*:nth-child(3){animation-delay:.1s}#app.enter>*:nth-child(n+4){animation-delay:.15s}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true">
+<svg class="day" viewBox="0 0 400 800" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="dg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#DFF6EE"/><stop offset=".5" stop-color="#D7EEF8"/><stop offset="1" stop-color="#EAE6FA"/></linearGradient>
+<filter id="bl" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="34"/></filter></defs>
+<rect width="400" height="800" fill="url(#dg1)"/>
+<g filter="url(#bl)" opacity=".7"><circle cx="350" cy="90" r="110" fill="#FFD28A"/><circle cx="20" cy="420" r="120" fill="#7DE3C3"/><circle cx="340" cy="720" r="120" fill="#8FC8F5"/></g>
+<g fill="none" stroke="#0E9F6E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".30"><path d="M0 120 H70 L100 150 H200 L230 120 H400"/><path d="M0 300 H40 L70 330 V420 L100 450 H180"/><path d="M400 220 H330 L300 250 V340 L270 370 H210"/><path d="M0 560 H90 L120 530 H240 L270 560 H400"/><path d="M60 800 V700 L90 670 H160 L190 640 V580"/><path d="M340 800 V740 L310 710 H250"/><path d="M120 0 V60 L150 90 H260"/><path d="M300 0 V50 L330 80 H400"/><path d="M0 690 H50 L80 720 H130"/><path d="M400 460 H350 L320 490 H280"/></g><g stroke="#E0922F" stroke-width="3.2" opacity=".95"><path class="pulse p1" d="M0 120 H70 L100 150 H200 L230 120 H400"/><path class="pulse p2" d="M400 220 H330 L300 250 V340 L270 370 H210"/><path class="pulse p3" d="M60 800 V700 L90 670 H160 L190 640 V580"/><path class="pulse p4" d="M300 0 V50 L330 80 H400"/></g><g fill="#E0922F" opacity=".55"><circle cx="70" cy="120" r="5"/><circle cx="200" cy="150" r="5"/><circle cx="40" cy="300" r="5"/><circle cx="180" cy="450" r="5"/><circle cx="330" cy="220" r="5"/><circle cx="210" cy="370" r="5"/><circle cx="90" cy="560" r="5"/><circle cx="240" cy="530" r="5"/><circle cx="60" cy="800" r="5"/><circle cx="160" cy="670" r="5"/><circle cx="340" cy="800" r="5"/><circle cx="250" cy="710" r="5"/><circle cx="120" cy="0" r="5"/><circle cx="260" cy="90" r="5"/><circle cx="300" cy="0" r="5"/><circle cx="130" cy="720" r="5"/><circle cx="280" cy="490" r="5"/></g><g opacity=".45" stroke="#0E9F6E" stroke-width="2" fill="#ffffff"><rect x="150" y="372" width="96" height="76" rx="8"/><line x1="162" y1="372" x2="162" y2="362"/><line x1="162" y1="448" x2="162" y2="458"/><line x1="178" y1="372" x2="178" y2="362"/><line x1="178" y1="448" x2="178" y2="458"/><line x1="194" y1="372" x2="194" y2="362"/><line x1="194" y1="448" x2="194" y2="458"/><line x1="210" y1="372" x2="210" y2="362"/><line x1="210" y1="448" x2="210" y2="458"/><line x1="226" y1="372" x2="226" y2="362"/><line x1="226" y1="448" x2="226" y2="458"/><rect x="262" y="612" width="92" height="92" rx="10"/></g><g opacity=".45" fill="#0E9F6E"><circle cx="276" cy="626" r="3.4"/><circle cx="276" cy="642" r="3.4"/><circle cx="276" cy="658" r="3.4"/><circle cx="276" cy="674" r="3.4"/><circle cx="276" cy="690" r="3.4"/><circle cx="292" cy="626" r="3.4"/><circle cx="292" cy="642" r="3.4"/><circle cx="292" cy="658" r="3.4"/><circle cx="292" cy="674" r="3.4"/><circle cx="292" cy="690" r="3.4"/><circle cx="308" cy="626" r="3.4"/><circle cx="308" cy="642" r="3.4"/><circle cx="308" cy="658" r="3.4"/><circle cx="308" cy="674" r="3.4"/><circle cx="308" cy="690" r="3.4"/><circle cx="324" cy="626" r="3.4"/><circle cx="324" cy="642" r="3.4"/><circle cx="324" cy="658" r="3.4"/><circle cx="324" cy="674" r="3.4"/><circle cx="324" cy="690" r="3.4"/><circle cx="340" cy="626" r="3.4"/><circle cx="340" cy="642" r="3.4"/><circle cx="340" cy="658" r="3.4"/><circle cx="340" cy="674" r="3.4"/><circle cx="340" cy="690" r="3.4"/></g><g opacity=".45" stroke="#0E9F6E" stroke-width="2" fill="none"><rect x="30" y="610" width="40" height="18" rx="3"/><rect x="82" y="610" width="40" height="18" rx="3"/><rect x="30" y="640" width="40" height="18" rx="3"/></g></svg><svg class="night" viewBox="0 0 400 800" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="ng1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04201F"/><stop offset=".55" stop-color="#062A2E"/><stop offset="1" stop-color="#0A1B33"/></linearGradient>
+<filter id="nbl" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="36"/></filter>
+<filter id="ngl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4"/></filter></defs>
+<rect width="400" height="800" fill="url(#ng1)"/>
+<g filter="url(#nbl)" opacity=".6"><circle cx="350" cy="90" r="110" fill="#0B7A66"/><circle cx="20" cy="420" r="120" fill="#0E6F8F"/><circle cx="340" cy="720" r="120" fill="#6B3FA0"/></g>
+<g filter="url(#ngl)"><g fill="none" stroke="#22D3EE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".55"><path d="M0 120 H70 L100 150 H200 L230 120 H400"/><path d="M0 300 H40 L70 330 V420 L100 450 H180"/><path d="M400 220 H330 L300 250 V340 L270 370 H210"/><path d="M0 560 H90 L120 530 H240 L270 560 H400"/><path d="M60 800 V700 L90 670 H160 L190 640 V580"/><path d="M340 800 V740 L310 710 H250"/><path d="M120 0 V60 L150 90 H260"/><path d="M300 0 V50 L330 80 H400"/><path d="M0 690 H50 L80 720 H130"/><path d="M400 460 H350 L320 490 H280"/></g><g stroke="#FBBF24" stroke-width="3.2" opacity="1"><path class="pulse p1" d="M0 120 H70 L100 150 H200 L230 120 H400"/><path class="pulse p2" d="M400 220 H330 L300 250 V340 L270 370 H210"/><path class="pulse p3" d="M60 800 V700 L90 670 H160 L190 640 V580"/><path class="pulse p4" d="M300 0 V50 L330 80 H400"/></g></g><g fill="none" stroke="#34D399" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".45"><path d="M0 120 H70 L100 150 H200 L230 120 H400"/><path d="M0 300 H40 L70 330 V420 L100 450 H180"/><path d="M400 220 H330 L300 250 V340 L270 370 H210"/><path d="M0 560 H90 L120 530 H240 L270 560 H400"/><path d="M60 800 V700 L90 670 H160 L190 640 V580"/><path d="M340 800 V740 L310 710 H250"/><path d="M120 0 V60 L150 90 H260"/><path d="M300 0 V50 L330 80 H400"/><path d="M0 690 H50 L80 720 H130"/><path d="M400 460 H350 L320 490 H280"/></g><g stroke="#FDE68A" stroke-width="3.2" opacity="1"><path class="pulse p1" d="M0 120 H70 L100 150 H200 L230 120 H400"/><path class="pulse p2" d="M400 220 H330 L300 250 V340 L270 370 H210"/><path class="pulse p3" d="M60 800 V700 L90 670 H160 L190 640 V580"/><path class="pulse p4" d="M300 0 V50 L330 80 H400"/></g><g class="glow" fill="#FBBF24" opacity=".75"><circle cx="70" cy="120" r="5"/><circle cx="200" cy="150" r="5"/><circle cx="40" cy="300" r="5"/><circle cx="180" cy="450" r="5"/><circle cx="330" cy="220" r="5"/><circle cx="210" cy="370" r="5"/><circle cx="90" cy="560" r="5"/><circle cx="240" cy="530" r="5"/><circle cx="60" cy="800" r="5"/><circle cx="160" cy="670" r="5"/><circle cx="340" cy="800" r="5"/><circle cx="250" cy="710" r="5"/><circle cx="120" cy="0" r="5"/><circle cx="260" cy="90" r="5"/><circle cx="300" cy="0" r="5"/><circle cx="130" cy="720" r="5"/><circle cx="280" cy="490" r="5"/></g><g opacity=".6" stroke="#22D3EE" stroke-width="2" fill="#0B3A3F"><rect x="150" y="372" width="96" height="76" rx="8"/><line x1="162" y1="372" x2="162" y2="362"/><line x1="162" y1="448" x2="162" y2="458"/><line x1="178" y1="372" x2="178" y2="362"/><line x1="178" y1="448" x2="178" y2="458"/><line x1="194" y1="372" x2="194" y2="362"/><line x1="194" y1="448" x2="194" y2="458"/><line x1="210" y1="372" x2="210" y2="362"/><line x1="210" y1="448" x2="210" y2="458"/><line x1="226" y1="372" x2="226" y2="362"/><line x1="226" y1="448" x2="226" y2="458"/><rect x="262" y="612" width="92" height="92" rx="10"/></g><g opacity=".6" fill="#22D3EE"><circle cx="276" cy="626" r="3.4"/><circle cx="276" cy="642" r="3.4"/><circle cx="276" cy="658" r="3.4"/><circle cx="276" cy="674" r="3.4"/><circle cx="276" cy="690" r="3.4"/><circle cx="292" cy="626" r="3.4"/><circle cx="292" cy="642" r="3.4"/><circle cx="292" cy="658" r="3.4"/><circle cx="292" cy="674" r="3.4"/><circle cx="292" cy="690" r="3.4"/><circle cx="308" cy="626" r="3.4"/><circle cx="308" cy="642" r="3.4"/><circle cx="308" cy="658" r="3.4"/><circle cx="308" cy="674" r="3.4"/><circle cx="308" cy="690" r="3.4"/><circle cx="324" cy="626" r="3.4"/><circle cx="324" cy="642" r="3.4"/><circle cx="324" cy="658" r="3.4"/><circle cx="324" cy="674" r="3.4"/><circle cx="324" cy="690" r="3.4"/><circle cx="340" cy="626" r="3.4"/><circle cx="340" cy="642" r="3.4"/><circle cx="340" cy="658" r="3.4"/><circle cx="340" cy="674" r="3.4"/><circle cx="340" cy="690" r="3.4"/></g><g opacity=".6" stroke="#22D3EE" stroke-width="2" fill="none"><rect x="30" y="610" width="40" height="18" rx="3"/><rect x="82" y="610" width="40" height="18" rx="3"/><rect x="30" y="640" width="40" height="18" rx="3"/></g></svg>
+</div>
+<div class="wrap" id="app"></div>
+<nav class="tabbar"><div class="tabs" role="tablist">
+  <button class="t" role="tab" id="tab-learn" aria-selected="true" data-act="tab" data-v="learn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-5 9 5-9 5z"/><path d="M7 11.500V16c0 1.500 2.200 3 5 3s5-1.500 5-3v-4.500"/></svg><span>Learn</span></button>
+  <button class="t" role="tab" id="tab-line" aria-selected="false" data-act="tab" data-v="line"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.500" y="8" width="5" height="8" rx="1.500"/><rect x="16.500" y="8" width="5" height="8" rx="1.500"/><path d="M7.500 12h9M14 9.500l2.500 2.500-2.500 2.500"/></svg><span>Line</span></button>
+  <button class="t" role="tab" id="tab-faults" aria-selected="false" data-act="tab" data-v="faults"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9.500 17h-19z"/><path d="M12 10v4.500M12 17.500v.5"/></svg><span>Faults</span></button>
+  <button class="t" role="tab" id="tab-quiz" aria-selected="false" data-act="tab" data-v="quiz"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.500 9.500a2.500 2.500 0 1 1 3.500 2.300c-.7.400-1 1-1 1.700M12 17v.5"/></svg><span>Quiz</span></button>
+  <button class="t" role="tab" id="tab-qa" aria-selected="false" data-act="tab" data-v="qa"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H11l-5 4v-4H4z"/><path d="M8 9.500h8M8 12.500h5"/></svg><span>Q&amp;A</span></button>
+</div></nav>
+<div class="scrim" id="scrim" data-act="close"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true"><div class="sheet-in" id="sheetIn"></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script>
+var LESSONS=[
+{id:'loader',n:'PCB Loader',e:'📥',grp:'smt',tag:'Feeds bare boards into the line one by one',
+ analogy:'Like the tray return at a food court feeding plates onto a belt: it hands boards to the line at a steady rhythm.',
+ what:'The loader holds bare printed circuit boards (PCBs) in magazines or racks and pushes them one at a time onto the conveyor that leads to the printer. It is the first machine of the SMT line, so mistakes made here (wrong board, wrong side up, damaged board) travel through the whole line.',
+ where:'Start of the SMT line, before the solder paste printer. (An unloader does the opposite job at the end of the line.)',
+ steps:[
+ 'Check the work order, board part number and revision against the routing sheet.',
+ 'Inspect the bare boards: no warpage, scratches, dirt, moisture stains or broken tooling holes. Check the date code. Boards stored for a long time may need baking, as the PCB supplier specifies.',
+ 'Load boards into the magazine with the correct side up (top or bottom) and the correct direction (fiducial or notch position).',
+ 'Set the conveyor width to the board width, leaving about 1 mm of clearance, and select the board program.',
+ 'Place the magazine on the loader. The lifter positions the first board and a pusher slides it onto the conveyor.',
+ 'A sensor confirms the board. The machine sends a "board available" signal (SMEMA) and the next machine answers "machine ready".',
+ 'A barcode or QR code on the board may be scanned so the board is tracked (traceability) through the whole process.',
+ 'When a magazine is empty it is exchanged for a full one without stopping the line.'],
+ params:[['Conveyor width','Board width + about 1 mm','Too tight causes jams, too loose lets the board skew'],['Magazine pitch','Matches the slot spacing','Wrong pitch causes double feed or missed boards'],['Pusher speed','Slow and smooth','A fast push can bounce or scratch boards'],['Board orientation','As the work instruction says','Wrong side up can scrap a whole batch'],['SMEMA handshake','Ready and available signals','How machines pass boards safely']],
+ issues:[
+ ['Board jams at the entry','Width set too narrow, warped board or dirty rail','Reset the width, remove the board with gloves, check board flatness, clean the rails'],
+ ['Two boards pushed together (double feed)','Worn magazine slots or wrong pitch setting','Replace the magazine and check the pitch setting'],
+ ['Scratches on the board','Rough rails, debris, boards rubbing in the magazine','Clean or replace the rails, use proper magazines, hold boards by the edges'],
+ ['Board loaded wrong side up','No orientation mark, operator error','Mark the magazine, do a first-board check, use side detection or barcode'],
+ ['Dust or fingerprints on pads','Bare hands, dusty area, open storage','Wear gloves, use a PCB surface cleaner, keep boards covered']],
+ checks:['Rails clean and dry, conveyor moves freely','Sensors and E-stop working','Magazines not bent or cracked','Board part number and revision match the work order'],
+ safety:['Keep hands out of the lifter and pusher area. It is a pinch point.','Wear an ESD wrist strap and hold boards by the edges.'],
+ tips:['Always do a first-board check: part number, revision, direction and visible fiducials.','Moisture matters. Boards stored open for a long time can absorb water and blister during reflow.'],
+ defects:[]},
+
+{id:'printer',n:'Solder Paste Printer',e:'🖨️',grp:'smt',tag:'Prints solder paste on the pads through a stencil',
+ analogy:'Like screen-printing a T-shirt. The stencil is the screen, the paste is the ink and the squeegee spreads it. Paste must land only on the pads, in the right amount.',
+ what:'The printer pushes solder paste (tiny solder balls mixed with flux) through holes (apertures) in a thin metal stencil onto the copper pads of the PCB. The paste holds the components in place and later melts into the solder joint. Printing is the most important SMT step: most soldering defects are often traced back to it (a common rule of thumb says 60 to 70%).',
+ where:'After the loader and before SPI.',
+ steps:[
+ 'Prepare the paste: take it from the fridge (about 0 to 10 °C), let the sealed jar warm up to room temperature for about 4 hours (follow the datasheet) and never heat it. Write the open time on the jar.',
+ 'Mount the correct stencil (part number, revision, side). Check that it is clean and tight in the frame.',
+ 'Add paste in front of the squeegee: a roll about the length of the print area and about 1 to 2 cm thick.',
+ 'The board enters, is lifted on support pins or blocks so it is flat, and is clamped at the edges.',
+ 'Cameras find the board fiducials and the stencil fiducials and align them (X, Y and rotation).',
+ 'The stencil touches the board. The squeegee moves across at the set pressure, angle (about 60°) and speed and fills the apertures.',
+ 'Separation: board and stencil separate slowly so the paste releases cleanly from the apertures.',
+ 'Underside wipe: every few prints the underside of the stencil is wiped to stop smear and bridging.',
+ 'The board moves on to SPI. Check the first print before releasing the lot.'],
+ params:[['Squeegee pressure','Just enough to wipe the stencil clean','Too high scoops paste, too low skips'],['Print speed','About 20 to 80 mm/s','Too fast fills badly, too slow causes slump or smear'],['Separation speed','Slow (start around 0.5 to 3 mm/s)','Fast separation makes peaks and dog-ears'],['Wipe frequency','Every 1 to 10 prints, depends on product','Prevents bridging'],['Stencil thickness','100 to 150 µm typical','Sets the paste volume'],['Room','20 to 26 °C and 40 to 60 %RH','Paste dries or absorbs water outside this range'],['Paste time on stencil','Replace as the datasheet says (often 4 to 8 h)','Old paste loses tack and wets badly']],
+ issues:[
+ ['Insufficient paste or skipped pads','Clogged apertures, low pressure, dried paste','Clean the stencil, wipe more often, add fresh paste, check the pressure'],
+ ['Bridging between pads','Too much paste, smear under the stencil, poor board support','Wipe the stencil, lower the pressure, check the support and the stencil gap'],
+ ['Print misaligned (offset)','Fiducials not recognised, wrong stencil revision, bad calibration','Clean the fiducials, recalibrate the alignment, check the stencil number'],
+ ['Peaks or dog-ears after separation','Separation too fast, rough aperture walls','Slow the separation, replace the stencil'],
+ ['Slump (paste spreads out)','Heat or humidity, wrong paste, paste too long on stencil','Control the room, use fresh paste']],
+ checks:['Stencil clean and not damaged, correct number and revision','Squeegee blades straight, not nicked','Paste lot, expiry and open time recorded','Support pins set for this board','Room temperature and humidity in range'],
+ safety:['Wear gloves. Paste contains flux and metals. Do not eat or drink near it.','Keep fingers out of the squeegee and stencil area. Clean with approved cleaner (such as IPA) in a ventilated area, away from ignition sources.'],
+ tips:['Good paste rolls in front of the squeegee. If it only slides, it is too dry or the speed is wrong.','Design rule for stencils: area ratio ≥ 0.66 and aspect ratio ≥ 1.5 give clean paste release (IPC-7525).','Never mix old scraped paste back into a new jar unless your procedure allows it.'],
+ diagram:'printer',defects:['insufficient','excess','bridge','smear','slump','pasteoffset']},
+
+{id:'spi',n:'SPI (Solder Paste Inspection)',e:'📏',grp:'smt',tag:'Measures paste volume, height and position on every pad',
+ analogy:'Like checking the icing on cupcakes with a ruler before baking. If it is wrong, wipe it off and redo it. Nothing is baked yet, so fixing is cheap.',
+ what:'SPI uses a 3D sensor (laser or structured light) to measure every paste deposit: height, area, volume, shape and offset compared with the pad. It stops bad boards before parts are placed, because cleaning off paste takes seconds but repairing a soldered board takes minutes. SPI data can also be sent back to the printer (closed loop) to correct drift.',
+ where:'After the printer and before the mounter.',
+ steps:[
+ 'Load the program for the board (pad data from Gerber or CAD, with the stencil thickness).',
+ 'The camera finds the fiducials. Board warp is measured and compensated.',
+ 'The sensor scans the board and calculates height, area and volume for every deposit.',
+ 'The software compares each value with limits (for example volume 70 to 130 %, offset ≤ 25 to 30 % of the pad).',
+ 'Passing boards continue. Failing boards stop or go to a review screen.',
+ 'The operator looks at the 2D and 3D picture and decides: real defect or false call.',
+ 'For real defects the board is removed, cleaned and reprinted (follow your rework rule) and the printer is checked.',
+ 'SPC charts and Cpk are watched so slow drift is caught before it becomes a defect.'],
+ params:[['Volume limit','Often 50 to 150 % (tight: 70 to 130 %)','The most important number'],['Height limit','About ±20 to 30 % of the stencil thickness','Finds thick or thin paste'],['Area limit','About 70 to 130 % of the aperture','Finds smear and clogging'],['Offset','≤ 25 to 50 % of the pad','Finds misprints'],['Bridge check','Gap between neighbouring deposits','Finds shorts early'],['Calibration','With a height standard or gauge block','Keeps measurements true']],
+ issues:[
+ ['Many false fails','Shiny or dirty pads, warped board, limits too tight, shadows','Clean the lens, check board support, tune limits with real data (never just widen limits to hide a problem)'],
+ ['Real insufficient volume','Clogged apertures, low paste','Wipe or clean the stencil, add paste'],
+ ['The same pad fails on every board','Aperture blocked or worn','Clean or replace the stencil'],
+ ['Volume slowly trending down','Paste drying, squeegee worn','Replace paste, check the squeegee'],
+ ['SPI passes but AOI finds shorts','Limits too loose, bridge test off','Review the limits and the bridge settings']],
+ checks:['Lens clean, covers closed','Calibration valid (gauge block check)','Correct program and stencil thickness entered','Review station shows both 2D and 3D images'],
+ safety:['Some SPI machines use a laser. Never look into laser light and keep covers closed.'],
+ tips:['Fix the printer, not the SPI. SPI is only the messenger.','Prove the SPI measures well with a Gauge R&R study.'],
+ defects:['insufficient','excess','bridge','pasteoffset','smear']},
+
+{id:'mounter',n:'Mounter (Pick-and-Place)',e:'🤖',grp:'smt',tag:'Places every component onto the paste',
+ analogy:'A very fast robot with vacuum tweezers. It picks tiny parts from reels and places them on the exact spot, up to tens of thousands per hour.',
+ what:'The mounter takes SMD components from feeders (tape reels, trays, tubes), picks them with vacuum nozzles, checks them with a camera and places them on the pasted pads with the right position, rotation and polarity. Fast "chip shooters" place small chips. Flexible placers place large and fine-pitch parts such as QFP, BGA and connectors.',
+ where:'After SPI and before reflow. Often 2 to 4 mounters work in series.',
+ steps:[
+ 'Load the program (placement list with X, Y, rotation and part number) and check that the BOM revision is correct.',
+ 'Set up feeders with the right reels in the right slots. Scan barcodes so the machine checks the part number against the program.',
+ 'The camera reads the board fiducials to correct board position and stretch.',
+ 'The head moves over a feeder and the nozzle lowers and picks the part with vacuum.',
+ 'An up-looking camera checks the part (size, shape, pick offset, leads). Bad parts go to the discard box.',
+ 'The head corrects angle and offset, moves to the board and presses the part gently into the paste.',
+ 'This repeats for every part. The board then moves on to the next mounter or to AOI.',
+ 'First article inspection: after a changeover, check the first board against the BOM and drawing (values, polarity, position) before running the lot.',
+ 'Replace reels before they run out. Splice carefully and scan every new reel.'],
+ params:[['Nozzle size','Matches part size and shape','Wrong nozzle causes pick errors'],['Vacuum level','Within machine specification','Weak vacuum drops parts'],['Placement height or force','Slightly into the paste, not through it','Too hard squeezes paste out or cracks parts'],['Placement accuracy','Chips about ±0.05 mm, fine pitch about ±0.03 mm (machine dependent)','Needed for small pads'],['Part data','Correct size, height and polarity mark','Wrong data causes rejects or misplacement'],['Moisture-sensitive parts','Track floor life','Prevents popcorning']],
+ issues:[
+ ['Missing parts','Worn or clogged nozzle, feeder misfeed, low vacuum','Clean or replace the nozzle, check the feeder pitch and tape, check the vacuum'],
+ ['Wrong part placed','Wrong or mixed reel loaded','Scan barcodes at setup, use a second-person check'],
+ ['Reversed polarity','Wrong rotation in the program or the library','Check the library data, do a first article check'],
+ ['Part shifted or rotated','Poor fiducial reading, board vibration, bad support','Clean fiducials, check support, recalibrate'],
+ ['Tombstone or billboarding','Part picked on its edge or the wrong nozzle','Check the pick position and the nozzle'],
+ ['Cracked or damaged part','Too much force or wrong part height data','Correct the part height, lower the force']],
+ checks:['Nozzles clean and not worn, correct nozzle for each part','Feeders clean and not bent, tape advancing properly','Vacuum in range','Program and BOM revisions match','All reels scanned and verified'],
+ safety:['Never put hands in the machine while it is running. Use the door interlocks.','Handle nozzles and reels with ESD care.'],
+ tips:['Most mounter defects begin at setup or at a reel change. Be slow and scan everything.','Dust causes most pick failures. Keep nozzles and feeders clean.'],
+ defects:['missing','wrongpart','polarity','shift','billboard','tombstone','crack']},
+
+{id:'aoi',n:'AOI (Automated Optical Inspection)',e:'👁️',grp:'smt',tag:'Cameras check parts and solder joints automatically',
+ analogy:'A tireless inspector with many cameras and coloured lights who compares every board with a "golden" example.',
+ what:'AOI takes pictures of the board with coloured light from several angles and compares them with a stored model. Pre-reflow AOI (after the mounter) checks presence, position and polarity while the paste is still wet and mistakes are easy to fix. Post-reflow AOI checks the finished solder joints (shape, bridges, lifted leads) and the parts again. AOI cannot see under parts such as BGA, so those need X-ray.',
+ where:'After the mounter (pre-reflow), after the reflow oven (post-reflow), or both.',
+ steps:[
+ 'Load the program and the part library for the board.',
+ 'The board enters. The camera finds the fiducials and corrects the position.',
+ 'The head scans the board while the lighting changes (top, side, red, green and blue rings) to show shape and colour.',
+ 'The software checks each part: presence, offset, rotation, polarity mark, printed text (OCR), colour and solder fillet shape.',
+ 'PASS boards move on. FAIL boards go to the verify station, where the operator sees the picture and confirms.',
+ 'Confirmed defects go to repair with a defect code and location. False calls are released.',
+ 'Defect data is recorded (type, location, machine, feeder) so engineers can find the cause.',
+ 'The program is tuned using the false call rate and the escape rate.'],
+ params:[['Presence or absence','Pad area contrast','Finds missing parts'],['Offset limit','Often ≤ 25 to 50 % of pad or lead width','Checks placement'],['Polarity','Marking read by OCR or colour','Finds reversed parts'],['Solder joint','Fillet shape from colour gradient','Finds insufficient solder, bridges, lifted leads'],['Lighting','Stable, covers closed','Changing light causes false calls'],['False call vs escape','Aim for few false calls and zero escapes','An escape is a defect that passed']],
+ issues:[
+ ['Too many false calls','Limits too tight, dirty lens, new supplier part with different colour','Tune the program with real data, clean the lens, update the library'],
+ ['Defects pass (escapes)','Limits too loose, shadows, missing inspection window','Add the window, check the golden board, review against the line data'],
+ ['Wrong value not detected','AOI reads colour and text, not electrical value','Rely on setup checks (BOM verification) and ICT or LCR test'],
+ ['Lifted lead reported on a QFP','Coplanarity problem or poor solder','Check under a microscope, review the mounter and the reflow']],
+ checks:['Lens and light clean, covers closed','Golden board check passes each shift','Correct program loaded','False call and escape counts reviewed'],
+ safety:['The gantry moves. Keep hands clear and use covers. Follow ESD rules.'],
+ tips:['AOI before reflow saves money. A shifted part is fixed in seconds.','Three identical fails in a row? Look upstream, not at the AOI.'],
+ defects:['missing','wrongpart','polarity','shift','tombstone','bridge','insufficient','lifted','billboard']},
+
+{id:'reflow',n:'Reflow Oven',e:'🔥',grp:'smt',tag:'Melts the paste into solder joints using a heat recipe',
+ analogy:'Like baking a cake from a recipe. Temperature over time (the profile) must be right. Too hot burns it and too cool leaves it raw.',
+ what:'The reflow oven carries the board through several heated zones on a conveyor. Hot air heats the board and parts gradually, activates the flux, melts the solder, lets it wet the pads and leads, and then cools it into strong joints. The temperature-versus-time recipe is the reflow profile. It depends on the solder paste and the most sensitive component.',
+ where:'After the mounter (or pre-reflow AOI) and before post-reflow AOI.',
+ steps:[
+ 'Select the recipe (zone temperatures and conveyor speed) for the product.',
+ 'Check that all zones have reached their set temperature, the conveyor speed and rail width are right, and the exhaust and airflow are on.',
+ 'Verify the profile with a profiler. Thermocouples are attached to the board (on cold spots and hot spots) and run through the oven. Read the curve.',
+ 'Preheat (ramp): temperature rises slowly, about 1 to 3 °C per second, so parts do not crack and solvents escape.',
+ 'Soak: about 150 to 200 °C for 60 to 120 seconds. Flux cleans oxides and big and small parts reach similar temperatures.',
+ 'Reflow (peak): the temperature passes the melting point (SAC305 melts at 217 °C) and peaks around 235 to 250 °C. Time above liquidus (TAL) is about 45 to 90 s. Solder melts, wets and pulls parts into alignment.',
+ 'Cooling: temperature falls about 2 to 4 °C per second (maximum about 6 °C/s) to freeze shiny, fine-grain joints.',
+ 'Boards leave the oven and cool before handling. Never stack hot boards.',
+ 'Keep records of profile checks (per shift or product change) and oven maintenance.'],
+ params:[['Ramp rate','≤ 3 °C/s typical','Protects parts, avoids spatter'],['Soak','150 to 200 °C for 60 to 120 s','Flux activation, equal temperature'],['Time above liquidus','About 45 to 90 s above 217 °C (SAC305)','Good wetting without damage'],['Peak temperature','About 235 to 250 °C, never above the weakest part (often 260 °C)','Melts solder'],['Cooling rate','≤ 4 to 6 °C/s','Shiny joints, fewer cracks'],['Nitrogen (optional)','Oxygen about 1000 to 3000 ppm','Better wetting, less oxidation'],['Leaded solder (Sn63/Pb37)','Melts at 183 °C, peak about 205 to 225 °C','Different profile from lead-free']],
+ issues:[
+ ['Tombstoning','One pad heats or wets earlier, unbalanced paste, fast ramp','Slow the ramp, check paste volume balance and placement'],
+ ['Solder balls','Preheat too fast (spatter), moist or old paste','Reduce the ramp rate, use fresh paste, check humidity'],
+ ['Dull or cold joints','Peak too low or TAL too short','Raise peak or TAL within limits'],
+ ['Burnt board, damaged parts','Peak too high or too long','Lower temperatures, check thermocouple placement and part limits'],
+ ['Voids under BGA or QFN','Ramp too fast, flux outgassing, paste','Longer soak, adjust the profile, consider vacuum reflow'],
+ ['Warpage or head-in-pillow','Uneven heating, thin or large board unsupported','Use board support, adjust the profile'],
+ ['Boards touch or drop off the conveyor','Wrong rail width, chain problems','Set the rails correctly and service the chain']],
+ checks:['All zones at setpoint and stable','Conveyor speed matches the recipe','Profile checked as required and kept in range','Exhaust working, flux filters clean','Nitrogen flow correct (if used)'],
+ safety:['Surfaces and exhaust are very hot. Never touch the inside while hot.','Flux fumes must be exhausted. Clean filters on schedule.','Use lock-out and tag-out before any maintenance.'],
+ tips:['One profile does not fit all boards. Heavy boards need a slower belt.','If a part changes (new supplier, bigger package) recheck the profile.','Always read the solder paste datasheet and the component limits (J-STD-020).'],
+ diagram:'reflow',defects:['tombstone','balls','cold','nonwet','voids','hip','popcorn','warp','burn','crack','bridge']},
+
+{id:'xray',n:'X-ray Inspection (2D)',e:'☢️',grp:'smt',tag:'Sees hidden solder joints under chips like BGA',
+ analogy:'Like a hospital X-ray for the board. It shows what is hidden underneath the part.',
+ what:'X-ray inspection passes X-rays through the board. Dense materials such as solder (tin, silver, lead) absorb more X-rays and look dark. Voids (air bubbles) look lighter. It is used for joints that cameras cannot see: BGA, QFN, LGA, flip chips and plated through-hole fill. A manual or offline 2D X-ray is used for first article checks, sampling and failure analysis, not for every board in a fast line.',
+ where:'An offline station near the line, or after reflow for sampling and analysis.',
+ steps:[
+ 'Safety first: cabinet closed, door interlock working, dosimeter badge if required, only trained users.',
+ 'Place the board in the tray or fixture and close the door.',
+ 'Set the voltage (kV) and current (µA) to see the joints clearly without extra exposure. Limit the exposure of sensitive devices such as memory ICs.',
+ 'Move to the BGA or QFN area and zoom in.',
+ 'View straight down and then tilted (oblique) to see joints from the side. Head-in-pillow and cracks show better at an angle.',
+ 'Check each ball: round, same size, centred on the pad, no bridge to neighbours, small voids.',
+ 'Measure void percentage: void area ÷ ball area, and compare with your standard (IPC-A-610 commonly ≤ 25 % for BGA balls).',
+ 'Save images with the board serial number, mark good or bad, and send defects to repair or failure analysis.'],
+ params:[['Voltage (kV)','Higher for thick or dense boards','More penetration, less contrast'],['Current (µA)','Higher for a brighter image','More heat and dose'],['Magnification','Closer to the source is bigger','Shows small balls'],['Tilt angle','Often up to 60° or more','Shows HiP, opens, cracks'],['Void limit','Per your spec (about 25 % of ball area for BGA)','Reliability'],['Exposure time','As short as possible','Safety and device protection']],
+ issues:[
+ ['BGA ball bridging','Too much paste or misplaced part','Review printing and placement, contain the lot'],
+ ['Open or missing ball','Coplanarity, poor wetting, head-in-pillow','Use the tilt view, check the profile and part warpage'],
+ ['High voids','Fast ramp, via-in-pad, moisture, paste','Change the profile, cap or fill vias, check paste, bake parts'],
+ ['Image too dark or too bright','Wrong kV or µA','Adjust settings and compare with a good board']],
+ checks:['Interlocks and warning lights work','Cabinet undamaged','Known-good board image saved for comparison','Radiation log or badge up to date'],
+ safety:['X-rays are ionising radiation. Never bypass interlocks. Keep the cabinet closed. Report any damage or leakage and follow your company radiation safety rules.'],
+ tips:['Always compare with a known good board.','X-ray sees metal density, not electrical function. A joint can look good and still be open, so use electrical test too.'],
+ diagram:'xray',defects:['voids','hip','bridge','nonwet']},
+
+{id:'axi',n:'AXI (Automated X-ray Inspection)',e:'🩻',grp:'smt',tag:'Inline X-ray that checks hidden joints automatically',
+ analogy:'X-ray with a robot brain. It takes images like a manual X-ray, but software decides pass or fail on every board in the line.',
+ what:'AXI is an in-line or near-line machine that moves each board through an X-ray station and inspects hidden joints automatically. 2D AXI gives a flat image and works well for single-sided boards. 3D AXI (tomosynthesis, laminography or CT) builds slices of the joint so top and bottom joints do not overlap, which double-sided boards need. It measures ball size, void percentage, bridging, opens, head-in-pillow and hole fill of through-hole joints.',
+ where:'After reflow (and sometimes after wave soldering), before test.',
+ steps:[
+ 'Build the program from CAD: positions of BGA, QFN and holes, joint types and measuring windows.',
+ 'The board enters on the conveyor, is clamped and aligned by fiducials.',
+ 'The X-ray source and detector take images at several angles at each inspection area.',
+ 'The software reconstructs slices at the solder level, like cutting the joint into layers.',
+ 'Each joint is measured: diameter, area, shape, void percentage, bridging and wetting.',
+ 'Pass or fail is decided by limits. Fails go to the verify station with images.',
+ 'Defect data goes to the MES (factory data system). Trends show reflow drift.',
+ 'Warm up the tube, calibrate regularly, and check the cabinet for radiation leakage as required.'],
+ params:[['Inspection mode','2D, 2.5D or 3D','Choose by number of board sides and layers'],['Void limit','Per spec (about 25 % for BGA balls)','Quality target'],['Bridge test','Gap analysis between balls','Finds shorts'],['Hole fill (through-hole)','Often ≥ 75 % for Class 2 and 3','Checks wave solder quality'],['Sampling or 100 %','100 % for high-risk products','Cost versus risk'],['Warm-up and calibration','Per vendor schedule','Stable images']],
+ issues:[
+ ['False fails on double-sided boards','Top and bottom joints overlap in 2D','Use 3D mode or adjust windows'],
+ ['Missed defects','Limits too loose or window in the wrong place','Review with sample boards and a microscope or cross-section'],
+ ['Image drifting over the day','Tube not warmed up or needs calibration','Warm up and calibrate'],
+ ['Cycle time too long','Too many inspection areas','Inspect only critical joints or use sampling']],
+ checks:['Warm-up and calibration done','Safety interlocks work','Programs match product revision','Failure images reviewed and recorded'],
+ safety:['Same radiation rules as manual X-ray. Never open or bypass guards. Only trained personnel do maintenance.'],
+ tips:['AOI sees the outside, AXI sees the inside. Together they cover most joints.','Use AXI data to improve the reflow profile, not only to sort good from bad.'],
+ diagram:'xray',defects:['voids','hip','bridge','nonwet','holefill']},
+
+{id:'autoins',n:'Auto Insertion',e:'🔌',grp:'tht',tag:'Machines insert through-hole parts into the holes',
+ analogy:'A robot that threads parts through the board like a needle. Leads go through the holes and the legs are bent underneath to hold the part.',
+ what:'Auto insertion machines insert through-hole (THT) components automatically: axial parts (resistors, diodes, jumpers), radial parts (electrolytic and ceramic capacitors, LEDs, transistors) and DIP ICs or odd-form parts. Parts come on tape, in tubes or sticks. The machine cuts and forms the leads, inserts them into the plated holes, cuts the lead length and bends (clinches) the legs under the board so the parts stay in place until wave soldering.',
+ where:'After the SMT line and before wave soldering or press-fit.',
+ steps:[
+ 'Load the program (X, Y, angle, part type) and the correct tapes in the correct feeder positions. Verify the part numbers.',
+ 'The board enters. The machine finds its position with fiducials or tooling pins.',
+ 'The head takes a part from the tape. For axial parts the lead span is formed to match the hole spacing.',
+ 'The part is inserted. A pin guide leads the lead tips through the holes.',
+ 'Under the board the clincher cuts the leads to length and bends them to hold the part.',
+ 'A sensor or camera checks the insertion. Missing parts stop the machine or flag the board.',
+ 'Output boards go to manual insertion (for odd-form parts) and then to wave solder or press-fit.',
+ 'At changeover check the first board for part value, polarity (diodes, electrolytic capacitors) and orientation.'],
+ params:[['Hole size','Lead diameter + about 0.3 to 0.4 mm','Too tight bends leads, too big loosens the part'],['Lead span','Matches the hole pitch','Wrong span cannot be inserted'],['Clinch angle and length','As the work instruction says','Holds the part without damaging the pad'],['Seating height','Part sits close to the board','Lifted parts cause solder defects'],['Tape condition','Flat, even, dry','Prevents misfeeds'],['Board support','Fixture under the board','Stops board flexing']],
+ issues:[
+ ['Missed insert (part missing)','Tape feed error, worn cutter, hole misalignment','Check tape, replace the cutter, check hole data and board location'],
+ ['Bent or damaged lead','Hole too small, pin guide worn, board warped','Check hole size, replace the guide, support the board'],
+ ['Reversed polarity','Wrong tape direction or program angle','Check the tape orientation and the program, do first article'],
+ ['Part lifted from the board','Lead too long or clinch too weak','Adjust the clinch and the lead cut length'],
+ ['Wrong value loaded','Wrong tape on the feeder','Scan or verify at setup, use a second-person check']],
+ checks:['Cutters and guides sharp and clean','Tapes dry and correct','Program matches product revision','First board checked for values and polarity'],
+ safety:['Cutters and clinchers are sharp and fast. Keep hands out and use guards. Follow lock-out and tag-out for maintenance.'],
+ tips:['Missing parts are easier to find before wave soldering than after.','Mark the polarity clearly on the tape holder for diodes and electrolytic capacitors.'],
+ defects:['autoin','polarity','wrongpart','holefill']},
+
+{id:'pressfit',n:'Press-fit',e:'🔩',grp:'tht',tag:'Pushes connector pins into holes without solder',
+ analogy:'Like pushing a snug cork into a bottle neck. The pin is slightly wider than the hole and squeezes into it, making a tight metal-to-metal joint.',
+ what:'Press-fit uses connectors with compliant pins (such as eye-of-needle pins) that are pressed into plated through-holes with a press machine. No solder is needed. The pin deforms elastically and the spring force against the hole wall gives a gas-tight electrical connection. It is used for backplane and automotive connectors where soldering heat would be a problem.',
+ where:'After SMT and before or after wave soldering, depending on the product routing. Always follow the routing sheet.',
+ steps:[
+ 'Check that the board holes are the right finished size and plating (hole diameter and copper thickness) according to the connector datasheet.',
+ 'Place the board on the support fixture. The support must be directly under the pressing area and not touch parts on the bottom side.',
+ 'Place the connector over the holes with the right orientation.',
+ 'The press tool lowers and pushes the connector at a controlled speed.',
+ 'The machine records force against distance (the force-displacement curve) for every connector.',
+ 'Pressing stops at the seating height. The curve is compared with an upper and lower limit envelope.',
+ 'Failed curves, wrong height or visible damage mean the board is rejected or sent for analysis.',
+ 'Measure the final connector height or standoff and inspect for bent pins.'],
+ params:[['Hole size and plating','As the connector datasheet says (finished hole size and copper thickness)','Controls insertion force and holding force'],['Insertion speed','Slow and constant (often a few mm/s)','Protects pins and plating'],['Force-displacement envelope','Upper and lower limits per connector','Detects wrong hole or damaged pin'],['Seating height','Tolerance per drawing','Connector fully seated'],['Support fixture','Matches the board','Prevents board bending and cracks'],['Alignment','Connector straight above the holes','Prevents bent pins']],
+ issues:[
+ ['Bent or buckled pins','Misaligned connector, wrong hole position or size','Check the alignment tool and the board hole data, never reuse bent pins'],
+ ['Force too high','Hole too small, plating too thick, pin out of tolerance','Check hole size with pin gauges, review the supplier data'],
+ ['Force too low (loose connector)','Hole too large, plating worn or too thin','Reject the board, check the hole size and plating'],
+ ['Connector not fully seated','Press stopped early or tooling worn','Check the seating height setting and the press tool'],
+ ['Board cracked or hole damaged','No support under the board, too much force','Support the board correctly and check the force limit']],
+ checks:['Force sensor calibrated','Tooling clean and not worn','Support fixture matches the board','Reference curve of a known good insertion is available'],
+ safety:['Press machines can crush fingers. Use two-hand controls and light curtains. Never reach under the tool.'],
+ tips:['Press-fit connectors should not be reused. Removing them damages the plating.','Keep flux and dirt away from the hole before pressing.'],
+ defects:['pfbent','pfseat','crack']},
+
+{id:'wave',n:'Wave Soldering',e:'🌊',grp:'tht',tag:'Solders through-hole parts by passing over molten solder',
+ analogy:'Like dragging the underside of the board across a gentle, steady wave of liquid solder. Solder climbs up the holes and wraps the leads.',
+ what:'In wave soldering the board is carried over a wave of molten solder. First flux is sprayed on the bottom side, then the board is preheated, then it touches the wave for a few seconds so solder flows into the holes and around the leads. It is the fast method for many through-hole joints. Pallets (fixtures) protect SMD parts on the bottom side. Selective soldering uses a small mini-wave for boards that cannot go through a full wave.',
+ where:'After auto insertion and manual insertion, before router and FAOI.',
+ steps:[
+ 'Check the solder pot level and temperature, the flux level and the conveyor speed and angle.',
+ 'Load boards (or pallets) onto the conveyor with the bottom side down. Use fingers or a pallet to hold them.',
+ 'The fluxer sprays a thin, even layer of flux on the bottom side. Flux removes oxide and helps solder flow.',
+ 'Preheat: top-side temperature rises to about 90 to 130 °C so flux activates and solvents dry. This also avoids thermal shock.',
+ 'The board passes the wave. The first turbulent wave pushes solder into holes and around leads. A smooth (lambda) wave removes excess solder and bridges.',
+ 'Contact time is about 2 to 4 seconds with the pot at about 255 to 265 °C (lead-free SAC alloys).',
+ 'The board cools and leaves. Flux residue is left on the bottom unless cleaned.',
+ 'Check the joints (hole fill, bridges), clean flux if the product needs it, trim leads if required.',
+ 'Check the solder pot chemistry regularly (copper, lead and iron contamination).'],
+ params:[['Flux amount','Thin even coat, flux solid content per datasheet','Too little causes skips and bridges, too much leaves residue'],['Top-side preheat','About 90 to 130 °C','Activates flux, prevents shock'],['Pot temperature','About 255 to 265 °C for SAC alloys, about 245 °C for tin-lead','Controls solder flow'],['Contact time','About 2 to 4 s','Fill versus damage'],['Conveyor angle','About 5 to 7°','Helps solder peel away cleanly'],['Wave height','About half to two-thirds of the board thickness','Contact and fill'],['Lead length','About 1.0 to 2.5 mm below the board','Too long causes bridges and icicles']],
+ issues:[
+ ['Bridging','Lead too long, little flux, too low preheat, dirty pot','Trim leads, adjust flux and preheat, remove dross'],
+ ['Insufficient hole fill','Low preheat, low flux, short contact, small hole to lead gap','Raise preheat, add flux, adjust speed and angle, check hole size'],
+ ['Skipped solder (bare pads)','Air or flux trapped, shadowing, wrong pallet design','Check flux, preheat and pallet design'],
+ ['Icicles and webbing','Low pot temperature, fast conveyor, contaminated pot','Raise the temperature, adjust the speed, clean or replace the solder'],
+ ['Solder balls on the board','Moist flux or board, high conveyor speed','Dry the flux and board, adjust the profile, check the pallets'],
+ ['Dull, grainy solder','Contaminated pot (copper, iron), cooling too slow','Run a pot analysis and replace the solder']],
+ checks:['Solder level and temperature in range','Dross removed, solder analysed on schedule','Flux level and spray pattern checked','Conveyor speed and angle correct','Pallets clean and undamaged'],
+ safety:['Molten solder causes severe burns. Wear heat protection and a face shield when working near the pot.','Fumes must be extracted. Never add water or damp material to the pot.'],
+ tips:['Most wave problems come from flux, preheat or contamination. Check those first.','Record a test board with a thermocouple profile regularly.'],
+ diagram:'wave',defects:['bridge','holefill','icicle','skip','balls','cold','residue']},
+
+{id:'router',n:'Router (Depaneling)',e:'✂️',grp:'end',tag:'Cuts individual boards out of the panel',
+ analogy:'Like cutting separate stamps out of a sheet. It must be clean and gentle, without tearing or cracking the stamps.',
+ what:'Many boards are made and assembled together on one panel (array) to save time. After soldering they are separated into single boards. A router machine uses a spinning milling bit to cut through the tabs (small connecting bridges) of the panel. Other methods are V-score cutting, punching, and laser. Routing is gentle, accurate and does not bend the board, but it makes dust that must be removed.',
+ where:'After SMT and wave soldering and before final inspection (FAOI) and test. Some products are routed earlier.',
+ steps:[
+ 'Check the panel number, program and fixture for this product.',
+ 'Place the panel in the fixture. Pins and supports hold it flat and stop it from moving.',
+ 'The machine reads fiducials to align the cutting path.',
+ 'The spindle (about 30,000 to 60,000 rpm) lowers a router bit and follows the programmed path through the tabs.',
+ 'A vacuum removes the dust while it is created.',
+ 'Cut boards are removed with care and placed in trays. They must not be bent or stacked in a way that causes damage.',
+ 'Check board edges for burrs, delamination, discolouration and chips. Check parts near the edge for cracks.',
+ 'Change the bit at the set interval (cut length or board count). Clean the fixture and vacuum.'],
+ params:[['Spindle speed','About 30,000 to 60,000 rpm','Clean cut, less heat'],['Feed rate','Per bit and board thickness','Too fast chips edges, too slow burns'],['Bit life','Replace by cut length or counted boards','A worn bit makes burrs and heat'],['Vacuum power','Strong enough to remove dust','Dust shorts and contaminates'],['Edge clearance','Parts kept away from the board edge by design','Prevents stress cracks'],['Fixture support','Supports the panel near the cut','Reduces vibration and bending']],
+ issues:[
+ ['Burrs or delamination at the edge','Worn bit, wrong feed or speed','Replace the bit, adjust the feed and speed'],
+ ['Cracked capacitor near the edge','Board bending or vibration during cutting','Improve the support, check the cutting order, run a strain gauge test'],
+ ['Dust on the boards','Weak vacuum, dirty fixture','Clean the vacuum and the fixture, add an air blow or clean step'],
+ ['Cut off path or wrong outline','Fiducial error or wrong program','Check the program, the fiducials and the panel type'],
+ ['Bit breaks','Panel not held, too fast feed','Check the fixture, lower the feed, replace the bit']],
+ checks:['Bit not worn, correct size','Vacuum filter clean','Fixture correct for the panel','First board edge checked','Dust container emptied'],
+ safety:['The spindle is fast and sharp. Keep doors closed. Wear eye protection and use dust extraction. Dust from fibreglass is an irritant.'],
+ tips:['Never break panels by hand. Bending causes hidden cracks in ceramic capacitors that appear later in the field.','Dust is a contamination risk. Clean it before test and packing.'],
+ defects:['routerdust','edgestress','residue']},
+
+{id:'faoi',n:'FAOI (Final AOI)',e:'✅',grp:'end',tag:'The last visual check of the finished board',
+ analogy:'The final quality check at a bakery before the box is closed. It makes sure that what leaves the line matches the drawing.',
+ what:'FAOI (Final Automated Optical Inspection) checks the finished board after all assembly steps (SMT, through-hole, wave soldering or press-fit, and depaneling). It looks at what the earlier inspections cannot see or what changed afterwards: through-hole parts (presence, orientation, height), wave-solder joints, connectors and pin alignment, labels and barcodes, mechanical damage, foreign material and burrs from routing. Taller parts need side cameras or 3D height sensors.',
+ where:'At the end of the line, after router and before electrical test or packing.',
+ steps:[
+ 'Load the program for the product and revision.',
+ 'The board enters and is aligned by fiducials or fixture pins.',
+ 'Cameras and lights capture images of the top (and bottom side if needed) from several angles.',
+ 'The software checks through-hole parts, connectors, markings, labels, barcodes and solder joints against the model.',
+ 'The result goes to the traceability system. PASS boards continue to test or packing.',
+ 'FAIL boards go to the verify station where an operator confirms the defect and decides repair or scrap.',
+ 'Repaired boards must be re-inspected, not simply passed on.',
+ 'Defects are classified and reviewed so upstream stations can be corrected.'],
+ params:[['Inspection windows','Cover through-hole joints, connectors, labels','Do not leave blind spots'],['Height check','3D or side camera for tall parts','Finds lifted parts and bent pins'],['Barcode and label check','Read and match to the work order','Prevents wrong labels shipping'],['Limits','Based on IPC-A-610 and customer rules','Same standard as the customer'],['False calls and escapes','Tracked daily','Program quality'],['Traceability','Serial number linked to results','Recall and analysis']],
+ issues:[
+ ['Many false calls on solder joints','Flux residue or colour differences','Tune the program, clean the board, control flux'],
+ ['Escapes found at test','Missing windows or limits too loose','Add windows, review with the customer return data'],
+ ['Bent connector pins missed','Only top-down view','Add a side or 3D height check'],
+ ['Wrong label not caught','Label check missing','Add barcode and label matching to the program']],
+ checks:['Golden board passes at the start of each shift','Program revision matches the product','Verify station display clear and lit','Repair loop closed (re-inspect after repair)'],
+ safety:['Keep hands out of the moving gantry. Follow ESD rules when handling finished boards.'],
+ tips:['FAOI is a net, not a fix. Use its defect data to find the cause upstream.','Never release a repaired board without a second inspection.'],
+ defects:['bridge','holefill','icicle','pfbent','pfseat','routerdust','edgestress','residue','autoin','polarity']}
+];
+var GROUPS={smt:{n:'SMT line',d:'Surface-mount process, in line order',e:'🧩'},tht:{n:'Through-hole & press-fit',d:'Parts with leads and connectors',e:'🔌'},end:{n:'Finishing & final check',d:'Separate the boards and inspect them',e:'🏁'}};
+
+var DEFECTS=[
+{id:'bridge',n:'Solder bridge (short)',e:'🔗',grp:'smt',sev:3,from:['printer','mounter','reflow','wave'],find:['spi','aoi','xray','axi','faoi'],
+ look:'Solder connects two or more pads or leads that must stay separate. It makes a short circuit. Common on fine-pitch ICs, connectors and wave-soldered pins.',
+ causes:[['Material','Paste slumps or the wrong paste is used'],['Method','Stencil apertures too large, too much paste volume'],['Machine','Smear under the stencil, misprint, mounter pressing paste out'],['Machine','Reflow ramp too fast; wave: lead too long, low flux or preheat, dirty pot'],['Environment','High humidity or heat']],
+ analyze:['Note where it happens: always the same location, or random?','Check SPI data for that pad (volume, offset, bridge flag).','Check AOI placement offset and the print image.','For wave soldering check lead length, flux, preheat and solder condition.','Compare with a good board and a good lot.'],
+ fix:['Clean the stencil and increase wipe frequency.','Reduce paste volume (aperture reduction or thinner stencil) if the design allows.','Lower placement force and correct offsets.','Adjust the reflow profile.','Wave: trim leads, adjust flux and preheat, remove dross.','Rework: remove the bridge with a clean iron and flux or wick.'],
+ prevent:['Turn on the SPI bridge check and set limits from data.','Set a wipe schedule and check it each shift.','Review stencil design for fine-pitch parts.','Control lead length and wave chemistry.'],
+ contain:['Stop and quarantine the boards made since the last good check.','Inspect 100 % of WIP and finished goods from that period (AOI, X-ray, ICT).','Label and record lot, time, line and quantity.','Release the line only after 3 consecutive good boards and a confirmed fix.'],diagram:'bridge'},
+
+{id:'insufficient',n:'Insufficient solder',e:'💧',grp:'smt',sev:2,from:['printer','reflow'],find:['spi','aoi','xray'],
+ look:'Too little solder on the joint. The fillet is small or the part sits on a thin layer. The joint may break under stress or vibration.',
+ causes:[['Machine','Clogged stencil apertures, low squeegee pressure, worn squeegee'],['Material','Dry or old paste, wrong particle size'],['Method','Aperture too small, wipe too rare'],['Machine','Nozzle placed the part too high (paste not touching)'],['Environment','Low humidity drying the paste']],
+ analyze:['Compare SPI volume for the pad against the limit.','Check if it is the same pad every board (clog) or random (process).','Look at the stencil under light for blocked apertures.','Check paste age and open time.'],
+ fix:['Clean the stencil, wipe more often, use fresh paste.','Adjust pressure and speed to fill apertures.','Correct the stencil design if the pad is always low.','Rework by adding solder wire or paste.'],
+ prevent:['SPI volume limits and SPC charts.','Paste life tracking on the stencil.','Stencil cleaning schedule and inspection.'],
+ contain:['Quarantine boards printed since the last good SPI result.','Re-inspect (AOI or X-ray for hidden joints).','Add the extra inspection until the cause is fixed.'],diagram:'insufficient'},
+
+{id:'excess',n:'Excess solder',e:'🫧',grp:'smt',sev:2,from:['printer','reflow'],find:['spi','aoi'],
+ look:'Too much solder forms a ball or bulge. It can hide the lead shape and may cause bridges.',
+ causes:[['Method','Aperture too large or stencil too thick'],['Machine','Squeegee pressure too low leaving thick paste, or stencil-board gap'],['Material','Paste with wrong viscosity']],
+ analyze:['Check SPI height and volume trends.','Check the stencil thickness and revision.','Look at the print separation and the gap.'],
+ fix:['Adjust pressure and separation.','Replace the stencil with the right thickness.','Rework by removing the excess solder.'],
+ prevent:['Stencil identification and revision control.','SPI upper limits.'],
+ contain:['Quarantine boards from the suspect period.','100 % AOI or visual check for bridging.'],diagram:null},
+
+{id:'smear',n:'Paste smear / clogged stencil',e:'🖍️',grp:'smt',sev:2,from:['printer'],find:['spi','aoi'],
+ look:'Paste is smeared between pads or around the aperture edges. Some apertures print less because they are clogged with dried paste.',
+ causes:[['Method','Underside wipe too seldom'],['Machine','Board not supported flat, gap under the stencil'],['Material','Old or dried paste, wrong paste for the aperture size'],['Environment','Low humidity or too much airflow over the stencil']],
+ analyze:['Check wipe frequency.','Check the support pins under the board.','Check paste condition and age.','Look at the underside of the stencil.'],
+ fix:['Wipe, clean the stencil, add fresh paste.','Reset the board support.','Increase wipe frequency.'],
+ prevent:['Wipe schedule per product.','Control room humidity and fan airflow.'],
+ contain:['Stop printing, quarantine boards since the last good print.','Wash and reprint boards if the rework rule allows.'],diagram:null},
+
+{id:'slump',n:'Paste slump',e:'🫠',grp:'smt',sev:2,from:['printer','reflow'],find:['spi','aoi'],
+ look:'Printed paste spreads out and loses its shape before or during preheat. It can bridge fine-pitch pads.',
+ causes:[['Environment','High temperature or humidity'],['Material','Wrong paste or paste kept out too long'],['Method','Preheat ramp too fast or too long before melting']],
+ analyze:['Compare the print image right after printing with the image later.','Check the room and the paste time.'],
+ fix:['Control the room, use fresh paste.','Adjust the preheat.'],
+ prevent:['Paste open time tracking.','Environment limits on the line.'],
+ contain:['Check boards that waited a long time between print and reflow.'],diagram:null},
+
+{id:'pasteoffset',n:'Misprint (paste offset)',e:'↔️',grp:'smt',sev:2,from:['printer'],find:['spi'],
+ look:'Paste is shifted from the pad. Part of the paste lands on the solder mask, so the joint will be weak or the paste may bridge.',
+ causes:[['Machine','Fiducials not recognised or calibration drift'],['Material','Wrong stencil revision, board dimension difference'],['Method','Board not clamped properly']],
+ analyze:['Check offsets on the SPI for X and Y directions.','Check if all pads shift in the same direction (alignment) or different (stencil or board stretch).'],
+ fix:['Clean fiducials and recalibrate.','Use the right stencil.','Adjust clamping and support.'],
+ prevent:['Closed-loop feedback from SPI to the printer.'],
+ contain:['Stop the line and quarantine bad prints.','Reprint after cleaning, per rework rule.'],diagram:null},
+
+{id:'balls',n:'Solder balls and beads',e:'⚪',grp:'smt',sev:2,from:['printer','reflow','wave'],find:['aoi','faoi'],
+ look:'Small balls of solder sit near the joints or beside chip parts (mid-chip beads). They can move later and cause shorts.',
+ causes:[['Machine','Preheat ramp too fast (paste spatter)'],['Material','Moist paste or board, old paste'],['Method','Aperture design causes squeeze-out under chips, placement force too high'],['Machine','Wave: moisture in flux, high conveyor speed']],
+ analyze:['Where are the balls? Beside chip components (stencil design), everywhere (profile or moisture)?','Check the profile ramp rate.','Check paste storage and age.'],
+ fix:['Reduce the ramp rate.','Use fresh, dry paste and dry boards.','Change the aperture shape (home-plate or U-shape) for chip parts.','Clean the balls from the board.'],
+ prevent:['Paste handling rules (fridge, warm-up, open time).','Profile check.'],
+ contain:['Isolate boards and inspect for loose balls (they can cause intermittent shorts).','Add a cleaning step if the balls are loose.'],diagram:'balls'},
+
+{id:'tombstone',n:'Tombstoning',e:'🪦',grp:'smt',sev:2,from:['mounter','reflow'],find:['aoi'],
+ look:'A small chip (resistor or capacitor) stands up on one end like a tombstone. One joint is soldered, the other is open.',
+ causes:[['Machine','Reflow: one pad melts and wets before the other, heating too fast'],['Method','Unequal pad size, paste volume or pad thermal mass'],['Machine','Placement shift or the part pressed unevenly into the paste'],['Material','Part end terminals with different solderability']],
+ analyze:['Does it occur on the same part location? (design) or random? (process)','Check SPI volumes on both pads.','Check placement offset in AOI before reflow.','Review the profile (ramp rate, soak).'],
+ fix:['Slow the ramp or lengthen the soak to equalise temperature.','Balance paste volume and placement.','Fix the pad design if the problem is design-related.','Rework: reheat and reposition.'],
+ prevent:['Pre-reflow AOI.','Check pad design rules with the design team.'],
+ contain:['Quarantine boards from the reflow run.','100 % inspect the small chip locations.'],diagram:'tombstone'},
+
+{id:'shift',n:'Component shift or skew',e:'📐',grp:'smt',sev:2,from:['mounter','reflow'],find:['aoi'],
+ look:'The part sits off the pad centre or at a slight angle. Small shifts self-correct in reflow, but big shifts cause open or bridged joints.',
+ causes:[['Machine','Fiducial error, nozzle or feeder pick offset, vibration'],['Material','Part tape pocket too large'],['Method','Wrong part data'],['Machine','Board moving in the conveyor to the oven']],
+ analyze:['Check the AOI offset values and direction.','Check if it is one nozzle, one feeder or all parts.','Check how the board is handled from mounter to reflow.'],
+ fix:['Recalibrate the mounter and clean fiducials.','Replace worn nozzle, correct part data.','Reduce vibration on the conveyor.'],
+ prevent:['Regular calibration, nozzle maintenance.'],
+ contain:['Check all boards from the suspected period at AOI.'],diagram:null},
+
+{id:'missing',n:'Missing component',e:'🕳️',grp:'smt',sev:3,from:['mounter','reflow'],find:['aoi','faoi'],
+ look:'There is no part where the BOM says there should be one. Only residual paste or empty pads remain.',
+ causes:[['Machine','Pick failure, worn nozzle, low vacuum, part dropped'],['Machine','Part knocked off before reflow'],['Material','Reel empty or feeder misfeed'],['Method','Part not in the program']],
+ analyze:['Check the mounter error log for that part.','Check which feeder and nozzle.','Look at the board with the AOI image before and after reflow.'],
+ fix:['Clean or replace the nozzle, check the vacuum.','Check the feeder and the tape.','Hand place the part for rework.'],
+ prevent:['Pre-reflow AOI, nozzle checks.'],
+ contain:['Quarantine and check all boards from the same reel and shift.'],diagram:null},
+
+{id:'wrongpart',n:'Wrong component or value',e:'❓',grp:'smt',sev:3,from:['mounter','autoins'],find:['aoi','ict','faoi'],
+ look:'A part with the wrong value or type is placed, but it looks the same or similar. Often not obvious to the eye.',
+ causes:[['Man','Wrong reel loaded, mixed reels'],['Material','Mislabelled reel from the supplier'],['Method','Setup verification missing'],['Method','Wrong BOM revision']],
+ analyze:['Check the reel record and who loaded it.','Check the BOM and program revision.','Measure the part value on a sample.'],
+ fix:['Replace the wrong parts.','Fix the setup verification.'],
+ prevent:['Barcode verification, second-person check, first article inspection.'],
+ contain:['Trace by lot and reel to identify every board with that reel.','Quarantine and re-check or scrap.','Check finished and shipped goods if the part could have left the factory.'],diagram:null},
+
+{id:'polarity',n:'Reversed polarity',e:'🔁',grp:'smt',sev:3,from:['mounter','autoins'],find:['aoi','faoi','ict'],
+ look:'A diode, LED, IC or electrolytic capacitor is placed in the wrong direction. Functional failure or damage can follow.',
+ causes:[['Man','Reel loaded wrong direction'],['Method','Library or program angle wrong'],['Material','Different marking from a new supplier']],
+ analyze:['Check which part reference and which board.','Check the mounter program and library.','Compare the marking with the drawing.'],
+ fix:['Correct the program or the reel direction.','Rework the part.'],
+ prevent:['First article inspection, AOI polarity check (OCR).'],
+ contain:['Quarantine the boards from the same job.','100 % check on the affected part.'],diagram:null},
+
+{id:'billboard',n:'Billboarding / part on its side',e:'📺',grp:'smt',sev:2,from:['mounter'],find:['aoi'],
+ look:'A chip part is placed on its side so the marking faces sideways. The joint may be small or open.',
+ causes:[['Machine','Pick on the edge, wrong nozzle, tape pocket tilt'],['Material','Tape too loose']],
+ analyze:['Check which feeder and nozzle are involved.','Check the pick position.'],
+ fix:['Adjust the pick position, replace the nozzle, check the tape.'],
+ prevent:['Feeder maintenance and nozzle selection rules.'],
+ contain:['Check all boards from that feeder.'],diagram:null},
+
+{id:'nonwet',n:'Non-wetting / dewetting (open joint)',e:'🚫',grp:'smt',sev:3,from:['reflow','wave','mounter'],find:['aoi','xray','faoi'],
+ look:'Solder does not spread over the pad or lead. It beads up or pulls back and leaves bare metal. The joint is open or weak.',
+ causes:[['Material','Oxidised leads or pads, poor storage, old parts'],['Material','Contaminated surfaces (fingerprints, oil)'],['Machine','Profile too cold or too short; low flux activity'],['Environment','High humidity during storage']],
+ analyze:['Is it one part type or all? (parts) or one area of the board? (profile)','Check lot date codes and storage.','Check the profile versus the paste datasheet.','Use X-ray for hidden joints.'],
+ fix:['Use fresh parts and boards within shelf life.','Adjust the profile.','Clean surfaces; improve handling.'],
+ prevent:['FIFO stock, proper storage, gloves, incoming inspection for solderability.'],
+ contain:['Quarantine the lot and the boards using it.','Test solderability on a sample.'],diagram:null},
+
+{id:'cold',n:'Cold or dull solder joint',e:'🧊',grp:'smt',sev:2,from:['reflow','wave'],find:['aoi','faoi'],
+ look:'The joint looks grainy, dull or rough instead of smooth and shiny. It has poor strength and can fail later.',
+ causes:[['Machine','Peak temperature too low or too short above liquidus'],['Machine','Wave: pot too cold or contaminated solder'],['Method','Movement while cooling'],['Material','Contamination in the solder (copper, iron)']],
+ analyze:['Check the profile data and the pot temperature.','Check the pot analysis report.'],
+ fix:['Raise the temperature or contact time within limits.','Replace contaminated solder.','Rework the joint.'],
+ prevent:['Daily profile check, solder analysis schedule.'],
+ contain:['Quarantine the boards made with the faulty setting and inspect all joints.'],diagram:null},
+
+{id:'hip',n:'Head-in-pillow (HiP)',e:'🛏️',grp:'smt',sev:3,from:['reflow','mounter'],find:['xray','axi'],
+ look:'A BGA ball sits on the paste without merging into one joint (like a head resting on a pillow). It looks fine from the top, but the joint is weak and may fail later.',
+ causes:[['Machine','Part or board warps during reflow, lifting the ball from the paste'],['Material','Oxidised ball or paste, old paste'],['Machine','Too low peak or short time above liquidus; slow heat-up gives oxidation'],['Method','Paste volume too low']],
+ analyze:['Tilt the X-ray view or use 3D AXI.','Check warpage of the part and board in the oven (shadow moiré).','Check profile and paste age.'],
+ fix:['Optimise the profile (shorter soak, correct TAL).','Use nitrogen or better flux, fresh paste.','Increase paste volume for BGA pads.','Replace the BGA.'],
+ prevent:['AXI with 3D mode, warpage control, MSL handling.'],
+ contain:['Because it passes visual and some electrical tests, quarantine the whole lot.','X-ray sample or 100 % depending on risk.'],diagram:'hip'},
+
+{id:'voids',n:'Voids in solder joints',e:'🫥',grp:'smt',sev:2,from:['reflow','printer'],find:['xray','axi'],
+ look:'Gas bubbles trapped inside the solder joint. A few small voids are normal. Large voids reduce strength and heat transfer, especially under QFN and power parts.',
+ causes:[['Machine','Ramp too fast so flux gases are trapped'],['Material','Moisture, paste type, via-in-pad that wicks solder'],['Method','Pad design and aperture, no soak time']],
+ analyze:['Measure void percentage on X-ray.','Check which component and pad type.','Check profile and paste.'],
+ fix:['Longer soak and slower ramp.','Cap or fill vias, change aperture shape (window pane) for big pads.','Use vacuum reflow for critical parts.'],
+ prevent:['Use AXI void limit and SPC, e.g. ≤ 25 % for BGA balls (check your standard).'],
+ contain:['Check the void rate trend. If out of limit, quarantine and sample by X-ray.'],diagram:'voids'},
+
+{id:'lifted',n:'Lifted lead / coplanarity',e:'🦵',grp:'smt',sev:2,from:['mounter','reflow'],find:['aoi','xray'],
+ look:'One lead of a QFP, SOIC or connector is raised and does not touch the paste or the pad. It creates an open joint.',
+ causes:[['Material','Bent leads from handling or tray damage'],['Machine','Part warps in the oven'],['Machine','Placement height too high'],['Method','Poor paste volume']],
+ analyze:['Check the part under a microscope.','Check part trays and handling.','Check placement height data.'],
+ fix:['Replace damaged parts, correct the handling.','Adjust the placement height.'],
+ prevent:['Careful tray handling, incoming inspection for coplanarity.'],
+ contain:['Quarantine the lot of parts; check all boards with the part.'],diagram:null},
+
+{id:'crack',n:'Cracked component (MLCC / flex crack)',e:'💥',grp:'smt',sev:3,from:['mounter','reflow','router','pressfit'],find:['aoi','ict'],
+ look:'A ceramic capacitor or other part has a crack. It can look fine, fail only after some time and cause short circuits or heat.',
+ causes:[['Machine','Board bending in depaneling, press-fit, screwing or test fixtures'],['Machine','Mounter force too high'],['Machine','Fast cooling or thermal shock'],['Method','Parts too close to the board edge or press points']],
+ analyze:['Is the crack location near edges, screws or press points? (stress)','Use strain gauge tests on the process.','Cross-section a sample.'],
+ fix:['Reduce stress: support the board, change the cutting order, reduce force.','Use flex-resistant capacitors for critical designs.'],
+ prevent:['Strain gauge tests for each handling step.'],
+ contain:['Isolate all boards from the affected process.','Electrical and visual check; consider a stress test sample.'],diagram:null},
+
+{id:'popcorn',n:'Popcorning (moisture damage)',e:'🍿',grp:'smt',sev:3,from:['reflow'],find:['xray','aoi'],
+ look:'Moisture inside a plastic IC package turns to steam in the oven and cracks or blisters the package, sometimes with a popping sound.',
+ causes:[['Material','Moisture-sensitive (MSL) parts left out too long'],['Method','Wrong storage and no baking after floor life expiry']],
+ analyze:['Check the MSL level and the floor-life log for the part.','Check storage and the humidity indicator card.'],
+ fix:['Bake the parts as the standard says (J-STD-033).','Replace damaged parts.'],
+ prevent:['MSL tracking system, dry cabinets, sealed bags.'],
+ contain:['Quarantine all parts exceeding floor life and all boards using them.'],diagram:null},
+
+{id:'warp',n:'Board warpage',e:'🌀',grp:'smt',sev:2,from:['reflow','loader'],find:['aoi','xray'],
+ look:'The board bends or twists, causing opens, head-in-pillow and printing problems.',
+ causes:[['Material','Thin board or poor copper balance, moisture'],['Machine','Reflow without support, high temperature'],['Method','Uneven part weight']],
+ analyze:['Measure warpage (bow and twist) cold and hot.','Check the support in the oven.'],
+ fix:['Use a support or pallet in reflow.','Adjust the profile and bake boards.'],
+ prevent:['Incoming board checks, proper support.'],
+ contain:['Quarantine boards over the limit.'],diagram:null},
+
+{id:'burn',n:'Burn or discolouration',e:'🔥',grp:'smt',sev:2,from:['reflow','wave'],find:['aoi','faoi'],
+ look:'The board or part has brown or burned areas. The materials may be damaged.',
+ causes:[['Machine','Peak too high or time too long'],['Machine','Hot air nozzle or rework iron'],['Method','Wrong thermocouple placement']],
+ analyze:['Check the profile at the hottest area.','Check part limits.'],
+ fix:['Lower the temperature or time.','Correct the thermocouple positions.'],
+ prevent:['Profile limits tied to the weakest part.'],
+ contain:['Quarantine and check for reliability concerns.'],diagram:null},
+
+{id:'holefill',n:'Insufficient hole fill (through-hole)',e:'🕳️',grp:'tht',sev:3,from:['wave','autoins'],find:['faoi','axi','xray'],
+ look:'Solder does not fill the plated hole high enough. The common minimum is about 75 % vertical fill for Class 2 and 3 (check your standard and customer).',
+ causes:[['Machine','Preheat too low or flux too little'],['Machine','Contact time too short, wave too low'],['Method','Hole-to-lead gap too small or too big'],['Material','Poor solderability of hole or lead']],
+ analyze:['Check flux spray and preheat.','Check contact time and wave height.','Check the hole and lead sizes.','Use X-ray or cross-section.'],
+ fix:['Increase flux and preheat.','Adjust the speed, wave height and angle.','Review hole size with design.'],
+ prevent:['Wave profile checks and AXI hole fill.'],
+ contain:['Quarantine boards since the last good check and inspect hole fill 100 % until fixed.'],diagram:null},
+
+{id:'icicle',n:'Icicles and webbing',e:'🧊',grp:'tht',sev:2,from:['wave'],find:['faoi'],
+ look:'Pointed solder spikes (icicles) or thin webs of solder on the bottom side. They can cause shorts.',
+ causes:[['Machine','Pot too cold, conveyor too fast, peel-back angle wrong'],['Material','Contaminated solder'],['Method','Leads too long']],
+ analyze:['Check the pot temperature, angle and speed.','Check lead length.'],
+ fix:['Adjust parameters, remove dross, replace solder.'],
+ prevent:['Pot analysis, lead trimming, correct angle.'],
+ contain:['Check boards since the last good run.'],diagram:null},
+
+{id:'skip',n:'Skipped solder (bare pad)',e:'⏭️',grp:'tht',sev:2,from:['wave'],find:['faoi'],
+ look:'Some pads or leads are not wetted by solder. The area looks clean but unsoldered.',
+ causes:[['Machine','Air or gas bubble stopped solder, shadowing by tall parts'],['Method','Pallet design shadows the area'],['Material','Flux did not reach the area']],
+ analyze:['Check the location pattern.','Check the pallet and the flux pattern.'],
+ fix:['Change the pallet design, adjust the flux spray, wave height and angle.'],
+ prevent:['Review design for solder thieves and pallet shadows.'],
+ contain:['Check the boards after the same pallet.'],diagram:null},
+
+{id:'autoin',n:'Auto-insertion error (missed / bent lead)',e:'🔌',grp:'tht',sev:2,from:['autoins'],find:['faoi','ict'],
+ look:'A through-hole part is missing, bent, lifted or not inserted completely.',
+ causes:[['Machine','Hole misalignment, worn guides or cutters'],['Material','Part leads out of tolerance, hole too small'],['Material','Tape problems']],
+ analyze:['Check the machine error log.','Check which head or feeder.','Check the hole sizes on the PCB.'],
+ fix:['Replace worn tooling, adjust positions, correct the tape.'],
+ prevent:['Maintenance schedule for cutters and guides.'],
+ contain:['Inspect boards from the same machine and shift before wave soldering.'],diagram:null},
+
+{id:'pfbent',n:'Press-fit bent or buckled pins',e:'📎',grp:'tht',sev:3,from:['pressfit'],find:['faoi'],
+ look:'One or more pins of a press-fit connector are bent or buckled. The connector may not seat and the pins may touch each other.',
+ causes:[['Machine','Misalignment of connector to holes'],['Material','Hole too small or pin out of tolerance'],['Method','Wrong support or press tool']],
+ analyze:['Check the force curve.','Check the hole sizes and the position.'],
+ fix:['Fix the alignment and tools. Do not reuse bent pins.'],
+ prevent:['Curve monitoring and incoming hole checks.'],
+ contain:['Quarantine boards with abnormal curves.'],diagram:null},
+
+{id:'pfseat',n:'Press-fit not seated / hole damage',e:'⬇️',grp:'tht',sev:3,from:['pressfit'],find:['faoi'],
+ look:'The connector does not sit flush to the board or the plated hole wall is damaged. It gives poor contact or opens later.',
+ causes:[['Material','Hole size or plating out of tolerance'],['Machine','Press stopped early, force too high or too low'],['Method','Repeated pressing of the same holes']],
+ analyze:['Check force and seating height.','Cross-section a sample.'],
+ fix:['Reject the board, correct the hole data and press settings.'],
+ prevent:['Check hole size with pin gauges, tool maintenance.'],
+ contain:['Quarantine suspect boards; check supplier PCB lot.'],diagram:null},
+
+{id:'routerdust',n:'Router burrs, delamination and dust',e:'🌫️',grp:'end',sev:2,from:['router'],find:['faoi'],
+ look:'Rough edges, layers separating at the edge, and fine fibreglass dust on the board. Dust can cause shorts and contamination.',
+ causes:[['Machine','Worn bit, wrong feed or speed, weak vacuum'],['Method','Poor fixture support']],
+ analyze:['Check the bit life.','Check vacuum and dust on the fixture.'],
+ fix:['Replace the bit, adjust the settings, clean the machine, add an air-blow or clean step.'],
+ prevent:['Bit change by count or cut length, daily cleaning.'],
+ contain:['Isolate boards and clean dust before test.'],diagram:null},
+
+{id:'edgestress',n:'Stress damage near the panel edge',e:'📉',grp:'end',sev:3,from:['router'],find:['ict','faoi'],
+ look:'Parts near the edge crack or solder joints break because the board flexed during cutting.',
+ causes:[['Machine','Board bends or vibrates during cutting'],['Method','Cutting order or fixture not supporting the panel'],['Method','Parts too close to the edge']],
+ analyze:['Strain gauge testing of the process.','Cross-section a failing capacitor.'],
+ fix:['Support the board, change the cutting sequence, move parts if the design allows.'],
+ prevent:['Strain limits as a release check for each new product.'],
+ contain:['Quarantine the boards cut by the affected process.'],diagram:null},
+
+{id:'residue',n:'Flux residue and ionic contamination',e:'🧪',grp:'cont',sev:2,from:['printer','reflow','wave','router'],find:['faoi','ict'],
+ look:'Sticky or white residue left after soldering. Ionic contamination, which is not visible, can cause leakage, corrosion and dendrite growth when moisture is present.',
+ causes:[['Material','Flux too active or too much flux'],['Machine','Profile too cold, flux not fully cured'],['Method','No cleaning when the product requires it'],['Environment','Dirty handling, fingerprints']],
+ analyze:['Visual check under magnification.','Ionic contamination test (ROSE) or ion chromatography.','Surface insulation resistance (SIR) test for critical products.'],
+ fix:['Clean with an approved process (ultrasonic, spray or aqueous wash).','Adjust flux amount and profile.','Wear gloves and use clean tools.'],
+ prevent:['Cleanliness tests on a schedule.','Control flux amount in the wave.','Use approved cleaning processes and materials.'],
+ contain:['Quarantine suspect boards.','Clean or rework by the approved process.','Re-test cleanliness and record the result.'],diagram:null},
+
+{id:'fod',n:'Foreign material, dust and fingerprints',e:'🧤',grp:'cont',sev:2,from:['loader','printer','router'],find:['faoi','spi','aoi'],
+ look:'Hairs, dust, fibres, solder dross or oil on the board or parts. It can block pads, spoil printing and cause shorts.',
+ causes:[['Man','Handling without gloves, food or drink at the line'],['Environment','Dust, open boxes, dirty floors'],['Machine','Lint from wipers, router dust']],
+ analyze:['Identify the foreign material (under microscope) and where it comes from.','Check cleaning logs and clean room discipline.'],
+ fix:['Clean the board with approved methods and fix the source.'],
+ prevent:['Gloves, covers, cleaning schedules (5S), sticky mats.'],
+ contain:['Quarantine boards, check the area, clean the line.'],diagram:null},
+
+{id:'esd',n:'ESD damage',e:'⚡',grp:'cont',sev:3,from:['loader','mounter','autoins','faoi'],find:['ict'],
+ look:'Static discharge damages sensitive parts. The part may fail immediately or later in the field (latent damage), so it is very hard to see.',
+ causes:[['Man','No wrist strap or broken strap, wrong clothing'],['Environment','Low humidity, non-ESD materials (plastic bags, packaging)'],['Machine','Ungrounded tools or fixtures']],
+ analyze:['Check the ESD audit and daily tests.','Review which parts failed and where they were handled.'],
+ fix:['Replace damaged parts, correct the ESD system.'],
+ prevent:['Test wrist straps daily, use ESD-safe packaging, grounded benches, ionisers, humidity control.'],
+ contain:['Isolate the batch and test; ESD-affected parts may need scrapping.'],diagram:null}
+];
+var DEF_ST={printer:'Printer',spi:'SPI',mounter:'Mounter',aoi:'AOI',reflow:'Reflow',xray:'X-ray',axi:'AXI',wave:'Wave solder',autoins:'Auto insertion',pressfit:'Press-fit',router:'Router',faoi:'FAOI',loader:'Loader',ict:'ICT/test'};
+var SEVN=['','Minor','Major','Critical'];
+
+/* ---------- failure analysis + contamination guides ---------- */
+var GUIDE_FA=[
+{t:'The 8 steps (8D-lite)',e:'🧭',body:[
+ ['p','Use this order every time a problem appears. It keeps you calm and stops you jumping to the wrong cause.'],
+ ['ol',['<b>Describe the problem</b> clearly: what, where, how many, since when, which product and line. Use numbers and photos.','<b>Contain it</b> straight away so bad boards do not move on (see the containment checklist).','<b>Collect facts</b>: SPI, AOI, X-ray data, machine logs, material lots, who and what changed.','<b>Find the root cause</b> with 5 Whys, a fishbone chart (6M) and by comparing good with bad.','<b>Corrective action</b>: fix the cause, not only the symptom.','<b>Check it works</b>: run a trial and confirm the defect rate drops.','<b>Preventive action</b>: update the procedure, setup sheet, program and training so it cannot come back.','<b>Close and record</b>: write a short report and share lessons with the other lines.']]]},
+{t:'Analysis tools for beginners',e:'🧰',body:[
+ ['ul',['<b>5 Whys</b>: ask "why?" repeatedly until you reach a cause you can control.','<b>Fishbone (6M)</b>: look for causes in Man, Machine, Material, Method, Measurement and Environment.','<b>Is / Is-not</b>: where does it happen and where does it not happen (which board, side, time, line)?','<b>What changed?</b> New paste lot, new reel, new stencil, new program, new shift, maintenance? Most problems follow a change.','<b>Good vs bad</b>: compare the profile, parameters, parts and photos of a good board and a bad board.','<b>Pareto chart</b>: count defect types and fix the biggest one first.','<b>Lab methods</b>: microscope, X-ray, cross-section and SEM for hard cases.']]]},
+{t:'Corrective, preventive and containment actions',e:'⚖️',body:[
+ ['ul',['<b>Containment action</b>: protects the customer now. Stops, isolates, sorts and re-inspects suspect product. It does not fix the cause.','<b>Corrective action</b>: removes the root cause of the problem that happened.','<b>Preventive action</b>: stops similar problems from happening on other products or lines.','<b>Correction (rework)</b>: repairs the individual defective board.']],
+ ['p','Example: tombstones found. Containment = hold boards and 100 % inspect. Correction = rework the tombstoned parts. Corrective = slow the reflow ramp. Preventive = change the pad design rule for all new boards.']]},
+{t:'Containment checklist',e:'🚧',body:[
+ ['ol',['Stop the line or the affected machine if the defect is serious or repeating.','Put a red tag or label on suspect material. Do not mix with good product.','Define the suspect range: from the last known good check to now.','Check all places: machine, WIP buffers, finished goods, warehouse and shipped product.','Use extra inspection (100 %) such as AOI, X-ray or a visual sort.','Record lot numbers, date codes, quantity, time and who checked.','Tell the supervisor and QA right away.','Release only after the fix is confirmed (for example 3 good boards in a row and a verified check).']]]},
+{t:'Worked example 1: tombstones',e:'🪦',body:[
+ ['p','<b>Problem:</b> 0402 capacitors tombstone on one board. About 2 % since the new paste lot on Monday.'],
+ ['why',['Why do the parts stand up? One end melted and wetted before the other.','Why? One pad heated faster. Paste volume was unbalanced.','Why? The new paste lot is stickier and the print was offset.','Why was the print offset? Printer fiducial camera was dirty after the last wipe.','Why was it not caught? SPI offset limits were set too loose.']],
+ ['p','<b>Containment:</b> hold boards printed since Monday, 100 % AOI. <b>Corrective:</b> clean the camera, tighten the SPI offset limit. <b>Preventive:</b> add a camera clean step to the daily checklist and review SPI limits monthly.']]},
+{t:'Worked example 2: bridges on a QFP',e:'🔗',body:[
+ ['p','<b>Problem:</b> shorts on the same 0.5 mm pitch IC on 5 of every 100 boards.'],
+ ['why',['Why shorts? Solder joined pins during reflow.','Why? Paste volume on those pads was high, with smear.','Why? Aperture bottom was dirty and the wipe frequency was every 20 prints.','Why every 20? It was never changed from a coarser-pitch product.','Why not changed? The setup sheet had no pitch-based wipe rule.']],
+ ['p','<b>Corrective:</b> wipe every 5 prints for fine-pitch boards. <b>Preventive:</b> update the setup sheet template with wipe rules by pitch. <b>Verify:</b> SPI shows no smear and short rate is zero for 3 shifts.']]}
+];
+var GUIDE_CC=[
+{t:'What is contamination?',e:'🧫',body:[
+ ['p','Contamination is anything that should not be on the board, the paste, the parts or the machine. It can be visible or invisible.'],
+ ['ul',['<b>Particles</b>: dust, hair, fibres, dross, fibreglass dust.','<b>Chemical</b>: flux residue, oils, silicone, cleaning agent leftovers, ionic salts.','<b>Moisture</b>: absorbed water in boards or plastic parts.','<b>Skin</b>: fingerprints and sweat (salts and oils).','<b>Cross-contamination</b>: lead-free and leaded materials mixed, wrong paste or wrong flux, wrong tools.','<b>Electrostatic</b>: static charge that attracts dust and damages parts.']]]},
+{t:'Where it comes from and how to stop it',e:'🗺️',body:[
+ ['ul',['<b>Loader and storage</b>: dust, fingerprints, moisture. Use gloves, covers, sealed bags and a humidity card. Bake boards if needed.','<b>Printer</b>: dried paste, dirty wipe paper, solvent residue. Use lint-free wipes, clean stencils, and approved cleaners.','<b>Mounter</b>: dust on nozzles and reels. Clean nozzles and keep reels covered.','<b>Reflow</b>: flux residue builds up in the oven and drips on boards. Clean the flux filters and tunnel on schedule.','<b>Wave solder</b>: dross and flux residue. Remove dross, replace solder per analysis, control flux amount.','<b>Router</b>: fibreglass dust. Use vacuum and a clean-up step.','<b>People</b>: no food or drink, no hand cream, wear gloves, keep ESD discipline.']]]},
+{t:'Cleaning and cleanliness tests',e:'🧼',body:[
+ ['ul',['<b>No-clean flux</b> leaves a small safe residue for many products. Some high-reliability or high-voltage products still need cleaning.','<b>Wipe cleaning</b> with approved IPA and lint-free cloth for spot cleaning only. Never use wipes that spread residue.','<b>Ultrasonic or spray wash</b> for removing residue after rework or in a defined cleaning process.','<b>Visual</b> inspection under magnification.','<b>ROSE test</b>: measures total ionic contamination of the board surface (historic guide ≈ 1.56 µg NaCl equivalent per cm²; modern limits are set by process and customer).','<b>Ion chromatography</b> identifies which ions are present.','<b>SIR test</b> (surface insulation resistance) checks leakage under heat and humidity.']]]},
+{t:'Moisture and ESD control',e:'💧',body:[
+ ['ul',['<b>MSL (moisture sensitivity level)</b> tells how long a part can stay out of its sealed bag (floor life). Log the open time. After floor life expires, bake as J-STD-033 says.','Store sensitive parts in dry cabinets or sealed bags with desiccant and a humidity indicator card.','<b>ESD wrist straps</b> must be tested every day. Use grounded mats and ESD-safe boxes. Keep humidity around 40 to 60 %.','Do not use ordinary plastic bags or foam near sensitive boards.']]]},
+{t:'If you find contamination: what to do',e:'🚨',body:[
+ ['ol',['Stop and tell your supervisor. Do not keep running.','Find out what the contamination is and where it started (sample, microscope, test).','Isolate suspect boards and materials (containment).','Clean boards only by the approved process. Do not invent a new method.','Fix the source (maintenance, procedure, material, training).','Re-test cleanliness and record the result.','Update the checklist so it is checked regularly.']]]}
+];
+
+var BASICS=[
+{t:'What are PCB and PCBA?',e:'🟩',body:[
+ ['p','A <b>PCB</b> (printed circuit board) is the bare green board with copper pads and tracks. It has no parts yet.'],
+ ['p','A <b>PCBA</b> (printed circuit board assembly) is the PCB after components are soldered on. This is the working electronic board inside phones, cars, TVs and machines.'],
+ ['p','<b>SMT</b> (surface mount technology) means parts are placed on the surface of the board and soldered to pads. <b>THT</b> (through-hole technology) means parts have long leads that go through holes and are soldered on the other side.']]},
+{t:'SMT vs through-hole',e:'⚖️',body:[
+ ['ul',['<b>SMT</b>: small parts, fast machines, both sides of the board, high density. Most parts today are SMT.','<b>THT</b>: stronger mechanical connection, good for big connectors, transformers and power parts.','Many boards use both (mixed technology): SMT first, then THT and wave solder.']]]},
+{t:'A typical line in order',e:'🏭',body:[
+ ['ol',['<b>Loader</b>: feeds bare boards.','<b>Printer</b>: prints solder paste.','<b>SPI</b>: checks the paste.','<b>Mounter</b>: places parts.','<b>AOI</b>: checks placement (pre-reflow) or solder (post-reflow).','<b>Reflow oven</b>: melts the paste.','<b>X-ray / AXI</b>: checks hidden joints.','<b>Auto insertion</b>: through-hole parts.','<b>Press-fit</b>: pushes in connectors.','<b>Wave solder</b>: soldering through-hole parts.','<b>Router</b>: cuts boards from the panel.','<b>FAOI</b>: final inspection, then test and packing.']],
+ ['p','Real lines vary. Always follow your routing sheet.']]},
+{t:'Key materials',e:'🧴',body:[
+ ['ul',['<b>Solder paste</b>: tiny solder balls (often SAC305: 96.5 % tin, 3 % silver, 0.5 % copper) mixed with flux. About half the paste volume is metal.','<b>Flux</b>: cleans oxide from metal so solder can wet and stick.','<b>Stencil</b>: thin stainless steel sheet with holes (apertures) at every pad. Typical thickness 100 to 150 µm.','<b>Components</b>: supplied on reels (tape), trays or tubes.','<b>Fiducials</b>: small round copper marks cameras use to find the board position.','<b>Lead-free vs leaded</b>: lead-free (RoHS) solders melt higher (217 °C) than tin-lead (183 °C).']]]},
+{t:'Reading part sizes and packages',e:'🔎',body:[
+ ['ul',['Chip sizes use numbers like <b>0402</b>. In inches this is 0.04 × 0.02 inch (about 1.0 × 0.5 mm). 0201 is smaller, 0603 and 0805 are bigger.','<b>SOIC, QFP</b>: ICs with leads along the sides. <b>BGA</b>: balls under the part, hidden. <b>QFN</b>: flat pads under the part, hidden.','Hidden joints need X-ray.']]]},
+{t:'Quality words you will hear',e:'📊',body:[
+ ['ul',['<b>FPY</b> (first pass yield): share of boards that pass without rework.','<b>PPM / DPMO</b>: defects per million parts or opportunities.','<b>Cpk</b>: how well a process stays inside its limits. 1.33 or more is usually considered capable.','<b>IPC-A-610</b>: the common acceptance standard for assembled boards. Class 1 (general), Class 2 (dedicated service), Class 3 (high reliability).','<b>J-STD-001</b>: soldering requirements. <b>J-STD-020/033</b>: moisture-sensitive parts.']]]},
+{t:'Five golden rules for beginners',e:'🏅',body:[
+ ['ol',['Safety first: guards, interlocks and lock-out tag-out.','Wear your ESD strap and gloves every time. Test the strap.','Follow the work instruction. Do not change settings without approval.','First article inspection every changeover.','If something looks wrong, stop and call the supervisor. A quick stop is cheaper than a wrong lot.']]]}
+];
+
+/* correct answer is ALWAYS first in o[]; the app shuffles the options */
+var QUIZ=[
+{t:'basics',q:'What does PCBA stand for?',o:['Printed Circuit Board Assembly','Printed Circuit Board Analysis','Process Control Board Application','Printed Chip Board Alignment'],e:'A PCB is the bare board. A PCBA is the board with the components soldered on.'},
+{t:'basics',q:'What does SMT stand for?',o:['Surface Mount Technology','Solder Mask Treatment','Surface Metal Test','Single Mount Tooling'],e:'In SMT, parts sit on the surface of the board and are soldered to pads.'},
+{t:'basics',q:'Which technology uses leads that pass through holes in the board?',o:['THT (through-hole)','SMT','BGA','QFN'],e:'THT means through-hole technology. The leads go through plated holes and are soldered, often by wave soldering.'},
+{t:'basics',q:'Which is the correct start of a typical SMT line?',o:['Loader → Printer → SPI → Mounter','Mounter → Printer → Loader → SPI','Printer → Loader → Mounter → SPI','SPI → Loader → Printer → Mounter'],e:'Boards are loaded, paste is printed, the paste is inspected, and then parts are placed.'},
+{t:'basics',q:'What is solder paste made of?',o:['Tiny solder balls mixed with flux','Liquid glue and plastic','Pure copper powder','Silicone and water'],e:'The solder balls form the joint and the flux cleans the surfaces so solder can wet.'},
+{t:'basics',q:'Roughly how big is a 0402 chip component?',o:['1.0 × 0.5 mm','4 × 2 mm','0.4 × 0.2 mm','10 × 5 mm'],e:'0402 is 0.04 × 0.02 inch, about 1.0 × 0.5 mm.'},
+{t:'basics',q:'What is a fiducial?',o:['A small mark that cameras use to find the board position','A type of solder alloy','A cleaning solvent','A tool for cutting boards'],e:'Fiducials let printers, mounters and inspection machines align accurately to each board.'},
+{t:'loader',q:'What is the job of the PCB loader?',o:['Feed bare boards one by one into the line','Place components on the board','Melt the solder paste','Inspect solder joints'],e:'The loader pushes boards from a magazine onto the conveyor toward the printer.'},
+{t:'loader',q:'What does SMEMA do?',o:['Sends ready and available signals between machines','Measures solder paste','Cleans the stencil','Controls oven temperature'],e:'SMEMA is the handshake: "board available" from one machine and "machine ready" from the next.'},
+{t:'loader',q:'Why check which side of the board is up before loading?',o:['Wrong side can scrap a whole batch','It makes the board cooler','It changes the paste type','It is only a safety rule'],e:'Printing or placing on the wrong side is expensive and often cannot be recovered.'},
+{t:'loader',q:'Bare boards stored open for a long time may need:',o:['Baking to remove moisture','Painting','Extra fiducials','Higher paste volume'],e:'Absorbed moisture can blister or delaminate boards in reflow. Follow the supplier’s baking rule.'},
+{t:'printer',q:'Where should solder paste normally be stored?',o:['In a refrigerator (about 0 to 10 °C)','On a warm shelf near the oven','In direct sunlight','In a freezer at −40 °C'],e:'Cold storage slows the chemical ageing of the flux. Check the paste datasheet.'},
+{t:'printer',q:'Before use, a sealed paste jar from the fridge should:',o:['Warm up to room temperature (about 4 hours) without heating','Be heated in an oven to speed it up','Be opened immediately','Be shaken hard on the stencil'],e:'Opening a cold jar draws in moisture, which causes solder balls and poor printing.'},
+{t:'printer',q:'Which part of the printer pushes paste through the stencil?',o:['The squeegee','The nozzle','The conveyor','The chiller'],e:'The squeegee moves across the stencil and fills the apertures with paste.'},
+{t:'printer',q:'Why is the underside of the stencil wiped regularly?',o:['To prevent smear and bridging','To make the stencil warmer','To change the paste colour','To reduce the machine noise'],e:'Paste collects under the stencil and smears onto the board if it is not wiped.'},
+{t:'printer',q:'How should the board and stencil separate after printing?',o:['Slowly and smoothly','As fast as possible','With a jerk','Only after drying'],e:'Slow separation lets paste release cleanly and avoids peaks and dog-ears.'},
+{t:'printer',q:'What does a good area ratio (≥ 0.66) help with?',o:['Clean paste release from the apertures','Faster conveyor speed','Lower oven temperature','Better barcode reading'],e:'If the opening is too small compared with the stencil thickness, paste sticks in the walls.'},
+{t:'printer',q:'Paste that looks dry and does not roll on the stencil will mostly cause:',o:['Insufficient paste and poor printing','Faster reflow','Better wetting','Thicker solder joints'],e:'Dry paste does not fill apertures properly. Replace it with fresh paste.'},
+{t:'spi',q:'What does SPI measure?',o:['Paste volume, height, area and position','Component polarity','Reflow temperature','Board thickness'],e:'SPI measures every paste deposit with a 3D sensor.'},
+{t:'spi',q:'When is SPI done?',o:['After printing and before placing parts','After wave soldering','After depaneling','Before the loader'],e:'Fixing a bad print is cheap before parts are placed.'},
+{t:'spi',q:'SPI reports many false fails. What is the best first action?',o:['Clean the lens, check support and tune limits with real data','Widen all the limits until there are no fails','Switch off the machine','Ignore the alarms'],e:'Never hide a problem by widening limits without checking the data.'},
+{t:'spi',q:'The same pad shows low paste volume on every board. The likely cause is:',o:['A clogged stencil aperture','A faulty conveyor belt','Too much nitrogen','A wrong barcode'],e:'A blocked aperture prints less on that pad every time.'},
+{t:'spi',q:'What can SPI data be sent back to the printer for?',o:['Closed-loop correction of drift','Printing barcodes','Changing the oven profile','Cutting panels'],e:'Feedback lets the printer adjust alignment or settings automatically.'},
+{t:'mounter',q:'What holds the component on the nozzle?',o:['Vacuum','Glue','Magnet','Static electricity'],e:'The nozzle uses vacuum to pick and hold the part.'},
+{t:'mounter',q:'What is first article inspection (FAI)?',o:['Checking the first board after a changeover against the BOM and drawing','The last check before shipping','A cleaning step','Inspecting the paste jar'],e:'FAI catches setup mistakes (wrong part, polarity) before running the whole lot.'},
+{t:'mounter',q:'Many missing parts are most often caused by:',o:['A worn or dirty nozzle or low vacuum','Too much paste','A hot oven','Wrong barcode paper'],e:'Failed picks happen when the nozzle is dirty, worn or the vacuum is weak.'},
+{t:'mounter',q:'Why scan the reel barcode at setup?',o:['To verify the correct part for the feeder slot','To print labels','To change the program','To clean the nozzle'],e:'Barcode verification prevents wrong or mixed reels from being used.'},
+{t:'mounter',q:'Placement force that is too high can cause:',o:['Cracked parts and paste squeezed out','Colder joints','Longer reflow','Dirty stencil'],e:'Too much force damages fragile parts and pushes paste sideways, causing bridges or balls.'},
+{t:'aoi',q:'What is the main benefit of AOI before reflow?',o:['Placement errors are found while still easy to fix','It melts the solder','It measures paste volume','It cuts the panel'],e:'Before reflow the paste is wet, so parts can be moved or replaced quickly.'},
+{t:'aoi',q:'Which joints can AOI NOT see?',o:['Hidden joints under a BGA','Chip resistor joints','Joints on QFP leads','Component polarity marks'],e:'Cameras cannot see under the part. Use X-ray for BGA and QFN.'},
+{t:'aoi',q:'What is a "false call"?',o:['AOI flags a good board or part as bad','AOI misses a real defect','A wrong call from the supervisor','A wrong oven temperature'],e:'False calls waste time. Too many make people stop trusting the machine.'},
+{t:'aoi',q:'What is an "escape" in inspection?',o:['A real defect that the inspection passed','A board that falls off the belt','A cleaning step','A fast conveyor'],e:'Escapes are dangerous because the defect continues to the customer.'},
+{t:'aoi',q:'What is a golden board?',o:['A known good reference board','A gold-plated board','A board with extra paste','A broken test board'],e:'It is used to teach and check the inspection program.'},
+{t:'reflow',q:'Approximately what is the melting point of SAC305 solder?',o:['217 °C','100 °C','183 °C','300 °C'],e:'SAC305 melts at about 217 °C. Tin-lead (63/37) melts at 183 °C.'},
+{t:'reflow',q:'What is the correct order of reflow stages?',o:['Preheat → Soak → Reflow (peak) → Cooling','Cooling → Reflow → Soak → Preheat','Soak → Cooling → Preheat → Reflow','Reflow → Preheat → Cooling → Soak'],e:'The board heats gradually, equalises, melts, and then cools to freeze the joints.'},
+{t:'reflow',q:'What does TAL stand for?',o:['Time Above Liquidus','Total Alloy Level','Temperature Above Limit','Time After Loading'],e:'TAL is how long the solder stays above its melting point.'},
+{t:'reflow',q:'A preheat ramp that is too fast can cause:',o:['Solder balls and tombstoning','Better wetting','Lower voids','Stronger joints'],e:'Fast heating spatters paste and heats pads unevenly.'},
+{t:'reflow',q:'Why run a profile with thermocouples on a board?',o:['To check real board temperatures against the specification','To clean the oven','To count boards','To test paste weight'],e:'The oven setting is not the board temperature. The profile proves what the board sees.'},
+{t:'reflow',q:'The peak temperature must never exceed:',o:['The lowest maximum temperature of any component on the board','The factory room temperature','The paste fridge temperature','0 °C'],e:'Each part has a maximum temperature rating (often 260 °C). Check the datasheets.'},
+{t:'reflow',q:'What does nitrogen in a reflow oven reduce?',o:['Oxidation and it helps wetting','Board size','Part cost','Conveyor speed'],e:'Lower oxygen gives cleaner surfaces and better solder flow.'},
+{t:'xray',q:'Why is X-ray used on BGA and QFN?',o:['Their joints are hidden under the part','They are too large for cameras','They are always lead-free','They have no solder'],e:'Cameras cannot see joints beneath the package.'},
+{t:'xray',q:'On an X-ray image, solder usually looks:',o:['Darker than voids','Lighter than voids','The same as air','Invisible'],e:'Dense solder absorbs more X-rays. Voids contain gas and look lighter.'},
+{t:'xray',q:'A commonly used limit for BGA ball voids is about:',o:['25 % of the ball area','80 % of the ball area','2 % of the board','100 % of the pad'],e:'IPC-A-610 commonly uses 25 %. Always follow your company or customer standard.'},
+{t:'xray',q:'Which is a safety rule for X-ray equipment?',o:['Never bypass the interlocks','Open the door while it is on','Leave it on all night','Use it without training'],e:'Interlocks protect people from radiation. Only trained users should operate the machine.'},
+{t:'axi',q:'What is the difference between AXI and manual X-ray?',o:['AXI is automatic and decides pass or fail inline','AXI uses visible light','AXI is only for bare boards','There is no difference'],e:'AXI inspects boards in the line automatically and records the results.'},
+{t:'axi',q:'Why is 3D AXI used for double-sided boards?',o:['It separates top and bottom joints that overlap in 2D','It is cheaper','It does not use X-rays','It cools the board'],e:'3D slicing images only the layer you want to inspect.'},
+{t:'axi',q:'AXI can also check:',o:['Through-hole solder fill percentage','Printer squeegee wear','Paste temperature','Barcode label printing only'],e:'Hole fill after wave soldering can be measured with X-ray slices.'},
+{t:'autoins',q:'What do auto-insertion machines insert?',o:['Through-hole axial and radial parts','Chip resistors','Solder paste','Stencils'],e:'They handle resistors, diodes, capacitors, LEDs and similar parts with leads.'},
+{t:'autoins',q:'Why are the leads clinched (bent) under the board?',o:['To hold the part until it is soldered','To make the board heavier','To cool the part','To clean the leads'],e:'Clinching keeps the part from falling out before wave soldering.'},
+{t:'autoins',q:'Which is a good hole size relative to the lead?',o:['Lead diameter + about 0.3 to 0.4 mm','Exactly the lead diameter','Lead diameter + 3 mm','Half the lead diameter'],e:'Too tight bends the lead. Too big gives a loose part and poor fill.'},
+{t:'pressfit',q:'How is a press-fit connection made?',o:['Compliant pins are pressed into plated holes without solder','By melting solder paste','With glue','By screws only'],e:'The pin springs against the hole wall and makes a gas-tight connection.'},
+{t:'pressfit',q:'What does a press machine record to check quality?',o:['Force against distance (the force curve)','The room humidity','The paste volume','The oven profile'],e:'The curve shows if the hole or pin is wrong and if the connector was seated.'},
+{t:'pressfit',q:'What should be done with a press-fit connector that has been removed?',o:['Do not reuse it','Reuse it on any board','Heat it','Add flux and reuse'],e:'Pulling it out damages pins and plating.'},
+{t:'wave',q:'What is the order of wave soldering?',o:['Flux → Preheat → Wave → Cooling','Wave → Flux → Cooling → Preheat','Cooling → Wave → Preheat → Flux','Preheat → Cooling → Flux → Wave'],e:'Flux cleans the metal, preheat activates it, the wave solders, and cooling sets the joints.'},
+{t:'wave',q:'A typical wave contact time is about:',o:['2 to 4 seconds','30 seconds','10 minutes','0.1 second'],e:'Longer contact can damage parts. Shorter may not fill holes.'},
+{t:'wave',q:'Why is the board preheated before the wave?',o:['To activate flux and reduce thermal shock','To melt the solder','To clean the board','To dry the conveyor'],e:'Gradual heating protects parts and helps solder flow into holes.'},
+{t:'wave',q:'Leads that are too long under the board often cause:',o:['Bridging and icicles','Better fill','Lower temperature','Less flux use'],e:'Long leads pick up too much solder and can touch each other.'},
+{t:'wave',q:'What is a commonly used minimum hole fill for Class 2 and 3?',o:['About 75 %','About 10 %','100 % always','25 %'],e:'Solder should fill at least about three quarters of the hole height. Check your standard.'},
+{t:'wave',q:'Why analyse the solder pot regularly?',o:['To check copper, lead and iron contamination','To measure the board weight','To change the conveyor','To count boards'],e:'Contamination makes solder dull, grainy and bridging-prone.'},
+{t:'router',q:'What does the router do in PCBA?',o:['Cuts boards out of the panel','Prints paste','Places parts','Melts solder'],e:'Depaneling separates the finished boards.'},
+{t:'router',q:'Why should panels not be broken by hand?',o:['Bending can crack ceramic capacitors','It is too slow','It changes the board colour','It damages the router bit'],e:'Hidden cracks may cause failures later in the field.'},
+{t:'router',q:'Why is router dust a problem?',o:['It can contaminate boards and cause shorts','It makes boards heavier','It cools the machine','It is a paste material'],e:'Fibreglass and copper dust are conductive or abrasive. Remove it.'},
+{t:'router',q:'A worn router bit usually causes:',o:['Burrs and rough edges','Faster cutting','Cooler boards','Better edges'],e:'Change the bit at the planned interval.'},
+{t:'faoi',q:'When is FAOI done?',o:['At the end of the line after the assembly steps','Before the loader','Before printing','During reflow'],e:'It is the last visual check before test and packing.'},
+{t:'faoi',q:'What does FAOI check that SMT AOI may not?',o:['Through-hole parts, connectors, labels and routing damage','Solder paste height','Reflow profile','Paste jar date'],e:'FAOI covers the whole finished board.'},
+{t:'faoi',q:'What must happen to a repaired board?',o:['It must be inspected again','It can be shipped directly','It is scrapped','It is painted'],e:'Rework can create new defects, so re-inspect.'},
+{t:'defects',q:'What is tombstoning?',o:['A chip stands on one end because one side wets first','A bridge between two pads','A missing component','A burnt board'],e:'Uneven heating, uneven paste or placement shift causes it.'},
+{t:'defects',q:'What is head-in-pillow?',o:['A BGA ball that sits on the paste without merging into one joint','A bent connector pin','Paste slump','A burr on the board edge'],e:'It can pass a visual and a basic test but fail later. X-ray at an angle or 3D AXI finds it.'},
+{t:'defects',q:'What is a containment action?',o:['Isolating and checking suspect product to protect the customer','Fixing the root cause','Changing the supplier','Writing the training plan'],e:'Containment stops bad product from moving on while the cause is investigated.'},
+{t:'defects',q:'What is a corrective action?',o:['Removing the root cause of the problem','Re-soldering one board','Hiding the defect','Sorting the lot'],e:'Corrective action prevents the same cause from creating the defect again.'},
+{t:'defects',q:'What does the 5 Whys method do?',o:['Keeps asking why until a root cause is found','Counts five defects','Tests five boards','Sets five limits'],e:'Each answer becomes the next question, until you reach something you can fix.'},
+{t:'defects',q:'Which list is the 6M of a fishbone diagram?',o:['Man, Machine, Material, Method, Measurement, Environment','Money, Market, Material, Method, Mood, Metal','Machine, Metal, Motor, Mix, Mount, Move','Man, Mouse, Map, Money, Meter, Mat'],e:'The 6M helps you look for causes in all areas.'},
+{t:'defects',q:'The same part location fails on every board. The cause is likely:',o:['Design, stencil or program for that location','Random operator error','Weather','The paste fridge'],e:'Repeating location means something systematic. Random defects point to the process.'},
+{t:'safety',q:'How often should an ESD wrist strap be tested?',o:['Every day','Once a year','Never','Only when broken'],e:'Straps fail silently. A daily test makes sure you are really grounded.'},
+{t:'safety',q:'What does MSL (moisture sensitivity level) tell you?',o:['How long a part can stay out of its sealed bag','The melting point of paste','The thickness of the board','The conveyor speed'],e:'After the floor life expires, parts must be baked before reflow.'},
+{t:'safety',q:'What does a ROSE test measure?',o:['Ionic contamination on the board','Paste volume','Reflow temperature','Board warpage'],e:'It estimates ionic residues that can cause corrosion and leakage.'},
+{t:'safety',q:'Which is NOT allowed at an SMT line?',o:['Eating or drinking at the machine','Wearing an ESD strap','Wearing gloves','Reading the work instruction'],e:'Food, drinks and hand cream are contamination risks.'},
+{t:'safety',q:'If a cleaning method is not in the procedure, you should:',o:['Ask your supervisor and use only approved methods','Use any solvent you find','Skip cleaning','Use water on every board'],e:'Unapproved solvents can damage boards and parts or leave residue.'}
+];
+var QTOPICS={basics:'SMT basics',loader:'Loader',printer:'Printer',spi:'SPI',mounter:'Mounter',aoi:'AOI',reflow:'Reflow',xray:'X-ray',axi:'AXI',autoins:'Auto insertion',pressfit:'Press-fit',wave:'Wave solder',router:'Router',faoi:'FAOI',defects:'Defects & analysis',safety:'Safety & ESD'};
+
+var FAQ=[
+{c:'Basics',q:'What is the difference between a PCB and a PCBA?',a:'A PCB is the bare circuit board without parts. A PCBA is the board after the components are soldered on, so it can work as an electronic circuit.',k:'pcb pcba difference bare board'},
+{c:'Basics',q:'What is the difference between SMT and THT?',a:'SMT parts sit on the surface and are soldered to pads. THT parts have leads that go through holes and are soldered on the other side. SMT is smaller and faster. THT is stronger for heavy or large parts.',k:'smt tht through hole surface mount'},
+{c:'Basics',q:'Why are some boards processed on both sides?',a:'More parts fit on a smaller board. The first side is soldered and then the board is flipped for the second side. Heavy parts go on the first side or are glued so they do not fall off in the second reflow.',k:'double sided top bottom flip'},
+{c:'Basics',q:'What is IPC-A-610?',a:'It is the acceptance standard for electronic assemblies with pictures of acceptable and unacceptable joints. Class 1 is general electronics, Class 2 is dedicated service electronics and Class 3 is high reliability, such as medical or aerospace.',k:'ipc standard class 1 2 3 acceptance'},
+{c:'Basics',q:'What is a golden board?',a:'A known good board used as a reference to train and check inspection machines and to compare with problem boards.',k:'golden board reference sample'},
+{c:'Materials',q:'Why is solder paste kept in a fridge?',a:'Cold storage slows the chemical changes of flux and the separation of solder balls from flux. Paste that is stored warm ages quickly and prints and reflows badly.',k:'paste storage refrigerator fridge cold shelf life'},
+{c:'Materials',q:'Why must paste warm up before use?',a:'A cold jar attracts water from the air when opened. Moisture in paste causes solder balls, spatter and voids. Let it warm sealed at room temperature (often about 4 hours) and never heat it.',k:'paste warm up thaw condensation'},
+{c:'Materials',q:'Can I reuse paste scraped off the stencil?',a:'Follow your procedure. Many factories allow limited mixing of used and fresh paste, within the paste open time, but never paste that is dry, stiff or past its time limit.',k:'reuse paste scraped used old'},
+{c:'Materials',q:'What is the difference between lead-free and leaded solder?',a:'Lead-free solder (for example SAC305) melts at 217 °C and needs a hotter profile. Tin-lead (Sn63/Pb37) melts at 183 °C. RoHS rules require lead-free for most consumer products. Never mix the two materials in the same line without control.',k:'lead free leaded sac305 rohs tin lead'},
+{c:'Materials',q:'What is flux and why is it needed?',a:'Flux cleans oxide from the pads and leads so molten solder can wet and bond. It also protects the metal while it heats.',k:'flux oxide wetting'},
+{c:'Materials',q:'What does MSL mean and why do we bake components?',a:'MSL is the moisture sensitivity level of a part. After the sealed bag is opened, the part can only stay out for a limited floor life. If it exceeds that, moisture can turn to steam in the oven and crack the package (popcorning), so the part must be baked first.',k:'msl moisture bake popcorn floor life dry cabinet'},
+{c:'Process',q:'Why do we need SPI if we have AOI?',a:'SPI checks the paste before parts are placed, when a bad print can be cleaned off in seconds. Most solder defects begin at printing, so finding them early saves large rework cost.',k:'spi aoi difference why paste inspection'},
+{c:'Process',q:'What is a reflow profile?',a:'It is the temperature versus time curve the board sees in the oven: preheat, soak, reflow (peak) and cooling. It is measured with thermocouples and must match the solder paste and component limits.',k:'reflow profile temperature curve thermocouple'},
+{c:'Process',q:'Why do some factories use nitrogen in reflow?',a:'Nitrogen lowers oxygen, so metal surfaces oxidise less and solder wets better. It is useful for fine-pitch and hard-to-solder boards but increases cost.',k:'nitrogen n2 reflow oxygen oxidation'},
+{c:'Process',q:'What is a stencil and what thickness is common?',a:'A stencil is a thin stainless steel sheet with holes at each pad. Common thickness is 100 to 150 µm (0.1 to 0.15 mm). Thinner stencils are used for very fine pitch.',k:'stencil thickness micron aperture'},
+{c:'Process',q:'What is area ratio?',a:'It is the aperture opening area divided by the area of the aperture walls. A value of at least 0.66 helps the paste release cleanly from the stencil.',k:'area ratio aspect ratio stencil release ipc-7525'},
+{c:'Process',q:'What is the difference between a chip shooter and a multifunction placer?',a:'A chip shooter is very fast and places small chip parts. A multifunction (flexible) placer is slower but accurate and handles large, odd-shape and fine-pitch parts such as QFP, BGA and connectors.',k:'chip shooter mounter placer multifunction'},
+{c:'Process',q:'What is first article inspection?',a:'It is a full check of the first board after a setup or changeover against the BOM and the drawing (part values, polarity, positions) before the full lot is run.',k:'first article fai changeover setup'},
+{c:'Process',q:'Why is the underside of the stencil wiped?',a:'Paste squeezes out under the stencil and smears onto the board. Wiping prevents bridging, especially on fine-pitch parts.',k:'stencil wipe underside bridging'},
+{c:'Process',q:'What is selective soldering?',a:'It is a through-hole soldering method that uses a small nozzle wave only at selected joints. It is used when the board has sensitive parts or is too complex for a full wave.',k:'selective soldering mini wave nozzle'},
+{c:'Process',q:'Why use a pallet in wave soldering?',a:'A pallet (fixture) protects SMD parts on the bottom side from the molten solder and keeps the board flat.',k:'wave pallet fixture carrier'},
+{c:'Process',q:'What is SMEMA?',a:'SMEMA is the signal standard that machines use to pass boards: one says "board available", the next says "machine ready".',k:'smema handshake conveyor signal'},
+{c:'Inspection',q:'What is a false call and what is an escape?',a:'A false call is when inspection flags a good item as bad. An escape is when a real defect passes. You want both to be as low as possible, but escapes are more dangerous.',k:'false call escape aoi false reject'},
+{c:'Inspection',q:'Why do BGA joints need X-ray?',a:'The joints are under the package. Cameras cannot see them, so X-ray is used to check bridges, opens, missing balls, voids and alignment.',k:'bga xray hidden joint'},
+{c:'Inspection',q:'What is a void and when is it a problem?',a:'A void is a gas bubble in the solder joint. A few small voids are normal. Large voids (for example over 25 % of the ball area on BGA) reduce strength and heat transfer, especially for power parts.',k:'void bubble voiding limit'},
+{c:'Inspection',q:'What is head-in-pillow?',a:'The BGA ball and the paste touch but do not merge into one joint. It often looks normal from the top and passes some tests, but fails later.',k:'head in pillow hip bga'},
+{c:'Inspection',q:'What is the difference between AOI and FAOI?',a:'AOI is used inside the SMT line to check parts and solder joints. FAOI is the final optical inspection on the finished board after through-hole assembly, wave solder or press-fit and depaneling, and covers connectors, labels and damage.',k:'aoi faoi difference final inspection'},
+{c:'Inspection',q:'What is the difference between ICT and FCT?',a:'ICT (in-circuit test) checks individual parts and joints electrically. FCT (functional test) checks that the whole board works as designed.',k:'ict fct test in circuit functional'},
+{c:'Quality',q:'What does Cpk mean?',a:'Cpk shows how well a process fits inside its limits. A higher number means a more capable process. 1.33 or more is often used as the minimum target.',k:'cpk capability process spc'},
+{c:'Quality',q:'What does containment mean?',a:'It is the immediate action to stop suspected bad product from moving forward: isolate, label, inspect and sort it, and check what has already moved on.',k:'containment action quarantine isolate'},
+{c:'Quality',q:'What is the difference between corrective and preventive action?',a:'Corrective action removes the cause of a problem that has already happened. Preventive action stops similar problems from happening elsewhere.',k:'corrective preventive action capa'},
+{c:'Quality',q:'What is 8D?',a:'It is a structured problem-solving method with eight steps: team, problem description, containment, root cause, corrective action, verification, prevention and closure.',k:'8d problem solving report'},
+{c:'Quality',q:'How do I find out which defect to fix first?',a:'Count defects by type and rank them in a Pareto chart. Fixing the top one or two usually removes most of the problem.',k:'pareto top defect priority'},
+{c:'Safety',q:'Is X-ray dangerous?',a:'X-ray equipment is shielded and interlocked, so under normal use exposure is very low. But never bypass interlocks, never open the cabinet while it is on, and follow your radiation safety training.',k:'xray safety radiation dangerous'},
+{c:'Safety',q:'Why do we use ESD wrist straps?',a:'Static electricity can destroy sensitive parts without any visible sign. A wrist strap connects you to ground so you do not build up and discharge static.',k:'esd wrist strap static electricity'},
+{c:'Safety',q:'Why does routing make dust and why is it a problem?',a:'The bit cuts through fibreglass and copper. The dust can cause shorts and corrosion if left on the board, and it irritates skin and lungs. Use vacuum and clean the boards.',k:'router dust cleaning contamination'},
+{c:'Safety',q:'What must I do before maintenance on a machine?',a:'Follow lock-out and tag-out: switch off, isolate the energy, lock it, tag it, and verify it is dead before opening guards.',k:'lockout tagout maintenance safety loto'},
+{c:'Safety',q:'Is molten solder dangerous?',a:'Yes. It burns severely. Wear heat protection and a face shield near a solder pot, keep it dry (water causes splashes) and have first aid ready.',k:'solder burn wave pot safety'}
+];
+
+var GLOSS=[
+['AOI','Automated Optical Inspection. Cameras check parts and solder joints.'],['AXI','Automated X-ray Inspection. Inline X-ray for hidden joints.'],
+['Aperture','A hole in the stencil where paste passes through.'],['BGA','Ball Grid Array. A package with solder balls underneath.'],
+['BOM','Bill of Materials. The list of all parts for a board.'],['Bridge','Unwanted solder joining two pads.'],
+['Clinch','Bending the lead tip under the board so a through-hole part stays in place.'],['Coplanarity','How flat the leads of a part sit in one plane.'],
+['Cpk','Process capability index.'],['Dross','Oxidised solder floating on a wave solder pot.'],
+['DPMO','Defects per million opportunities.'],['ESD','Electrostatic discharge. A static spark that can damage parts.'],
+['FAI','First Article Inspection. The check of the first board after a setup.'],['FAOI','Final Automated Optical Inspection of the finished board.'],
+['Feeder','Device that presents parts from a reel or tray to the mounter.'],['Fiducial','Mark used by cameras to find the board position.'],
+['Flux','Chemical that cleans oxide so solder can wet.'],['FPY','First pass yield. Share of boards good on the first try.'],
+['Gerber','File format describing the layers of a PCB.'],['HASL','Hot Air Solder Leveling. A solder pad surface finish.'],
+['ENIG','Electroless Nickel Immersion Gold. A flat gold pad surface finish.'],['OSP','Organic Solderability Preservative. A thin coating over copper.'],
+['ICT','In-circuit test. Electrical test of parts on the board.'],['FCT','Functional test. Checks the board works as intended.'],
+['IPC','Association that publishes electronics standards.'],['Liquidus','The temperature at which solder is completely liquid.'],
+['MES','Manufacturing execution system that tracks production data.'],['MSL','Moisture sensitivity level of a component.'],
+['Nozzle','Tip on a mounter head that picks parts by vacuum.'],['OSP','See above.'],['Panel (array)','Several boards made together on one sheet.'],
+['Pitch','Distance between lead centres. For example 0.5 mm pitch.'],['Polarity','The correct direction of a part such as a diode or electrolytic capacitor.'],
+['Popcorning','Package cracking from moisture turning to steam during reflow.'],['PTH','Plated through-hole.'],['Press-fit','Connector pins pressed into holes without solder.'],
+['QFN','Quad Flat No-lead. Package with pads under the body.'],['QFP','Quad Flat Package. Leads on all four sides.'],
+['Reflow','The process of melting solder paste in an oven.'],['RoHS','Rules that restrict hazardous substances such as lead.'],
+['ROSE','Resistivity of solvent extract. A test for ionic contamination.'],['SAC305','Lead-free solder: tin 96.5 %, silver 3 %, copper 0.5 %.'],
+['SIR','Surface insulation resistance test.'],['SMD','Surface mount device (a part for SMT).'],['SMEMA','Signals that pass boards between machines.'],
+['SPC','Statistical process control.'],['SPI','Solder paste inspection.'],['Squeegee','Blade that pushes paste across the stencil.'],
+['Stencil','Thin metal sheet with holes for printing paste.'],['TAL','Time above liquidus.'],['THT','Through-hole technology.'],
+['Tombstoning','Chip part standing up on one end after reflow.'],['Traceability','Recording what materials and processes each board went through.'],
+['Void','Gas bubble inside a solder joint.'],['Warpage','Bending or twisting of the board.'],['Wetting','Solder spreading and bonding to a metal surface.'],
+['WIP','Work in progress. Boards between process steps.']
+];
+GLOSS=GLOSS.filter(function(g,i,a){return a.findIndex(function(x){return x[0]===g[0]&&x[1].indexOf('See above')<0})===i&&g[1].indexOf('See above')<0}).sort(function(a,b){return a[0].localeCompare(b[0])});
+
+(function(){
+'use strict';
+var KEY='smt-academy-v1';
+var P={learned:{},quiz:{ans:0,ok:0,by:{},wrong:[],best:0},seen:{}};
+var ui={tab:'learn',defView:'lib',defF:'all',defQ:'',qaView:'qa',ask:'',gq:'',quiz:null,lineStep:0,play:null,anim:true};
+function $(id){return document.getElementById(id)}
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function load(){try{var d=JSON.parse(localStorage.getItem(KEY)||'{}');if(d.learned)P.learned=d.learned;if(d.quiz)P.quiz=Object.assign(P.quiz,d.quiz);if(d.seen)P.seen=d.seen}catch(e){}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(P))}catch(e){}}
+var toastT;function toast(m){var t=$('toast');t.textContent=m;t.classList.add('on');clearTimeout(toastT);toastT=setTimeout(function(){t.classList.remove('on')},2200)}
+function lesson(id){return LESSONS.filter(function(l){return l.id===id})[0]}
+function defect(id){return DEFECTS.filter(function(d){return d.id===id})[0]}
+function lIndex(id){for(var i=0;i<LESSONS.length;i++)if(LESSONS[i].id===id)return i;return -1}
+
+/* ---------- diagrams ---------- */
+var DG={
+printer:'<svg viewBox="0 0 320 170" class="dg" role="img" aria-label="Printer cross-section"><rect x="20" y="118" width="280" height="14" rx="3" fill="#0E9F6E"/><g fill="#E0922F"><rect x="48" y="114" width="34" height="5"/><rect x="118" y="114" width="34" height="5"/><rect x="188" y="114" width="34" height="5"/><rect x="252" y="114" width="34" height="5"/></g><g fill="#8FA0B3"><rect x="20" y="98" width="28" height="6"/><rect x="82" y="98" width="36" height="6"/><rect x="152" y="98" width="36" height="6"/><rect x="222" y="98" width="30" height="6"/><rect x="286" y="98" width="14" height="6"/></g><g fill="#C9D1DA" stroke="#94A3B8" stroke-width=".6"><rect x="48" y="98" width="34" height="16"/><rect x="118" y="98" width="34" height="16"/><rect x="188" y="98" width="34" height="16"/></g><circle cx="262" cy="88" r="12" fill="#D6DCE3" stroke="#94A3B8"/><polygon points="244,36 258,36 268,98 254,100" fill="#475569"/><path d="M200 60h-60" stroke="#F97316" stroke-width="3" stroke-linecap="round"/><path d="M148 52l-10 8 10 8" fill="none" stroke="#F97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="150" y="44">Squeegee moves</text><text x="196" y="82">Paste</text><text x="24" y="92">Stencil</text><text x="24" y="150">PCB with copper pads</text><text x="224" y="30">Squeegee</text></svg>',
+reflow:'<svg viewBox="0 0 340 200" class="dg" role="img" aria-label="Reflow profile"><rect x="30" y="10" width="90" height="150" fill="#38BDF8" opacity=".12"/><rect x="120" y="10" width="80" height="150" fill="#FACC15" opacity=".15"/><rect x="200" y="10" width="55" height="150" fill="#F97316" opacity=".17"/><rect x="255" y="10" width="60" height="150" fill="#60A5FA" opacity=".13"/><line x1="30" y1="160" x2="318" y2="160" stroke="currentColor" stroke-width="1.2"/><line x1="30" y1="10" x2="30" y2="160" stroke="currentColor" stroke-width="1.2"/><line x1="30" y1="44" x2="318" y2="44" stroke="#E5484D" stroke-dasharray="4 3"/><path d="M30 155 L120 83 L200 54 L226 28 L252 44 L312 112" fill="none" stroke="#E5484D" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><text x="34" y="24">Temp</text><text x="276" y="176">Time →</text><text x="226" y="39" text-anchor="middle">Peak 235–250 °C</text><text x="298" y="40" text-anchor="end" fill="#E5484D">217 °C melts</text><text x="75" y="178" text-anchor="middle">Preheat</text><text x="75" y="190" text-anchor="middle">≤3 °C/s</text><text x="160" y="178" text-anchor="middle">Soak</text><text x="160" y="190" text-anchor="middle">150–200 °C</text><text x="228" y="178" text-anchor="middle">Reflow</text><text x="228" y="190" text-anchor="middle">TAL 45–90 s</text><text x="286" y="190" text-anchor="middle">Cooling</text></svg>',
+wave:'<svg viewBox="0 0 320 170" class="dg" role="img" aria-label="Wave soldering"><g transform="rotate(-3 160 66)"><rect x="30" y="64" width="260" height="8" rx="2" fill="#0E9F6E"/><rect x="60" y="52" width="14" height="12" fill="#44403C"/><rect x="130" y="50" width="20" height="14" fill="#1E293B"/><rect x="220" y="52" width="14" height="12" fill="#44403C"/><g stroke="#94A3B8" stroke-width="2"><line x1="64" y1="72" x2="64" y2="82"/><line x1="70" y1="72" x2="70" y2="82"/><line x1="134" y1="72" x2="134" y2="82"/><line x1="146" y1="72" x2="146" y2="82"/><line x1="224" y1="72" x2="224" y2="82"/><line x1="230" y1="72" x2="230" y2="82"/></g></g><g fill="#38BDF8"><circle cx="50" cy="104" r="2.500"/><circle cx="60" cy="112" r="2.500"/><circle cx="70" cy="104" r="2.500"/><circle cx="80" cy="112" r="2.500"/></g><rect x="38" y="90" width="52" height="5" rx="2" fill="#475569"/><path d="M110 112c8-8 16 8 24 0s16-8 24 0 16 8 24 0" fill="none" stroke="#F97316" stroke-width="3"/><rect x="106" y="118" width="84" height="6" fill="#F97316" opacity=".5"/><rect x="196" y="126" width="104" height="34" rx="5" fill="#64748B"/><path d="M198 128c20 0 28-6 38-30 8-18 18-18 26 0 10 24 18 30 36 30z" fill="#CBD5E1" stroke="#94A3B8"/><path d="M20 58 L300 52" stroke="currentColor" stroke-dasharray="3 4" opacity=".4"/><text x="40" y="136">1 Flux</text><text x="112" y="140">2 Preheat</text><text x="214" y="148" fill="#fff">3 Solder wave</text><text x="236" y="30">Board moves →</text></svg>',
+xray:'<svg viewBox="0 0 330 120" class="dg" role="img" aria-label="BGA X-ray examples"><g fill="#475569"><circle cx="35" cy="48" r="20"/><circle cx="105" cy="48" r="20"/><circle cx="175" cy="48" r="20"/><circle cx="198" cy="48" r="20"/><circle cx="268" cy="48" r="20"/></g><circle cx="105" cy="48" r="11" fill="#E2E8F0"/><circle cx="95" cy="40" r="5" fill="#E2E8F0"/><circle cx="288" cy="48" r="20" fill="#475569"/><rect x="258" y="46" width="60" height="4" fill="#E2E8F0"/><circle cx="35" cy="48" r="20" fill="#475569"/><circle cx="248" cy="48" r="0"/><text x="35" y="90" text-anchor="middle">Good</text><text x="105" y="90" text-anchor="middle">Void</text><text x="186" y="90" text-anchor="middle">Bridge</text><text x="268" y="90" text-anchor="middle">Head-in-pillow</text><text x="268" y="104" text-anchor="middle">(angled view)</text></svg>'
+};
+var DD={
+tombstone:'<svg viewBox="0 0 200 100" class="dg"><rect x="20" y="78" width="160" height="10" rx="2" fill="#0E9F6E"/><rect x="45" y="74" width="34" height="5" fill="#E0922F"/><rect x="121" y="74" width="34" height="5" fill="#E0922F"/><path d="M52 74 L80 60 L80 74Z" fill="#CBD5E1"/><g transform="rotate(-78 62 74)"><rect x="62" y="60" width="40" height="14" rx="2" fill="#44403C"/><rect x="62" y="60" width="8" height="14" fill="#CBD5E1"/></g><text x="130" y="48">One end lifted</text></svg>',
+bridge:'<svg viewBox="0 0 200 100" class="dg"><rect x="20" y="78" width="160" height="10" rx="2" fill="#0E9F6E"/><rect x="50" y="74" width="30" height="5" fill="#E0922F"/><rect x="112" y="74" width="30" height="5" fill="#E0922F"/><rect x="58" y="54" width="14" height="22" fill="#94A3B8"/><rect x="120" y="54" width="14" height="22" fill="#94A3B8"/><path d="M52 74 Q96 50 140 74 L140 78 L52 78Z" fill="#CBD5E1" stroke="#94A3B8"/><text x="64" y="40">Solder joins both pads</text></svg>',
+insufficient:'<svg viewBox="0 0 200 100" class="dg"><rect x="10" y="78" width="180" height="10" rx="2" fill="#0E9F6E"/><rect x="25" y="74" width="60" height="5" fill="#E0922F"/><rect x="115" y="74" width="60" height="5" fill="#E0922F"/><rect x="45" y="58" width="24" height="16" fill="#94A3B8"/><rect x="135" y="58" width="24" height="16" fill="#94A3B8"/><path d="M28 74 Q44 60 52 66 L52 74Z" fill="#CBD5E1"/><path d="M60 74 L60 66 Q70 60 82 74Z" fill="#CBD5E1"/><path d="M138 74 L142 70 L148 74Z" fill="#CBD5E1"/><text x="26" y="34">Good fillet</text><text x="118" y="34">Too little</text></svg>',
+voids:'<svg viewBox="0 0 200 100" class="dg"><circle cx="100" cy="50" r="38" fill="#94A3B8"/><circle cx="82" cy="44" r="9" fill="#F1F5F9"/><circle cx="112" cy="62" r="7" fill="#F1F5F9"/><circle cx="108" cy="36" r="5" fill="#F1F5F9"/><circle cx="88" cy="68" r="4" fill="#F1F5F9"/><text x="146" y="54">Gas bubbles</text></svg>',
+balls:'<svg viewBox="0 0 200 100" class="dg"><rect x="10" y="78" width="180" height="10" rx="2" fill="#0E9F6E"/><rect x="40" y="74" width="30" height="5" fill="#E0922F"/><rect x="120" y="74" width="30" height="5" fill="#E0922F"/><rect x="50" y="56" width="90" height="18" rx="3" fill="#44403C"/><circle cx="100" cy="69" r="3" fill="#CBD5E1"/><circle cx="107" cy="72" r="2.500" fill="#CBD5E1"/><circle cx="157" cy="70" r="3.500" fill="#CBD5E1"/><text x="20" y="34">Tiny solder balls near the part</text></svg>',
+hip:'<svg viewBox="0 0 200 100" class="dg"><rect x="40" y="10" width="120" height="10" fill="#44403C"/><rect x="40" y="86" width="120" height="8" fill="#0E9F6E"/><path d="M80 20 Q100 52 120 20Z" fill="#94A3B8"/><path d="M76 86 Q100 56 124 86Z" fill="#CBD5E1" stroke="#94A3B8"/><line x1="82" y1="50" x2="118" y2="50" stroke="#E5484D" stroke-dasharray="3 2"/><text x="132" y="52">Ball and paste touch</text><text x="132" y="64">but do not merge</text></svg>'};
+
+/* ---------- common html ---------- */
+function topbar(t,sub,right){return '<div class="top"><div class="ttl"><h1>'+t+'</h1><p>'+sub+'</p></div>'+(right||'')+'</div>'}
+function bodyHtml(b){
+  return b.map(function(x){
+    if(x[0]==='p')return '<p>'+x[1]+'</p>';
+    if(x[0]==='ul')return '<ul class="ul">'+x[1].map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul>';
+    if(x[0]==='ol')return '<ol class="ol">'+x[1].map(function(i){return '<li>'+i+'</li>'}).join('')+'</ol>';
+    if(x[0]==='why')return '<div class="whys">'+x[1].map(function(i,n){return '<div class="why"><b>Why '+(n+1)+'</b><span>'+i+'</span></div>'}).join('')+'</div>';
+    return '';
+  }).join('');
+}
+function acc(secs){return secs.map(function(s,i){return '<details class="acc"'+(i===0?' open':'')+'><summary><span>'+s.e+'</span>'+s.t+'</summary><div class="ab">'+bodyHtml(s.body)+'</div></details>'}).join('')}
+function openSheet(html,keep){var s=$('sheetIn'),top=s.scrollTop;s.innerHTML='<div class="grab"></div>'+html;$('scrim').classList.add('on');$('sheet').classList.add('on');s.scrollTop=keep?top:0}
+function closeSheet(){$('scrim').classList.remove('on');$('sheet').classList.remove('on');render()}
+function ring(pct){var R=40,C=2*Math.PI*R;return '<svg viewBox="0 0 100 100" class="rsv"><g transform="rotate(-90 50 50)"><circle cx="50" cy="50" r="'+R+'" fill="none" stroke="currentColor" stroke-opacity=".14" stroke-width="10"/><circle cx="50" cy="50" r="'+R+'" fill="none" stroke="url(#rg)" stroke-width="10" stroke-linecap="round" stroke-dasharray="'+(C*pct/100).toFixed(1)+' '+C.toFixed(1)+'"/></g><defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14B8A6"/><stop offset="1" stop-color="#F59E0B"/></linearGradient></defs></svg>'}
+
+/* ---------- LEARN ---------- */
+function acc2(){var q=P.quiz;return q.ans?Math.round(q.ok/q.ans*100):0}
+function badges(){
+  var done=LESSONS.filter(function(l){return P.learned[l.id]}).length,seen=Object.keys(P.seen).length,q=P.quiz;
+  return [['🌱','First lesson',done>=1],['📘','Halfway',done>=7],['🏭','Line master',done>=LESSONS.length],['🎯','Quiz starter',q.ans>=10],['🦅','Sharp eye',q.ans>=20&&acc2()>=80],['🔍','Defect detective',seen>=15]];
+}
+function renderLearn(){
+  var done=LESSONS.filter(function(l){return P.learned[l.id]}).length,pct=Math.round(done/LESSONS.length*100);
+  var next=LESSONS.filter(function(l){return !P.learned[l.id]})[0];
+  var h=topbar('SMT Academy','From zero to line-ready','<button class="gear" data-act="settings" aria-label="Settings">⚙️</button>');
+  h+='<div class="hero"><div class="hr">'+ring(pct)+'<div class="rc"><b>'+pct+'%</b><small>'+done+'/'+LESSONS.length+'</small></div></div><div class="hi"><h2>'+(done?'Keep going!':'Welcome, beginner')+'</h2><p>'+(next?'Next: <b>'+esc(next.n)+'</b>':'You finished every lesson. Test yourself in the quiz.')+'</p>'+(next?'<button class="btn rose sm" data-act="lesson" data-id="'+next.id+'">'+(done?'Continue':'Start learning')+' →</button>':'<button class="btn rose sm" data-act="tab" data-v="quiz">Take the quiz →</button>')+'</div></div>';
+  h+='<button class="opt" data-act="basics"><span class="oe">🟩</span><div><b>Start here: SMT &amp; PCBA basics</b><small>What a PCBA is, the line in order, materials and key words</small></div></button>';
+  Object.keys(GROUPS).forEach(function(g){
+    h+='<div class="shead"><h2>'+GROUPS[g].e+' '+GROUPS[g].n+'</h2><p>'+GROUPS[g].d+'</p></div>';
+    LESSONS.forEach(function(l,i){if(l.grp!==g)return;
+      h+='<button class="lc'+(P.learned[l.id]?' done':'')+'" data-act="lesson" data-id="'+l.id+'"><span class="ln">'+(i+1)+'</span><span class="le">'+l.e+'</span><span class="lt"><b>'+esc(l.n)+'</b><small>'+esc(l.tag)+'</small></span><span class="lk">'+(P.learned[l.id]?'✓':'›')+'</span></button>';
+    });
+  });
+  h+='<div class="shead"><h2>🏅 Badges</h2></div><div class="badges">'+badges().map(function(b){return '<div class="bd'+(b[2]?' on':'')+'"><span>'+b[0]+'</span><small>'+b[1]+'</small></div>'}).join('')+'</div>';
+  h+='<p class="disc">Typical values in this app are examples for learning. Always follow your company work instructions, the solder paste and component datasheets, and your customer standard.</p>';
+  return h;
+}
+function lessonSheet(id){
+  var L=lesson(id),i=lIndex(id),h='';
+  P.lastLesson=id;
+  h+='<div class="edh"><button class="btn ghost sm" data-act="close">Close</button><span class="pill">Lesson '+(i+1)+' of '+LESSONS.length+'</span></div>';
+  h+='<div class="lhead"><div class="le big">'+L.e+'</div><h2>'+esc(L.n)+'</h2><p class="muted">'+esc(L.tag)+'</p></div>';
+  h+='<div class="analogy">💡 <b>Think of it like this:</b> '+esc(L.analogy)+'</div>';
+  var secs=[{t:'What it does and where it sits',e:'📍',body:[['p',L.what],['p','<b>Where in the line:</b> '+L.where]]},
+   {t:'How it works, step by step',e:'🪜',body:[['ol',L.steps]]}];
+  var h2=bodyHtml(secs[0].body);
+  var out=acc(secs);
+  if(L.diagram&&DG[L.diagram])out+='<details class="acc" open><summary><span>🖼️</span>Picture</summary><div class="ab">'+DG[L.diagram]+'</div></details>';
+  out+='<details class="acc"><summary><span>🎛️</span>Key settings to know</summary><div class="ab">'+L.params.map(function(p){return '<div class="prow"><b>'+esc(p[0])+'</b><code>'+esc(p[1])+'</code><small>'+esc(p[2])+'</small></div>'}).join('')+'</div></details>';
+  out+='<details class="acc"><summary><span>🛠️</span>Typical problems and fixes</summary><div class="ab">'+L.issues.map(function(x){return '<div class="isu"><b>⚠️ '+esc(x[0])+'</b><div><i>Cause:</i> '+esc(x[1])+'</div><div><i>Action:</i> '+esc(x[2])+'</div></div>'}).join('')+'</div></details>';
+  out+='<details class="acc"><summary><span>✔️</span>Daily checks</summary><div class="ab"><ul class="ul">'+L.checks.map(function(c){return '<li>'+esc(c)+'</li>'}).join('')+'</ul></div></details>';
+  if(L.defects.length)out+='<details class="acc"><summary><span>🐞</span>Related defects</summary><div class="ab"><div class="chipsx">'+L.defects.map(function(d){var D=defect(d);return D?'<button data-act="defect" data-id="'+d+'">'+D.e+' '+esc(D.n)+'</button>':''}).join('')+'</div></div></details>';
+  out+='<details class="acc"><summary><span>🦺</span>Safety</summary><div class="ab"><ul class="ul">'+L.safety.map(function(c){return '<li>'+esc(c)+'</li>'}).join('')+'</ul></div></details>';
+  out+='<details class="acc"><summary><span>⭐</span>Beginner tips</summary><div class="ab"><ul class="ul">'+L.tips.map(function(c){return '<li>'+esc(c)+'</li>'}).join('')+'</ul></div></details>';
+  h+=out;
+  var n=QUIZ.filter(function(q){return q.t===id}).length;
+  h+='<div class="row2"><button class="btn rose" data-act="quizTopic" data-t="'+id+'">🎯 Quiz me ('+n+')</button><button class="btn '+(P.learned[id]?'ghost':'gold')+'" data-act="learned" data-id="'+id+'">'+(P.learned[id]?'✓ Learned':'Mark as learned')+'</button></div>';
+  h+='<div class="row2">'+(i>0?'<button class="btn ghost" data-act="lesson" data-id="'+LESSONS[i-1].id+'">← '+esc(LESSONS[i-1].n.split(' (')[0])+'</button>':'')+(i<LESSONS.length-1?'<button class="btn ghost" data-act="lesson" data-id="'+LESSONS[i+1].id+'">'+esc(LESSONS[i+1].n.split(' (')[0])+' →</button>':'')+'</div>';
+  openSheet(h);
+}
+function basicsSheet(){openSheet('<div class="edh"><button class="btn ghost sm" data-act="close">Close</button><span class="pill">Start here</span></div><div class="lhead"><div class="le big">🟩</div><h2>SMT &amp; PCBA basics</h2><p class="muted">Everything you need before the first lesson</p></div>'+acc(BASICS))}
+
+/* ---------- LINE MAP ---------- */
+var STORY={loader:'A bare green board enters the line from the magazine.',printer:'Solder paste is printed on every pad through the stencil.',spi:'The paste is measured. Bad prints are removed before parts go on.',mounter:'Machines place every SMD component into the wet paste.',aoi:'Cameras check placement (and later the finished solder joints).',reflow:'The oven melts the paste. Solder joints form and the parts are fixed.',xray:'Hidden joints under BGA and QFN are checked by sample or for analysis.',axi:'Inline X-ray inspects hidden joints on every board automatically.',autoins:'Through-hole parts are inserted and their leads are clinched.',pressfit:'Connectors are pressed into the holes without solder.',wave:'Through-hole leads are soldered as the board passes over the solder wave.',router:'The panel is cut so you have single boards.',faoi:'The final visual check. Then electrical test and packing.'};
+function renderLine(){
+  var h=topbar('The Line','Follow one board from start to finish');
+  var cur=LESSONS[ui.lineStep],i=ui.lineStep;
+  h+='<div class="belt">'+LESSONS.map(function(l,k){return '<button class="st'+(k===i?' on':'')+(k<i?' past':'')+'" data-act="lineGo" data-i="'+k+'"><span>'+l.e+'</span><small>'+esc(l.n.split(' (')[0].replace('PCB ','').replace(' Inspection','').replace('Solder Paste ',''))+'</small></button>'+(k<LESSONS.length-1?'<i class="ar">›</i>':'')}).join('')+'</div>';
+  h+='<div class="card journey"><div class="jb"><div class="jboard" style="--x:'+Math.round(i/(LESSONS.length-1)*100)+'%"><i></i></div></div><small class="muted">Station '+(i+1)+' of '+LESSONS.length+'</small><h3>'+cur.e+' '+esc(cur.n)+'</h3><p>'+esc(STORY[cur.id])+'</p><div class="row2"><button class="btn ghost" data-act="linePrev"'+(i===0?' disabled':'')+'>◀</button><button class="btn '+(ui.play?'gold':'ghost')+'" data-act="linePlay">'+(ui.play?'⏸ Pause':'▶ Play')+'</button><button class="btn ghost" data-act="lineNext"'+(i===LESSONS.length-1?' disabled':'')+'>▶</button></div><button class="btn rose full" data-act="lesson" data-id="'+cur.id+'">Open lesson →</button></div>';
+  h+='<div class="card"><h3>🚦 Which inspection catches what?</h3><div class="gate"><b>SPI</b><span>Paste volume, height, position (before parts)</span></div><div class="gate"><b>AOI</b><span>Missing, shifted, wrong polarity, visible solder defects</span></div><div class="gate"><b>X-ray / AXI</b><span>Hidden joints: BGA, QFN, voids, head-in-pillow, hole fill</span></div><div class="gate"><b>FAOI</b><span>Finished board: through-hole parts, connectors, labels, damage</span></div><div class="gate"><b>ICT / FCT</b><span>Electrical and functional test (not covered by cameras)</span></div></div>';
+  h+='<div class="card"><h3>🧭 Two lines, one product</h3><p class="muted">Most boards pass through the <b>SMT line</b> first. Boards with through-hole parts then go to <b>auto insertion, press-fit and wave solder</b>. At the end the <b>router</b> separates the boards and <b>FAOI</b> checks them. Your factory may order these steps differently, so always follow the routing sheet.</p></div>';
+  return h;
+}
+function stopPlay(){if(ui.play){clearInterval(ui.play);ui.play=null}}
+
+/* ---------- FAULTS ---------- */
+function renderFaults(){
+  var h=topbar('Faults & fixes','Failure analysis, corrective and containment actions');
+  h+='<div class="seg"><button data-act="defView" data-v="lib" aria-pressed="'+(ui.defView==='lib')+'">Defects</button><button data-act="defView" data-v="fa" aria-pressed="'+(ui.defView==='fa')+'">Analysis</button><button data-act="defView" data-v="cc" aria-pressed="'+(ui.defView==='cc')+'">Contamination</button></div>';
+  if(ui.defView==='fa'){h+='<p class="help">A simple method to solve any problem on the line, with containment, corrective and preventive actions.</p>'+acc(GUIDE_FA)}
+  else if(ui.defView==='cc'){h+='<p class="help">Keep boards, paste, parts and machines clean. Know what to do if contamination is found.</p>'+acc(GUIDE_CC)}
+  else{
+    h+='<div class="srch"><input class="inp" id="dq" type="search" placeholder="Search defects (e.g. bridge, void, tombstone)" value="'+esc(ui.defQ)+'" autocomplete="off"></div>';
+    var f=[['all','All'],['smt','SMT'],['tht','Through-hole'],['end','Finishing'],['cont','Contamination'],['crit','⚠ Critical']];
+    h+='<div class="cats">'+f.map(function(x){return '<button class="cat" data-act="defF" data-v="'+x[0]+'" aria-pressed="'+(ui.defF===x[0])+'">'+x[1]+'</button>'}).join('')+'</div><div id="dlist">'+defList()+'</div>';
+  }
+  return h;
+}
+function defList(){
+  var q=ui.defQ.toLowerCase().trim(),list=DEFECTS.filter(function(d){
+    if(ui.defF==='crit'&&d.sev<3)return false;
+    if(ui.defF!=='all'&&ui.defF!=='crit'&&d.grp!==ui.defF)return false;
+    return !q||(d.n+' '+d.look+' '+d.id).toLowerCase().indexOf(q)>-1;
+  });
+  if(!list.length)return '<div class="empty">No defects match. Try another word.</div>';
+  return list.map(function(d){return '<button class="dc" data-act="defect" data-id="'+d.id+'"><span class="de">'+d.e+'</span><span class="dt"><b>'+esc(d.n)+(P.seen[d.id]?' ✓':'')+'</b><small>Found by: '+d.find.map(function(x){return DEF_ST[x]||x}).join(', ')+'</small></span><span class="sv s'+d.sev+'">'+SEVN[d.sev]+'</span></button>'}).join('');
+}
+function defectSheet(id){
+  var D=defect(id);if(!D)return;P.seen[id]=1;save();
+  var h='<div class="edh"><button class="btn ghost sm" data-act="close">Close</button><span class="sv s'+D.sev+'">'+SEVN[D.sev]+'</span></div>';
+  h+='<div class="lhead"><div class="le big">'+D.e+'</div><h2>'+esc(D.n)+'</h2></div>';
+  h+='<div class="meta2"><div><small>Starts at</small><div class="chipsx">'+D.from.map(function(s){var l=lesson(s);return l?'<button data-act="lesson" data-id="'+s+'">'+esc(DEF_ST[s]||s)+'</button>':'<span class="pill">'+esc(DEF_ST[s]||s)+'</span>'}).join('')+'</div></div><div><small>Found by</small><div class="chipsx">'+D.find.map(function(s){var l=lesson(s);return l?'<button data-act="lesson" data-id="'+s+'">'+esc(DEF_ST[s]||s)+'</button>':'<span class="pill">'+esc(DEF_ST[s]||s)+'</span>'}).join('')+'</div></div></div>';
+  if(D.diagram&&DD[D.diagram])h+='<div class="card dgc">'+DD[D.diagram]+'</div>';
+  h+='<div class="card"><h3>👀 What it looks like</h3><p>'+esc(D.look)+'</p></div>';
+  h+='<div class="card"><h3>🔎 Likely causes (6M)</h3>'+D.causes.map(function(c){return '<div class="cz"><span class="tg">'+esc(c[0])+'</span>'+esc(c[1])+'</div>'}).join('')+'</div>';
+  h+='<div class="card"><h3>🧪 How to analyse it</h3><ol class="ol">'+D.analyze.map(function(a){return '<li>'+esc(a)+'</li>'}).join('')+'</ol></div>';
+  h+='<div class="card act cor"><h3>✅ Corrective action</h3><ul class="ul">'+D.fix.map(function(a){return '<li>'+esc(a)+'</li>'}).join('')+'</ul></div>';
+  h+='<div class="card act pre"><h3>🛡️ Preventive action</h3><ul class="ul">'+D.prevent.map(function(a){return '<li>'+esc(a)+'</li>'}).join('')+'</ul></div>';
+  h+='<div class="card act con"><h3>🚧 Containment action</h3><ul class="ul">'+D.contain.map(function(a){return '<li>'+esc(a)+'</li>'}).join('')+'</ul></div>';
+  h+='<p class="disc">Follow your own procedure and customer requirements. Escalate serious or repeating defects to your supervisor and QA.</p>';
+  openSheet(h);
+}
+
+/* ---------- QUIZ ---------- */
+function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
+function startQuiz(mode,topic){
+  var idx=QUIZ.map(function(q,i){return i});
+  if(mode==='topic')idx=idx.filter(function(i){return QUIZ[i].t===topic});
+  else if(mode==='review')idx=P.quiz.wrong.filter(function(i){return QUIZ[i]});
+  idx=shuffle(idx.slice());
+  if(mode==='quick')idx=idx.slice(0,10);if(mode==='challenge')idx=idx.slice(0,20);
+  if(!idx.length){toast('No questions here yet');return}
+  ui.quiz={mode:mode,topic:topic,list:idx.map(function(i){var q=QUIZ[i],o=q.o.map(function(t,k){return {t:t,c:k===0}});shuffle(o);return {i:i,o:o}}),n:0,score:0,picked:null,streak:0,miss:{}};
+  ui.tab='quiz';$('sheet').classList.remove('on');$('scrim').classList.remove('on');render();window.scrollTo(0,0);
+}
+function renderQuiz(){
+  var Q=ui.quiz,q=P.quiz,h;
+  if(!Q){
+    h=topbar('Quiz','Test what you learned');
+    h+='<div class="stats"><div><b>'+q.ans+'</b><small>answered</small></div><div><b>'+(q.ans?acc2()+'%':'–')+'</b><small>accuracy</small></div><div><b>'+q.best+'</b><small>best streak</small></div></div>';
+    h+='<button class="opt" data-act="quiz" data-m="quick"><span class="oe">⚡</span><div><b>Quick 10</b><small>Ten random questions</small></div></button>';
+    h+='<button class="opt" data-act="quiz" data-m="challenge"><span class="oe">🏆</span><div><b>Challenge 20</b><small>Twenty questions across all topics</small></div></button>';
+    h+='<button class="opt" data-act="quiz" data-m="review"'+(q.wrong.length?'':' style="opacity:.55"')+'><span class="oe">🔁</span><div><b>Review my mistakes</b><small>'+q.wrong.length+' question'+(q.wrong.length===1?'':'s')+' to retry</small></div></button>';
+    h+='<div class="shead"><h2>By topic</h2><p>'+QUIZ.length+' questions in total</p></div><div class="tgrid">'+Object.keys(QTOPICS).map(function(t){var n=QUIZ.filter(function(x){return x.t===t}).length,b=q.by[t]||[0,0],p=b[0]?Math.round(b[1]/b[0]*100):null;return '<button class="tcard" data-act="quizTopic" data-t="'+t+'"><b>'+QTOPICS[t]+'</b><small>'+n+' questions</small><div class="meter"><i style="width:'+(p||0)+'%"></i></div><small>'+(p==null?'Not tried':p+'% correct')+'</small></button>'}).join('')+'</div>';
+    return h;
+  }
+  if(Q.n>=Q.list.length){
+    var pct=Math.round(Q.score/Q.list.length*100),msg=pct>=90?'Excellent! Line-ready 🏆':pct>=70?'Good job! Review the missed topics 👍':pct>=50?'Getting there. Study the lessons below 📘':'Keep learning. Start with the basics 🌱';
+    h=topbar('Results','Quiz finished');
+    h+='<div class="hero"><div class="hr">'+ring(pct)+'<div class="rc"><b>'+pct+'%</b><small>'+Q.score+'/'+Q.list.length+'</small></div></div><div class="hi"><h2>'+msg+'</h2><p>Best streak this round: '+Q.best+'</p></div></div>';
+    var miss=Object.keys(Q.miss);
+    if(miss.length)h+='<div class="card"><h3>📘 Study these lessons</h3><div class="chipsx">'+miss.map(function(t){var l=lesson(t);return l?'<button data-act="lesson" data-id="'+t+'">'+l.e+' '+esc(l.n.split(' (')[0])+' ('+Q.miss[t]+')</button>':'<span class="pill">'+QTOPICS[t]+' ('+Q.miss[t]+')</span>'}).join('')+'</div></div>';
+    h+='<div class="row2"><button class="btn rose" data-act="quiz" data-m="'+Q.mode+'" data-t="'+(Q.topic||'')+'">Try again</button><button class="btn ghost" data-act="quizHome">Quiz home</button></div>';
+    return h;
+  }
+  var cur=Q.list[Q.n],item=QUIZ[cur.i];
+  h='<div class="qtop"><button class="btn ghost sm" data-act="quizHome">✕</button><div class="meter"><i style="width:'+(Q.n/Q.list.length*100)+'%"></i></div><span class="pill">'+(Q.n+1)+'/'+Q.list.length+'</span></div>';
+  h+='<div class="card qcard"><span class="tg">'+QTOPICS[item.t]+'</span><h2>'+esc(item.q)+'</h2><div class="opts">'+cur.o.map(function(o,k){var cls='';if(Q.picked!=null){cls=o.c?' ok':(k===Q.picked?' no':' dim')}return '<button class="qo'+cls+'" data-act="pick" data-i="'+k+'"'+(Q.picked!=null?' disabled':'')+'><span>'+String.fromCharCode(65+k)+'</span>'+esc(o.t)+'</button>'}).join('')+'</div>';
+  if(Q.picked!=null){var good=cur.o[Q.picked].c;h+='<div class="fb '+(good?'good':'bad')+'"><b>'+(good?'✅ Correct!':'❌ Not quite.')+(good&&Q.streak>1?' '+Q.streak+' in a row 🔥':'')+'</b><p>'+esc(item.e)+'</p></div><button class="btn rose full" data-act="qnext">'+(Q.n+1>=Q.list.length?'See results':'Next question →')+'</button>'}
+  h+='</div>';
+  return h;
+}
+function pickAns(k){
+  var Q=ui.quiz;if(!Q||Q.picked!=null)return;
+  var cur=Q.list[Q.n],item=QUIZ[cur.i],good=cur.o[k].c;
+  Q.picked=k;P.quiz.ans++;var b=P.quiz.by[item.t]||(P.quiz.by[item.t]=[0,0]);b[0]++;
+  if(good){Q.score++;Q.streak++;P.quiz.ok++;b[1]++;Q.best=Math.max(Q.best||0,Q.streak);P.quiz.best=Math.max(P.quiz.best,Q.streak);P.quiz.wrong=P.quiz.wrong.filter(function(x){return x!==cur.i})}
+  else{Q.streak=0;Q.miss[item.t]=(Q.miss[item.t]||0)+1;if(P.quiz.wrong.indexOf(cur.i)<0)P.quiz.wrong.push(cur.i)}
+  save();render();
+}
+
+/* ---------- Q&A search ---------- */
+var STOPW=new Set('what is the a an of to in on for and or how why do does can i we you my it are be with at by from this that about when which should please tell me explain'.split(' '));
+var SYN={short:'bridge',shorts:'bridge',shorted:'bridge',tombstone:'tombstoning',pop:'popcorning',dirty:'contamination',dust:'contamination',cleaning:'contamination',bubble:'void',bubbles:'void',oven:'reflow',cut:'router',depanel:'router',depaneling:'router',tht:'throughhole',insertion:'auto',insert:'auto',hip:'headinpillow'};
+var PH=[[/x[\s-]?ray/g,'xray'],[/press[\s-]?fit/g,'pressfit'],[/through[\s-]?hole/g,'throughhole'],[/lead[\s-]?free/g,'leadfree'],[/head[\s-]?in[\s-]?pillow/g,'headinpillow'],[/tin[\s-]?lead/g,'tinlead'],[/wave[\s-]?solder(ing)?/g,'wavesolder'],[/pick[\s-]?and[\s-]?place/g,'mounter'],[/solder[\s-]?paste/g,'solderpaste']];
+function stem(t){if(t.length<=4)return t;t=t.replace(/(ing|ed|es|s)$/,'');return t.length>4?t.replace(/e$/,''):t}
+function toks(s){
+  s=s.toLowerCase();PH.forEach(function(p){s=s.replace(p[0],p[1])});
+  return s.replace(/[^a-z0-9+ ]/g,' ').split(/\s+/).filter(function(t){return t&&!STOPW.has(t)}).map(function(t){return stem(SYN[t]||t)});
+}
+var IDX=null;
+function buildIdx(){
+  IDX=[];
+  FAQ.forEach(function(f,i){IDX.push({ty:'faq',i:i,title:f.q,key:f.k,body:f.a})});
+  LESSONS.forEach(function(l){IDX.push({ty:'lesson',id:l.id,title:l.n,key:l.tag+' '+l.id,body:l.what+' '+l.steps.join(' ')+' '+l.issues.map(function(x){return x.join(' ')}).join(' ')+' '+l.tips.join(' ')})});
+  DEFECTS.forEach(function(d){IDX.push({ty:'defect',id:d.id,title:d.n,key:d.id,body:d.look+' '+d.fix.join(' ')+' '+d.contain.join(' ')+' '+d.causes.map(function(c){return c[1]}).join(' ')})});
+  GLOSS.forEach(function(g){IDX.push({ty:'gloss',title:g[0],key:g[0],body:g[1]})});
+  var df={};
+  IDX.forEach(function(d){d.t=toks(d.title);d.k=toks(d.key||'');d.b=toks(d.body);var seen={};d.t.concat(d.k,d.b).forEach(function(w){if(!seen[w]){seen[w]=1;df[w]=(df[w]||0)+1}})});
+  IDX.df=df;
+}
+function search(q){
+  if(!IDX)buildIdx();var qt=toks(q);if(!qt.length)return [];
+  var phrase=q.toLowerCase().trim(),N=IDX.length;
+  var res=IDX.map(function(d){
+    var s=0;
+    qt.forEach(function(t){
+      var w=Math.log(1+N/(1+(IDX.df[t]||0)));
+      if(d.t.indexOf(t)>-1)s+=5*w;
+      if(d.k.indexOf(t)>-1)s+=3*w;
+      var c=0;d.b.forEach(function(x){if(x===t)c++});if(c)s+=Math.min(3,1+c*.25)*w*.6;
+    });
+    if(d.title.toLowerCase().indexOf(phrase)>-1)s+=8;
+    if(d.ty==='faq')s+=1;
+    return {d:d,s:s};
+  }).sort(function(a,b){return b.s-a.s});
+  var top=res[0]?res[0].s:0;
+  return res.filter(function(x){return x.s>=4&&x.s>=top*.35}).slice(0,8).map(function(x){return x.d});
+}
+function resHtml(r,first){
+  if(r.ty==='faq'){var f=FAQ[r.i];return '<details class="acc"'+(first?' open':'')+'><summary><span>💬</span>'+esc(f.q)+'</summary><div class="ab"><p>'+esc(f.a)+'</p></div></details>'}
+  if(r.ty==='lesson'){var l=lesson(r.id);return '<button class="rs" data-act="lesson" data-id="'+r.id+'"><span class="le">'+l.e+'</span><span class="lt"><b>Lesson: '+esc(l.n)+'</b><small>'+esc(l.tag)+'</small></span><span class="lk">›</span></button>'}
+  if(r.ty==='defect'){var d=defect(r.id);return '<button class="rs" data-act="defect" data-id="'+r.id+'"><span class="le">'+d.e+'</span><span class="lt"><b>Defect: '+esc(d.n)+'</b><small>Causes, corrective and containment actions</small></span><span class="lk">›</span></button>'}
+  return '<div class="gl"><b>'+esc(r.title)+'</b><span>'+esc(r.body)+'</span></div>';
+}
+function renderQA(){
+  var h=topbar('Q&A','Ask a question or browse');
+  h+='<div class="seg"><button data-act="qaView" data-v="qa" aria-pressed="'+(ui.qaView==='qa')+'">Ask &amp; FAQ</button><button data-act="qaView" data-v="gl" aria-pressed="'+(ui.qaView==='gl')+'">Glossary</button></div>';
+  if(ui.qaView==='gl'){
+    h+='<div class="srch"><input class="inp" id="gq" type="search" placeholder="Search terms (e.g. BGA, TAL, MSL)" value="'+esc(ui.gq)+'" autocomplete="off"></div><div id="glist">'+glList()+'</div>';
+    return h;
+  }
+  h+='<div class="srch askb"><input class="inp" id="ask" type="search" placeholder="Ask anything, e.g. why do solder balls appear?" value="'+esc(ui.ask)+'" autocomplete="off" enterkeyhint="search"></div>';
+  h+='<div class="chipsx sug">'+['Why use SPI?','What is tombstoning?','How to stop solder bridges','What is head-in-pillow?','Why bake components?','Is X-ray safe?'].map(function(s){return '<button data-act="sug" data-q="'+esc(s)+'">'+s+'</button>'}).join('')+'</div>';
+  h+='<div id="qres">'+qaBody()+'</div>';
+  return h;
+}
+function qaBody(){
+  if(ui.ask.trim().length>1){
+    var r=search(ui.ask);
+    if(!r.length)return '<div class="empty"><div class="eb">🤔</div><b>No answer found</b><br>Try different words, check the Glossary, or ask your supervisor or engineer.</div>';
+    return '<p class="help">Best matches for “'+esc(ui.ask.trim())+'”</p>'+r.map(function(x,i){return resHtml(x,i===0)}).join('')+'<p class="disc">This is a search of the lessons in this app, not a live expert. For your line, follow your work instructions.</p>';
+  }
+  var cats=[];FAQ.forEach(function(f){if(cats.indexOf(f.c)<0)cats.push(f.c)});
+  return cats.map(function(c){return '<div class="shead"><h2>'+c+'</h2></div>'+FAQ.map(function(f,i){return f.c===c?resHtml({ty:'faq',i:i},false):''}).join('')}).join('');
+}
+function glList(){
+  var q=ui.gq.toLowerCase().trim(),list=GLOSS.filter(function(g){return !q||(g[0]+' '+g[1]).toLowerCase().indexOf(q)>-1});
+  if(!list.length)return '<div class="empty">No terms found.</div>';
+  var out='',last='';
+  list.forEach(function(g){var L=g[0].charAt(0).toUpperCase();if(L!==last){out+='<div class="lt2">'+L+'</div>';last=L}out+='<div class="gl"><b>'+esc(g[0])+'</b><span>'+esc(g[1])+'</span></div>'});
+  return out;
+}
+
+/* ---------- main render ---------- */
+function render(){
+  ['learn','line','faults','quiz','qa'].forEach(function(v){var b=$('tab-'+v);if(b)b.setAttribute('aria-selected',ui.tab===v)});
+  if(ui.tab!=='line')stopPlay();
+  var a=$('app');
+  a.innerHTML=ui.tab==='learn'?renderLearn():ui.tab==='line'?renderLine():ui.tab==='faults'?renderFaults():ui.tab==='quiz'?renderQuiz():renderQA();
+  if(ui.anim){a.classList.remove('enter');void a.offsetWidth;a.classList.add('enter');ui.anim=false}
+}
+function settingsSheet(){
+  openSheet('<div class="edh"><button class="btn ghost sm" data-act="close">Close</button><span class="pill">About</span></div><h2>SMT Academy</h2><p class="help">A beginner’s guide to SMT and PCBA: 13 lessons, '+DEFECTS.length+' defects, '+QUIZ.length+' quiz questions, '+FAQ.length+' FAQs and '+GLOSS.length+' glossary terms. Your progress is saved on this phone only.</p><div class="warnbox">Typical values are examples for learning. Always follow your company procedures, datasheets, customer requirements and safety rules.</div><div class="row2"><button class="btn danger" data-act="reset">Reset my progress</button></div>');
+}
+var acts={
+ tab:function(el){ui.tab=el.dataset.v;ui.anim=true;render();window.scrollTo(0,0)},
+ close:closeSheet,settings:settingsSheet,basics:basicsSheet,
+ lesson:function(el){lessonSheet(el.dataset.id)},
+ learned:function(el){var id=el.dataset.id;P.learned[id]=!P.learned[id];if(!P.learned[id])delete P.learned[id];save();lessonSheet(id);toast(P.learned[id]?'Marked as learned ✓':'Marked as not learned')},
+ defect:function(el){defectSheet(el.dataset.id)},
+ defView:function(el){ui.defView=el.dataset.v;render()},
+ defF:function(el){ui.defF=el.dataset.v;render()},
+ qaView:function(el){ui.qaView=el.dataset.v;render()},
+ sug:function(el){ui.ask=el.dataset.q;render();var r=$('qres');if(r&&r.scrollIntoView)r.scrollIntoView({behavior:'smooth',block:'start'})},
+ lineGo:function(el){stopPlay();ui.lineStep=+el.dataset.i;render()},
+ linePrev:function(){stopPlay();ui.lineStep=Math.max(0,ui.lineStep-1);render()},
+ lineNext:function(){stopPlay();ui.lineStep=Math.min(LESSONS.length-1,ui.lineStep+1);render()},
+ linePlay:function(){
+  if(ui.play){stopPlay();render();return}
+  if(ui.lineStep>=LESSONS.length-1)ui.lineStep=0;
+  ui.play=setInterval(function(){if(ui.lineStep>=LESSONS.length-1){stopPlay();render();return}ui.lineStep++;render()},2600);render();
+ },
+ quiz:function(el){startQuiz(el.dataset.m,el.dataset.t)},
+ quizTopic:function(el){startQuiz('topic',el.dataset.t)},
+ quizHome:function(){ui.quiz=null;render()},
+ pick:function(el){pickAns(+el.dataset.i)},
+ qnext:function(){var Q=ui.quiz;Q.n++;Q.picked=null;if(Q.n>=Q.list.length){Q.best=Math.max(Q.best||0,Q.streak)}render();window.scrollTo(0,0)},
+ reset:function(el){if(el.dataset.sure!=='1'){el.dataset.sure='1';el.textContent='Tap again to reset';return}P.learned={};P.quiz={ans:0,ok:0,by:{},wrong:[],best:0};P.seen={};save();ui.quiz=null;closeSheet();toast('Progress reset')}
+};
+document.addEventListener('click',function(e){var el=e.target.closest('[data-act]');if(!el)return;var f=acts[el.dataset.act];if(f){f(el);if(['learned','reset','pick'].indexOf(el.dataset.act)<0&&!/^(tab|close|settings|basics|lesson|defect|quiz|quizTopic|quizHome|qnext|lineGo|linePrev|lineNext|linePlay|defView|defF|qaView|sug)$/.test(el.dataset.act))save()}});
+document.addEventListener('input',function(e){
+  var t=e.target;
+  if(t.id==='dq'){ui.defQ=t.value;$('dlist').innerHTML=defList()}
+  else if(t.id==='ask'){ui.ask=t.value;$('qres').innerHTML=qaBody()}
+  else if(t.id==='gq'){ui.gq=t.value;$('glist').innerHTML=glList()}
+});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeSheet()});
+document.addEventListener('visibilitychange',function(){if(document.hidden)stopPlay()});
+
+load();
+if(ui.tab==='learn'&&false)render();
+render();
+})();
+
+</script>
+</body>
+</html>
